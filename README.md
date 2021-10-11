@@ -43,3 +43,24 @@ The site will be targeted toward people who have a keen interest in football, so
     * Image of an astro football pitch
     * Transparent Form in the centre to ensure UX is maintained. It will the the same color as the text overlay in the landing page, same transparecy etc. 
     * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** with a radio buttons of **Mondays**, **Thursdays** and **Both**. 
+
+
+## Testing
+
+
+## Validator Testing
+
+
+## All things Bugs and Fixes
+
+
+## Deployment
+
+
+## Credits
+
+
+## Content
+
+
+## Media
