@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto&display=swap');
 
 * {
     padding: 0px;
@@ -8,7 +8,7 @@
 
 body {
     background-color: white;
-    font-family: raleway, sans-serif;
+    font-family: lora, sans-serif;
     font-weight: 300;
     color: black;   
 }
@@ -35,7 +35,7 @@ h1, h2, h3 {
     margin-left: 30px;
     margin-top: 10px;
     padding-bottom: 10px;
-    font-family: raleway, sans-serif;
+    font-family: roboto, sans-serif;
 }
 
 #mheader, #nav-bar {
@@ -77,6 +77,6 @@ h1, h2, h3 {
 #footypic {
     height: 600px;
     width: 100%;
-    background: url("../images/D1CD8104-6B2F-4E38-92F5-028F7EC882CC_1_105_c.jpeg") no-repeat center center;
+    background: url("../images/footypic4.jpeg") no-repeat center center;
     overflow: hidden;
 }
