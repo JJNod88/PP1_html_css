@@ -33,6 +33,9 @@ h1, h2, h3 {
     font-family: raleway, sans-serif;
 }
 
+#mheader, #nav-bar {
+    line-height: 50px;
+}
 /* navigation links */
 
 #nav-bar {
@@ -51,4 +54,5 @@ h1, h2, h3 {
 
 #nav-bar a {
     text-decoration: none;
+    color: inherit;
 }
