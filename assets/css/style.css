@@ -1,1 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Raleway:wght@200&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+body {
+    background-color: white;
+    font-family: raleway, sans-serif;
+    font-weight: 300;
+    color: black;   
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header and headinbgs */
+
+h1, h2, h3 {
+    letter-spacing: 3px;
+    color: #3a3a3a;
+}
+
+#mheader {
+    float: left;
+    font-size: 60px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: raleway, sans-serif;
+}
+
+/* navigation links */
+
+#nav-bar {
+    letter-spacing: 3px;
+    font-size: 200%;
+    color: #3a3a3a;
+}
+
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: #3a3a3a;
+}
+
+#nav-bar a {
+    text-decoration: none;
+}
