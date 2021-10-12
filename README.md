@@ -52,7 +52,7 @@ The site will be targeted toward people who have a keen interest in football, so
 
 
 ## All things Bugs and Fixes
-
+Div Element in 'Image' Section needed 
 
 ## Deployment
 

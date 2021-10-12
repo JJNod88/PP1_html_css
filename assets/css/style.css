@@ -26,6 +26,19 @@ ul {
     list-style-type: circle;
 }
 
+hr {
+    border-top: 1px solid white;
+    height: 1px;
+    width: 33%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
 /* header and headings */
 
 #nav-header {
@@ -134,6 +147,8 @@ h1, h2, h3 {
 #center-about {
     height: 30%;
     width: 100%;
+    margin-top: 3%;
+    display: inline-block;
 }
 
 #left-about {
@@ -141,12 +156,14 @@ h1, h2, h3 {
     width: 50%;
     float: left;
     display: inline-block;
+    margin-top: 3%;
 }
 
 #right-about {
     height: 70%;
     width: 50%;
     float: right;
+    margin-top: 3%;
 }
 
 #center-about h2 {
@@ -157,21 +174,36 @@ h1, h2, h3 {
 }
 
 #center-about p {
-    font-size: 150%;
+    font-size: 130%;
     font-family: roboto, sans-serif;
     text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 #left-about h3 {
     font-size: 250%;
     color: white;
     text-align: center;
-    margin-top: 1%;
+    padding-bottom: 3%;
 }
 
 #left-about li {
     font-size: 150%;
     font-family: roboto, sans-serif;
     text-align: center;
-    margin-top: 1%;
 }
+
+#right-about h3 {
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#right-about li {
+    font-size: 150%;
+    font-family: roboto, sans-serif;
+    text-align: center;
+}
+
