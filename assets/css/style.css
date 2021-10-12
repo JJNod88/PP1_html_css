@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-/* header and headinbgs */
+/* header and headings */
 
 #header {
     position: sticky;
@@ -30,10 +30,13 @@ h1, h2, h3 {
 
 #mheader {
     float: left;
-    font-size: 50px;
+    font-size: 100px;
     font-weight: 800;
-    margin-left: 30px;
-    margin-top: 10px;
+    color: white;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-top: 500px;
+    text-align: auto;
     padding-bottom: 10px;
     font-family: roboto, sans-serif;
 }
@@ -46,7 +49,7 @@ h1, h2, h3 {
 #nav-bar {
     letter-spacing: 3px;
     font-size: 200%;
-    color: #3a3a3a;
+    color: white;
 }
 
 #nav-bar li {
@@ -54,7 +57,7 @@ h1, h2, h3 {
     list-style-type: none;
     margin-right: 30px;
     margin-top: 10px;
-    color: #3a3a3a;
+    color: white;
 }
 
 #nav-bar a {
@@ -74,9 +77,8 @@ h1, h2, h3 {
 
 /* image section */
 
-#footypic {
-    height: 600px;
+.mainimage {
+    height: 800px;
     width: 100%;
-    background: url("../images/footypic4.jpeg") no-repeat center center;
-    overflow: hidden;
+    background: url("../images/19687F1C-D354-44FE-8565-756DB80A20DC_1_201_a.jpeg") no-repeat center center;
 }
