@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgba(120,120,120,.7);
     font-family: lora, sans-serif;
     font-weight: 300;
     color: black;   
@@ -21,10 +21,24 @@ section {
     display: block;
 }
 
+ul {
+    display: list-item;
+    list-style-type: circle;
+}
+
 /* header and headings */
 
-#header {
-    position: sticky;
+#nav-header {
+    font-size: 110%;
+    height: 60px;
+    width: 100%;
+    background-color: transparent;
+    float: left;
+    margin: 0 auto;
+    text-align: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
 }
 
 h1, h2, h3 {
@@ -32,22 +46,11 @@ h1, h2, h3 {
     color: #3a3a3a;
 }
 
-#mheader {
-    float: left;
-    font-size: 700%;
-    font-weight: 800;
-    color: white;
-    margin: 0 auto;
-    margin-left: 100px;
-    margin-top: 425px;
-    text-align: auto;
-    padding-bottom: 50px;
-    font-family: roboto, sans-serif;
-    position: relative;
-}
 
-#mheader, #nav-bar {
+
+#nav-header, #nav-bar {
     line-height: 50px;
+    position: fixed;
 }
 /* navigation links */
 
@@ -55,6 +58,9 @@ h1, h2, h3 {
     letter-spacing: 3px;
     font-size: 200%;
     color: white;
+    overflow: hidden;
+    top: 0;
+    right: 0;
 }
 
 #nav-bar li {
@@ -63,6 +69,7 @@ h1, h2, h3 {
     margin-right: 30px;
     margin-top: 10px;
     color: white;
+    
 }
 
 #nav-bar a {
@@ -83,7 +90,9 @@ h1, h2, h3 {
 /* image section */
 
 #poster {
-    height: 800px;
+    height: 900px;
+    width: 100%;
+    padding: 0;
 }
 
 #main-image {
@@ -97,17 +106,20 @@ h1, h2, h3 {
     font-family: roboto, sans-serif;  
     text-transform: uppercase;
     letter-spacing: 3px;
-    height: 200px;
-    width: 100%;
-    bottom: 130px;
-    left: 100px;
-    text-align: left;
+    height: 15%;
+    width: 50%;
+    bottom: 300px;
+    padding-left: 150px;
     position: absolute;
 }
 
-#main-image-text, #main-image-text h2 {
+#main-image-text, #main-image-text h2, h3 {
     font-family: roboto, sans-serif;  
     color: white;
+}
+
+#main-image-text h2 {
+    font-size: 500%;
 }
 
 /* about us section */
@@ -115,31 +127,51 @@ h1, h2, h3 {
 #second-section {
     height: 800px;
     width: 100%;
+    color: white;
     position: relative;
 }
 
+#center-about {
+    height: 30%;
+    width: 100%;
+}
+
 #left-about {
-    height: 100%;
+    height: 70%;
     width: 50%;
     float: left;
     display: inline-block;
 }
 
 #right-about {
-    height: 100%;
+    height: 70%;
     width: 50%;
     float: right;
 }
 
-#left-about h2 {
+#center-about h2 {
     font-size: 250%;
+    color: white;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
-#left-about p {
+#center-about p {
     font-size: 150%;
+    font-family: roboto, sans-serif;
     text-align: center;
-    margin-top: 15%;
-    margin: 5% 15%;
+}
+
+#left-about h3 {
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#left-about li {
+    font-size: 150%;
+    font-family: roboto, sans-serif;
+    text-align: center;
+    margin-top: 1%;
 }
