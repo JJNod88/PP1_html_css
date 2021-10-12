@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+section {
+    display: block;
+}
+
 /* header and headings */
 
 #header {
@@ -35,10 +39,11 @@ h1, h2, h3 {
     color: white;
     margin: 0 auto;
     margin-left: 100px;
-    margin-top: 500px;
+    margin-top: 425px;
     text-align: auto;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     font-family: roboto, sans-serif;
+    position: relative;
 }
 
 #mheader, #nav-bar {
@@ -77,8 +82,30 @@ h1, h2, h3 {
 
 /* image section */
 
-.mainimage {
-    height: 800px;
+#poster {
+    height: 750px;
+}
+
+#main-image {
+    height: 100%;
     width: 100%;
     background: url("../images/19687F1C-D354-44FE-8565-756DB80A20DC_1_201_a.jpeg") no-repeat center center;
+}
+
+#main-image-text {
+    font-size: 140%;
+    font-family: roboto, sans-serif;  
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    height: 200px;
+    width: 100%;
+    bottom: 130px;
+    left: 100px;
+    text-align: left;
+    position: absolute;
+}
+
+#main-image-text, #main-image-text h2 {
+    font-family: roboto, sans-serif;  
+    color: white;
 }
