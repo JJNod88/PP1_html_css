@@ -8,7 +8,7 @@
 
 body {
     background-color: white;
-    font-family: Lora, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: black;   
@@ -215,7 +215,7 @@ h1, h2, h3 {
 #dates-times-section {
     height: 540px;
     width: 100%;
-    background-color: red;
+    background-color: rgba(0,43,0,0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,8 +228,38 @@ h1, h2, h3 {
 
 #game-one, #game-two {
     color: white;
-    margin: 0 100px;
+    margin: 0 130px;
     padding: 1%;
-    height: 200px;
-    border: 5px solid black;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: rgba(0,43,0,0.3);
+}
+
+#game-one h2 {
+    color: white;
+    margin-top: 10%;
+    font-size: 200%;
+    padding-bottom: 15%;
+}
+
+#game-one h3 {
+    margin: 10px;
+}
+
+#game-two h2 {
+    color: white;
+    margin-top: 10%;
+    font-size: 200%;
+    padding-bottom: 15%;
+}
+
+#game-two h3 {
+    margin: 10px;
+}
+
+#upcoming-game-text h3 {
+    font-size: 300%;
+    color: rgb(0,43,0);
+
 }
