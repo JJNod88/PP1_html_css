@@ -53,7 +53,7 @@ The site will be targeted toward people who have a keen interest in football, so
 
 
 ## All things Bugs and Fixes
-Div Element in 'Image' Section needed 
+Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
 
 ## Deployment
 
