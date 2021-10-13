@@ -157,7 +157,6 @@ h1, h2, h3 {
     height: 70%;
     width: 50%;
     float: left;
-    display: inline-block;
     margin-top: 3%;
 }
 
@@ -166,7 +165,6 @@ h1, h2, h3 {
     width: 50%;
     float: right;
     margin-top: 3%;
-    display: inline-block;
 }
 
 #left-about h3 {
@@ -198,6 +196,3 @@ h1, h2, h3 {
     line-height: 50px;
 }
 
---fa-li-width {
-
-}
