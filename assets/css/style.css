@@ -98,7 +98,7 @@ h1, h2, h3 {
 
 #nav-bar a:hover {
     border: 2px solid #df1616;
-    padding: 3px;
+    padding: 1px 5px;
 }
 
 .active {
@@ -196,3 +196,14 @@ h1, h2, h3 {
     line-height: 50px;
 }
 
+.fas {
+    font-size: 130%;
+    padding-right: 3%;
+    color: blue;
+}
+
+.fab {
+    font-size: 130%;
+    padding-right: 3%;
+    color: blue;  
+}
