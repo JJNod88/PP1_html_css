@@ -54,6 +54,9 @@ The site will be targeted toward people who have a keen interest in football, so
 
 ## All things Bugs and Fixes
 Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
+Fix: had line-style-type: non in the 'li' not 'ul.
+Font not working properly.
+Fix: Capitalise first letter of font with brackets.
 
 ## Deployment
 
