@@ -4,33 +4,34 @@
 ## Introduction
 Welcome to ..
 
-Here you will find a safe and friendly space to meet new friends, keep fit and play football in Manchester, UK!
+A site where you can Join, Create  and manage a 5-A-Side Team.
 
-It is designed for people who are new to the area, looking for a good blend of social and fitness activities. All genders, age and levels of skill welcome.
+It is designed for people looking for a good blend of social and fitness activities. Everyone is welcome.
 
-The site will be targeted toward people who have a keen interest in football, socialising and keeping fit. The site provides detailed information of how, where and who they will be joining, with the opportunity to contact a member of the team before joining. 
+The site will be targeted toward people who have a keen interest in football, socialising and keeping fit. The site provides details of the benefits of joining, gives them the ability to check the next avaialble games, meet existing teams and a sign up section.
 
 
 ## Features
 
 ### Landing Page (Home)
 * Header and Nav Bar consistent throuhgout
-    * The site will boast a Navigation bar accessible at all times. It includes a link to the *Home*, *About Us* and *Sign Up* pages.  
+    * The site will boast a Navigation bar accessible at all times. It includes a link to the *Home*, *Community* and *Sign Up* pages.  
 * Landing Page
-    * An image will be displayed that highlights to the user the focus of the site, giving it visual context and grab their attention.
+    * An image of a football will instantly tell the user the sites main focus, giving it visual context to grab their attention.
     * The image will have text overlay with some Key information
-* Overview of benefits Page
-    * Clear Header to seperate the information and form a clear visual break from the image on the landing page.
+* Section below
+    * The format here will be consistent throughout the site
+    * It will include an introduction to the site
     * A brief description of the benefits of the site including *keeping fit*, *socialising* and *friendly*. 
-* Time & a Place section
-    * Another header to seperate the sections
-    * Linked elements of the days and times that are available to show clearly when and where the games are, which linkls them to the 'Meet the Team member' when they click on them
+* Game On ection
+    * A Header highlighting the prupose and directing users to available games
+    * Linked Signup button below the available games links them to the 'Captain' section on aother page when they click on it
 * Footer
     * A simple Footer with links to Social Media, this will be consistent across all pages for UX and UI.
 
-### About us Page
+### Community Page
 * Header and Nav Bar consistent throughout
-* Meet the Team section
+* Tect from the founder beside an image of the team that started it all
     * Captain 1 and 2. Accompanied by a header with their date/time of game, image and an intro paragraph.
 * Where
     * Image of the Football Pitch we play
@@ -39,10 +40,10 @@ The site will be targeted toward people who have a keen interest in football, so
 * Footer
 
 ### Sign Up
-* Header intriducing the Sign Up page
+* Header introducing the Sign Up page
     * Image of an astro football pitch
-    * Transparent Form in the centre to ensure UX is maintained. It will the the same color as the text overlay in the landing page, same transparecy etc. 
-    * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** with a radio buttons of **Mondays**, **Thursdays** and **Both**. 
+    * Transparent Form in the centre to ensure UX is maintained. 
+    * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** and**Location** with a radio buttons of **Manchester** and **Other**.
 
 
 ## Testing
