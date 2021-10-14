@@ -145,6 +145,63 @@ h1, h2, h3 {
     width: 100%;
     color: rgb(0,43,0);
     margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: 
+}
+
+#second-section div {
+    flex: 1;
+    text-align: left;
+    margin: auto;
+    padding: 1% 7%;
+}
+
+#left-about h3 {
+    color: rgb(0,43,0);
+    font-size: 200%;
+    padding-bottom: 4%;
+    text-align: center;
+
+}
+
+#left-about p {
+    font-size: 130%;
+}
+
+#quote {
+    color: rgba(0,43,0,0.7);
+    padding: 5px 30px;
+    font-size: 60%;
+}
+
+#right-about {
+    padding-bottom: 7%;
+    font-size: 150%;
+}
+
+
+.fas {
+    font-size: 180%;
+    padding-right: 5%;
+    color: blue;
+}
+
+.fab {
+    font-size: 180%;
+    padding-right: 5%;
+    color: blue;  
+}
+
+
+/* 
+
+#second-section {
+    height: 630px;
+    width: 100%;
+    color: rgb(0,43,0);
+    margin-top: 0;
     position: relative;
    
 }
@@ -207,6 +264,7 @@ h1, h2, h3 {
     color: blue;  
 }
 
+*/
 
 /* how section */
 
@@ -291,6 +349,8 @@ h1, h2, h3 {
     color: rgb(0,43,0);
 
 }
+
+
 
 /* footer */
 
