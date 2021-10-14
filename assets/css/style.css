@@ -262,3 +262,29 @@ h1, h2, h3 {
     color: rgb(0,43,0);
 
 }
+
+/* footer */
+
+footer {
+    height: 3%;
+    background-color: rgba(0,0,0,.7);   
+    color: white;
+    text-align: center;
+    z-index: 900;
+    position: relative;
+}
+
+
+#f-icons {
+    width: 100%;
+}
+
+#f-icons a {
+    margin: 0 auto;
+}
+
+#f-icons i {
+    color: white;
+    padding: 3%;
+    font-size: 200%;
+}
