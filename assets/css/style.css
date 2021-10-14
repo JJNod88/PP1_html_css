@@ -209,6 +209,22 @@ h1, h2, h3 {
 }
 
 
+/* how section */
+
+#how {
+    height: 540px;
+    width: 100%;
+    background-color: rgba(0,43,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
 /* Game section */ 
 
 
