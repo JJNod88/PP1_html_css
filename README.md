@@ -59,6 +59,7 @@ Theres a single circle in one of my div elements as part of my 'li'. I have text
 Fix: had line-style-type: non in the 'li' not 'ul.
 Font not working properly.
 Fix: Capitalise first letter of font with brackets.
+Cant get my button to move in 'upcoming ganes'. I can style but not move it. 
 
 ## Deployment
 
