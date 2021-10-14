@@ -220,7 +220,13 @@ h1, h2, h3 {
     justify-content: center;
 }
 
-
+#how div{
+    background-color: #df1616;
+    flex: 1;
+    height: 80%;
+    margin: 2%;
+    padding: 2%;
+}
 
 
 
