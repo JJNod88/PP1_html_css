@@ -226,11 +226,21 @@ h1, h2, h3 {
     height: 80%;
     margin: 2%;
     padding: 2%;
+    text-align: center;
 }
 
+#how i {
+    font-size: 1750%;
+    text-align: center;
+    margin: auto;
+    color: rgb(0,43,0);
+    padding: 5% 5% 10%;
+}
 
-
-
+.how-p {
+    font-size: 200%;
+    margin-bottom: 2%;
+}
 /* Game section */ 
 
 
