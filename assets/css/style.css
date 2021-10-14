@@ -97,9 +97,10 @@ h1, h2, h3 {
 }
 
 .active {
-    border: 2px solid #df1616;
+    border-bottom: 2px solid #df1616;
     padding: 3px;
 }
+
 
 
 

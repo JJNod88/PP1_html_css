@@ -55,11 +55,19 @@ The site will be targeted toward people who have a keen interest in football, so
 
 
 ## All things Bugs and Fixes
-Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
+Bug: Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
+
 Fix: had line-style-type: non in the 'li' not 'ul.
-Font not working properly.
+
+Bug: Font not working properly.
+
 Fix: Capitalise first letter of font with brackets.
-Cant get my button to move in 'upcoming ganes'. I can style but not move it. 
+
+Bug: Cant get my button to move in 'upcoming ganes'. I can style but not move it. 
+
+Fix: none
+
+Bug: Not sure how to have the active only highlight current page. It highlights home regardless
 
 ## Deployment
 
