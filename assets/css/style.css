@@ -32,6 +32,8 @@ hr {
 }
 
 
+
+
 /* header and headings */
 
 #sticky, #nav-header {
@@ -391,7 +393,7 @@ footer {
 #quote-image div {
     flex: 1;
     height: 80%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 3%;
     margin-right: 3%;
     text-align: center;
@@ -412,6 +414,7 @@ footer {
     background: url("../images/PHOTO-2021-07-03-21-55-54\ \(1\).jpg") no-repeat center center;
     border: 1px solid white;
     border-radius: 25%;
+    margin-bottom: 2%;
 }
 
 /* community second section */
@@ -419,31 +422,61 @@ footer {
 #captain-title h2 {
     text-align: center;
     font-size: 300%;
-    margin-top: 5%;
+    margin-top: auto;
 }
 #meet-comm1 {
-    flex: 1;
+    display: flex;
     height: 450px;
     width: 100;
     display: flex;
-    background-color: red;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid rgb(0,43,0);
 }
 
 
 #meet-comm1 div {
-    text-align: left;
-    margin: auto;
+    flex: 1;
+    text-align: center;
+    margin: 0;
     color: rgb(0,43,0);
-    padding: 5% 5% 10%;
+  
 }
 
 #meet-comm1 i {
     font-size: 1200%;
     color: rgb(0,43,0);
     padding: 10%;
-    margin-top: 10%;
+    margin-top: 0;
     border: 1px dashed rgb(0,43,0);
     border-radius: 50%;
+    text-align: center;
+}
+
+#meet-comm-text h3 {
+    text-align: left;
+    font-size: 200%;
+    color: rgb(0,43,0);
+    width: 60%;
+    border-bottom: 1px dashed rgb(0,43,0);
+}
+
+#meet-comm-p {
+    padding-top: 1%;
+}
+
+#meet-comm-text p {
+    text-align: left;
+    font-size: 130%;
+    line-height: 1.5;
+}
+
+#meet-comm1 button {
+    font-size: 130%;
+    text-align: left;
+    background-color: rgba(255,0,0,0.2);
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin: 0 0.5%;
+    margin-top: 20px;
 }
