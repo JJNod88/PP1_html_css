@@ -75,6 +75,7 @@ Bug: Not sure how to have the active only highlight current page. It highlights 
 ## Credits
 Flexbox positioning, learned from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox introduced by my mentor
 Confirming button html and css https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+w3schools - Added opacity to my images
 
 ## Content
 

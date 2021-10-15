@@ -118,6 +118,7 @@ h1, h2, h3 {
     height: 100%;
     width: 100%;
     background: url("../images/19687F1C-D354-44FE-8565-756DB80A20DC_1_201_a.jpeg") no-repeat center center;
+    opacity: 0.8;
 }
 
 #main-image-text {
@@ -415,6 +416,7 @@ footer {
     border: 1px solid white;
     border-radius: 25%;
     margin-bottom: 2%;
+    opacity: 0.7;  
 }
 
 /* community second section */
