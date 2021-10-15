@@ -149,7 +149,6 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: 
 }
 
 #second-section div {
@@ -386,4 +385,27 @@ footer {
     color: white;
     padding: 3%;
     font-size: 200%;
+}
+
+/* community first section */
+
+#quote-image {
+    height: 900px;
+    width: 100%;
+    color: rgb(0,43,0);
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+#quote-image div {
+    flex: 1;
+    background-color: blue;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
 }
