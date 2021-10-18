@@ -48,6 +48,10 @@ The site will be targeted toward people who have a keen interest in football, so
     * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** and**Location** with a radio buttons of **Manchester** and **Other**.
 
 
+UX
+For headers i used the same style and formatting
+
+
 ## Testing
 
 
