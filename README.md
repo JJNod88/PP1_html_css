@@ -50,7 +50,9 @@ The site will be targeted toward people who have a keen interest in football, so
 
 UX
 For headers i used the same style and formatting.
+Have used FlexBox across the site promoting fluidity and repetition for styling
 for sign up and home page, same size first section & image
+Font sizes for main title and ending title the same
 
 
 ## Testing
