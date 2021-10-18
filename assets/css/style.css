@@ -118,7 +118,7 @@ h1, h2, h3 {
     height: 100%;
     width: 100%;
     background: url("../images/19687F1C-D354-44FE-8565-756DB80A20DC_1_201_a.jpeg") no-repeat center center;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 #main-image-text {
@@ -133,13 +133,17 @@ h1, h2, h3 {
     position: absolute;
 }
 
-#main-image-text, #main-image-text h2, h3 {
+#main-image-text, #main-image-text h1, h2 {
     font-family: Roboto, sans-serif;  
     color: white;
 }
 
-#main-image-text h2 {
+#main-image-text h1 {
     font-size: 500%;
+}
+
+#main-image-text h2 {
+    padding-bottom: 1%;
 }
 
 /* about us section */
@@ -278,6 +282,7 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 3%;
 }
 
 #how div{
@@ -289,11 +294,16 @@ h1, h2, h3 {
 }
 
 #how i {
-    font-size: 1750%;
+    font-size: 1250%;
     text-align: center;
     margin: auto;
     color: rgb(0,43,0);
     padding: 5% 5% 10%;
+}
+
+#how i:hover {
+    font-size: 1750%;
+    padding-bottom: 3%;
 }
 
 .how-p {
