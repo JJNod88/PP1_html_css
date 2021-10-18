@@ -529,25 +529,12 @@ footer {
     margin-bottom: 1%;
 }
 
-/* sign up page */
-
-#signup-title {
-    text-align: center;
-    font-size: 200%;
-    margin-top: 5%;
-    margin-bottom: 1%;
-    display: inline-block;
-    width: 100%;
-}
-
-#signup-title h2 {
-    text-align: center;
-}
 
 /* form */
 
+
 #form-section {
-    height: 720px;
+    height: 900px;
     width: 100%;
     color: rgb(0,43,0);
     margin-top: 0;
@@ -560,8 +547,10 @@ footer {
     display: flex;
 }
 
+#form-section div {
+    flex: 1;
+}
 #form {
-    position: absolute;
     height: 400px;
     width: 50%;
     background-color: rgba(255,0,0,0.2);

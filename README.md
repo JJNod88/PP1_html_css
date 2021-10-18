@@ -49,7 +49,8 @@ The site will be targeted toward people who have a keen interest in football, so
 
 
 UX
-For headers i used the same style and formatting
+For headers i used the same style and formatting.
+for sign up and home page, same size first section & image
 
 
 ## Testing
