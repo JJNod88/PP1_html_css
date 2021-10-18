@@ -560,9 +560,11 @@ footer {
     display: flex;
 }
 
-.form {
+#form {
     position: absolute;
     height: 400px;
     width: 50%;
     background-color: rgba(255,0,0,0.2);
 }
+
+.form-data
