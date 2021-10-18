@@ -76,6 +76,10 @@ Fix: none
 
 Bug: Not sure how to have the active only highlight current page. It highlights home regardless
 
+Bug: Icons not aligned.
+
+Fix:
+
 ## Deployment
 
 
@@ -85,6 +89,7 @@ Flexbox positioning, learned from https://developer.mozilla.org/en-US/docs/Learn
 Confirming button html and css https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 
 w3schools - Added opacity to my images
+https://www.w3schools.com/html/html_form_elements.asp for Form > Select element
 
 Adding Google Maps - a google search had bullet points that i easily followed
 
