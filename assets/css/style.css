@@ -242,7 +242,7 @@ h1, h2, h3 {
 /* Index comm-quote section */
 
 #quote-image {
-    height: 540px;
+    height: 630px;
     width: 100%;
     color: rgb(0,43,0);
     margin-top: 0;
@@ -303,6 +303,15 @@ footer {
     font-size: 200%;
 }
 
+/* communite first section */
+
+#total-games {
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* community second section */
 
 #captain-title h2 {
@@ -314,7 +323,6 @@ footer {
     display: flex;
     height: 450px;
     width: 100;
-    display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgb(0,43,0);

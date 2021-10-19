@@ -50,9 +50,15 @@ The site will be targeted toward people who have a keen interest in football, so
 
 UX
 For headers i used the same style and formatting.
-Have used FlexBox across the site promoting fluidity and repetition for styling
+Have used FlexBox across the site promoting fluidity and repetition for site structure
+Copied my html and css structure when possible for site consistency
 for sign up and home page, same size first section & image
 Font sizes for main title and ending title the same
+color theme consistent
+Eahc section mupltiples of 90px, often the same height each page
+_blank used to keep users on the site when viisting externals
+nav bar fixed, and colored to be visible across all site
+Footer equal size and consistent on each page
 
 
 ## Testing
