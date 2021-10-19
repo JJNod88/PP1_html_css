@@ -204,7 +204,7 @@ h1, h2, h3 {
 /* how section */
 
 #how {
-    height: 540px;
+    height: 630px;
     width: 100%;
     background-color: rgba(0,43,0,0.1);
     display: flex;
@@ -238,85 +238,8 @@ h1, h2, h3 {
     font-size: 200%;
     margin-bottom: 2%;
 }
-/* Game section */ 
 
-
-#dates-times-section {
-    height: 540px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(0,43,0);
-}
-
-#dates-times-section div {
-    flex: 1;
-    text-align: center;
-}
-
-#game-one, #game-two {
-    margin: 0 250px;
-    padding: 1%;
-    height: 300px;
-    border: 1px solid rgb(0,43,0);
-}
-
-
-#game-one h2 {
-    margin-top: 10%;
-    font-size: 200%;
-    padding-bottom: 5%;
-}
-
-#game-one h3 {
-    margin: 10px;
-    color: rgb(0,43,0);
-
-}
-
-#game-two h2 {
-    margin-top: 10%;
-    font-size: 200%;
-    padding-bottom: 5%;
-}
-
-#game-two h3 {
-    margin: 10px;
-    color: rgb(0,43,0);
-    margin-bottom: 10px;
-    padding-bottom: 3px;
-}
-
-
-
-/* footer */
-
-footer {
-    height: 3%;
-    background-color: rgba(0,0,0,.7);   
-    color: white;
-    text-align: center;
-    z-index: 900;
-    position: relative;
-}
-
-
-#f-icons {
-    width: 100%;
-}
-
-#f-icons a {
-    margin: 0 auto;
-}
-
-#f-icons i {
-    color: white;
-    padding: 3%;
-    font-size: 200%;
-}
-
-/* community first section */
+/* Index comm-quote section */
 
 #quote-image {
     height: 540px;
@@ -352,6 +275,32 @@ footer {
     border: 1px solid white;
     border-radius: 25%;
     opacity: 0.7;  
+}
+
+/* footer */
+
+footer {
+    height: 3%;
+    background-color: rgba(0,0,0,.7);   
+    color: white;
+    text-align: center;
+    z-index: 900;
+    position: relative;
+}
+
+
+#f-icons {
+    width: 100%;
+}
+
+#f-icons a {
+    margin: 0 auto;
+}
+
+#f-icons i {
+    color: white;
+    padding: 3%;
+    font-size: 200%;
 }
 
 /* community second section */
