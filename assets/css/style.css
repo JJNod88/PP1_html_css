@@ -189,13 +189,13 @@ h1, h2, h3 {
 .fas {
     font-size: 180%;
     padding-right: 5%;
-    color: blue;
+    color: rgba(255,0,0,0.7);  
 }
 
 .fab {
     font-size: 180%;
     padding-right: 5%;
-    color: blue;  
+    color: rgba(255,0,0,0.7);  
 }
 
 /* how section */
@@ -207,12 +207,10 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3%;
 }
 
 #how div{
     flex: 1;
-    height: 80%;
     margin: 2%;
     padding: 2%;
     text-align: center;
@@ -256,23 +254,24 @@ h1, h2, h3 {
 }
 
 #comm-quote {
-    text-align: left;
-    font-size: 150%;
+    font-size: 130%;
     color: rgb(0,43,0);
-    line-height: 40px;
+    line-height: 30px;
+    margin-left: 10%;
+    padding-right: 2.5%;
 }
 
 #comm-quote p {
-    padding-left: 15%;
+    text-align: center;
 }
 
 #comm-image {
     height: 70%;
     width: 100%;
     background: url("../images/PHOTO-2021-07-03-21-55-54\ \(1\).jpg") no-repeat center center;
-    border: 1px solid white;
-    border-radius: 25%;
     opacity: 0.7;  
+    margin-right: 10%;
+    padding-left: 2.5%;
 }
 
 /* footer */
@@ -304,7 +303,7 @@ footer {
 /* community first section */
 
 #total-games {
-    height: 810px;
+    height: 630px;
     display: flex;
     align-items: center;
     justify-content: center;
