@@ -259,6 +259,8 @@ h1, h2, h3 {
     line-height: 30px;
     margin-left: 10%;
     padding-right: 2.5%;
+    text-align: center;
+
 }
 
 #comm-quote p {
