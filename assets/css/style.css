@@ -517,9 +517,65 @@ footer {
 
 
 @media screen and (max-width: 1250px) {
+    #main-image {
+        margin: 0 auto;
+    }
+    
     #second-section {
         width: 70%;
         height: 800px;
         margin: 0 auto;
+        font-size: 100%;
+    }
+
+    #left-about h3 {
+        font-size: 150%;
+    }
+    #right-about ul {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #how {
+        height: 1200px;
+        margin: 0 auto;
+        flex-direction: column;
+        font-size: 100%;
+    }
+
+    #quote-image {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #sticky {
+        font-size: 50%;
+    }
+    
+    #poster {
+        height: 800px;
+    }
+
+    #main-image-text {
+        font-size: 100%;
+    }
+    
+    #second-section {
+        height: 900px;
+    }
+
+    #left-about h3 {
+        font-size: 120%;
+    }
+
+    #right-about ul {
+        font-size: 120%;
+    }
+
+    #first-pic, #second-pic, #third-pic {
+        width: 70%;
+        flex: 2;
     }
 }
