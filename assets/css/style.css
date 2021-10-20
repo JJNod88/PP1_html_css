@@ -498,7 +498,7 @@ footer {
 #submit {
     height: 50%;
     width: 50%;
-    font-size: 150%;
+    font-size: 120%;
     text-align: center;
     border: 5px solid white;
     background-color: rgba(255,0,0,0.7);
@@ -511,4 +511,15 @@ footer {
     font-size: 500%;
     color: white;
     text-align: center;
+}
+
+/* media queries large */
+
+
+@media screen and (max-width: 1250px) {
+    #second-section {
+        width: 70%;
+        height: 800px;
+        margin: 0 auto;
+    }
 }
