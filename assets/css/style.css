@@ -349,10 +349,13 @@ footer {
 
 #meet-comm1 div {
     flex: 1;
-    text-align: center;
     margin: 0;
     color: rgb(0,43,0);
   
+}
+
+#meet-comm-image1 {
+    text-align: center;
 }
 
 #meet-comm1 i {
@@ -381,6 +384,10 @@ footer {
     text-align: left;
     font-size: 130%;
     line-height: 1.5;
+}
+
+#meet-a {
+    text-align: left;
 }
 
 #meet-comm1 button {
@@ -418,7 +425,6 @@ footer {
     padding: 2%;
     font-size: 180%;
     color: white;
-    border-radius: 5%;
     height: 300px;
 }
 
@@ -534,7 +540,24 @@ footer {
     #right-about ul {
         font-size: 150%;
     }
+
+
+/* next page 1200px media */
+
+    #total-games {
+        font-size: 80%;
+        height: 500px;
+    }
+
+    #meet-comm-image1 i{
+        font-size: 500%;
+    }
+
+    #meet-comm-text  {
+        font-size: 80%;
+    }
 }
+
 
 @media screen and (max-width: 950px) {
     #how {
@@ -577,5 +600,61 @@ footer {
     #first-pic, #second-pic, #third-pic {
         width: 70%;
         flex: 2;
+    }
+
+    /* next page 800px media */
+
+    #total-games {
+        font-size:50%;
+        height: 500px;
+    }
+
+    #captain-title h2 {
+        font-size: 200%;
+    }
+
+    #meet-comm1 {
+        height: 
+    }
+
+    #meet-comm-image1 i{
+        font-size: 500%;
+    }
+
+    #meet-comm-text {
+        font-size: 70%;
+    }
+
+    #meet-comm-p {
+        padding-top: 10px;
+    }
+
+    #meet-comm-text h3 {
+        padding-bottom: 10px;
+    }
+     
+    #meet-comm-text a {
+        font-size: 70%;
+    }
+
+    /* location */
+
+    #location-address {
+        margin: 0 auto;
+    }
+
+    #location-address h3 {
+        font-size: 80%;
+        padding-bottom: 25%;
+        padding-top: 25%;
+    }
+
+    #location-address ul {
+        font-size: 60%;
+        line-height: 20px;
+    }
+
+    #location-map {
+        width: 60%;
     }
 }
