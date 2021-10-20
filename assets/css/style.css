@@ -472,9 +472,6 @@ footer {
 #form-section div {
     flex: 1;
 }
-#form {
-    height: 66%;
-}
 
 .form-data {
     font-size: 200%;
@@ -498,7 +495,7 @@ footer {
 .select-box {
     height: 30px;
     width: 40%;
-    font-size: 80%;
+    font-size: 60%;
 }
 
 #submit {
@@ -518,6 +515,7 @@ footer {
     color: white;
     text-align: center;
 }
+
 
 /* media queries large */
 
@@ -556,6 +554,23 @@ footer {
     #meet-comm-text  {
         font-size: 80%;
     }
+
+    /* last page 1200px media */
+
+    .form-data {
+        font-size: 150%;
+    }
+
+    #form-title {
+        font-size: 80%;
+    }
+
+    #submit {
+        font-size: 100%;
+    }
+    .select-box {
+        width: 60%;
+    }
 }
 
 
@@ -569,6 +584,10 @@ footer {
 
     #quote-image {
         height: 1000px;
+    }
+
+    .select-box {
+        width: 50%;
     }
 }
 
@@ -657,4 +676,28 @@ footer {
     #location-map {
         width: 60%;
     }
+
+/* last page 1200px media */
+
+    #form-section {
+        height: 800px;
+    }
+
+    .form-data {
+        font-size: 120%;
+        margin: 0 auto;
+    }
+    
+    #form-title {
+        margin: 0 auto;
+    }
+    
+    .select-box{
+        width: 60%;
+    }
+
+    #submit {
+        font-size: 80%;
+    }
+
 }
