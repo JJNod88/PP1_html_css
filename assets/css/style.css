@@ -556,6 +556,21 @@ footer {
         font-size: 80%;
     }
 
+    #location-address {
+        margin: 0 auto;
+    }
+
+    #location-address h3 {
+        font-size: 100%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+
+    #location-address ul {
+        font-size: 80%;
+        line-height: 30px;
+    }
+
     /* last page 1200px media */
 
     .form-data {
@@ -573,7 +588,6 @@ footer {
         width: 60%;
     }
 }
-
 
 @media screen and (max-width: 950px) {
     #how {
