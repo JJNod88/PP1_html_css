@@ -2,25 +2,50 @@
 
 
 ## Introduction
-Welcome to ..
+Welcome to Your 5-A-Side
 
-A site where you can Join, Create  and manage a 5-A-Side Team.
+A site where you can Join, Create  and manage a 5-A-Side Team in Manchester, UK.
 
-It is designed for people looking for a good blend of social and fitness activities. Everyone is welcome.
+It is designed for people looking for a good blend of social and fitness activities. Everyone is welcome and has access to the available games in their area. 
 
 The site will be targeted toward people who have a keen interest in football, socialising and keeping fit. The site provides details of the benefits of joining, gives them the ability to check the next avaialble games, meet existing teams and a sign up section.
 
+I have used real world teams and players, including images to give the site authenticity, and to connect with users.
+
 ## UX
+# Structure
+* For the site I have used HTML for the core structure and CSS for styling -
+    * HTML structuring:
+        * Whilst i followed the industry standard for a core html structure, to ensure my site was consistent i used Flex boxes to structure my content. 
+        * this proved extremely beneficial in structuring each section. I used no more than 3 divs per section using display:flex, this meant each section is positioned equally in either 100%, 50% or 33% divs. This increases the visual consistency and display of my content, and allowed my elements to be aligned.
+        * I ensured I correctly linked my CSS stylesheet (checked using the background color technique) with appropriate SEO key words so my site is searchable on the internet.
+        * Because of the way i structured my site, I was able to duplicate many of my html elements into new pages. this was great for time saving and consistency.
+    * CSS
+        * I created an asset folder that held my style.css sheet which allowed me to style many pages at once. I linked this in to the html using rel and href attributes 
+        * Images were kept in the asset folder under an inserted Images foler, this ensured there would always be an image there, without the risk of an external owner closing a website or authorisations. 
+        * I used Pexels for the background and form image, this is a free image site that requires no consent. My other two images were taken by myself. 
+        * Some of my pictures needed scaling. I used the free site promo.com to resale, and compressor.io to reduce the size of my image files. 
 
 
-## Features
+
+    * The site has been designed to be simple, effective and easy to navigate. This includes navigation, background and font color, relatable images, responsive and accessibility. 
+    * Font color and sizing has been designed to be clearly visible, consistent with appropriate sizing.
+        * Font sizing has been duplicated where possible. This includes appropriate proportions for icons vs their text, all headers on each page the same size and font.
+        * Font color has been consistent, with a basic and effective pallet. Dark Green using 'rgb' is the standard font color, with white for backgrounds and red for highlighted navs, buttons and icons.
+        * Font Style was imported from Google Fonts, I chose Roboto and Lora with a back up sans Serif. This gave headings and their text meaning.
+        * I used font styling across the site. This includes font spacing for (header) and line heights (p's and addresses) to make text easier to read.
+    * Background kept simple, only differentiating in color to define sections of the page, minus backgorund images.
+
+ 
+## Features:
 
 ### Landing Page (Home)
-* Header and Nav Bar consistent throuhgout
-    * The site will boast a Navigation bar accessible at all times. It includes a link to the *Home*, *Community* and *Sign Up* pages.  
 * Landing Page
     * An image of a football will instantly tell the user the sites main focus, giving it visual context to grab their attention.
-    * The image will have text overlay with some Key information
+    * The image will have text overlay with the Sites Name, a catchy slogan, and a location. 
+    * The image has an opacity value, to help blend the text and header. 
+* Header and Nav Bar consistent throuhgout
+    * The site has a Navigation bar accessible at all times, that blends in to the web page. It includes a link to the *Home*, *Community* and *Sign Up* pages. 
 * Section below
     * The format here will be consistent throughout the site
     * It will include an introduction to the site
@@ -101,6 +126,8 @@ Adding Google Maps - a google search had bullet points that i easily followed
 
 Love Running project for media query rereshing
 Stack Overflow for the correct media min max for images.
+
+promo.com for picture re-sizing
 
 ## Content
 

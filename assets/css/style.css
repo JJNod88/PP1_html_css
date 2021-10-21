@@ -85,7 +85,6 @@ h1, h2, h3 {
     margin-right: 30px;
     margin-top: 10px;
     color: white;
-    
 }
 
 #nav-bar a {
@@ -352,7 +351,6 @@ footer {
     flex: 1;
     margin: 0;
     color: rgb(0,43,0);
-  
 }
 
 #meet-comm-image1 {
@@ -441,7 +439,7 @@ footer {
 }
 
 #ordsall-address ul {
-    line-height: 40px;
+    line-height: 35px;
 }
 
 #google-map {
@@ -669,11 +667,7 @@ footer {
         font-size: 200%;
     }
 
-    #meet-comm1 {
-        height: 
-    }
-
-    #meet-comm-image1 i{
+    #meet-comm-image1 i {
         font-size: 500%;
     }
 
@@ -729,14 +723,13 @@ footer {
         margin: 0 auto;
     }
     
-    .select-box{
+    .select-box {
         width: 60%;
     }
 
     #submit {
         font-size: 80%;
     }
-
 }
 
 @media screen and (max-width: 600px) {
