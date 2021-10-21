@@ -248,52 +248,40 @@ h1, h2, h3 {
 
 
 #qm1 {
-    background: url("../images/PHOTO-2021-07-03-21-55-54\ \(1\).jpg") no-repeat center center;
     flex: 1;
+    align-items: right;
+    
+}
+
+#qm1image {
+    background: url("../images/resized-image-Promo\ \(6\).jpeg") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid black;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
 }
 
 #qm2 {
-    background-color: green;
     flex: 1;
+    margin-top: 4%;
 }
 
 #qm2text {
-    padding-left: 5%;
-    padding-top: 5em;
     font-size: 130%;
-    padding-right: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 1px solid black;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
+    padding: 2%;
+    background-color: white;
 }
 
 #qm2text i {
     padding-bottom: 3%;
 }
 
-#qm2 div {
-    height: 80%;
-    text-align: left;
-    align-items: center;
-}
-
 #qm2 p {
     font-size: 100%;
-}
-
-#quote-games2 {
-    height: 360px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-#qm3 {
-    background-color: green;
-    flex: 1;
-}
-
-#qm4 {
-    background-color: blue;
-    flex: 1;
 }
 
 
