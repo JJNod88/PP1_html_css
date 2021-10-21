@@ -551,7 +551,7 @@ footer {
     }
 
 
-/* next page 1200px media */
+/* next page 1250px media */
 
     #total-games {
         font-size: 80%;
@@ -581,7 +581,7 @@ footer {
         line-height: 30px;
     }
 
-    /* last page 1200px media */
+    /* last page 1250px media */
 
     .form-data {
         font-size: 150%;
@@ -656,6 +656,9 @@ footer {
         font-size: 500%;
     }
 
+    #quote-image {
+        height: 900px;
+    }
     /* next page 800px media */
 
     #total-games {

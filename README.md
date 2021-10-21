@@ -1,10 +1,10 @@
-# PP1 Name ..
+# Your 5-A-Side
 
 
 ## Introduction
 Welcome to Your 5-A-Side
 
-A site where you can Join, Create  and manage a 5-A-Side Team in Manchester, UK.
+A site for footballers looking for a game, players to add to their squad or somewhere they can create and manage a 5-A-Side Team in Manchester, UK.
 
 It is designed for people looking for a good blend of social and fitness activities. Everyone is welcome and has access to the available games in their area. 
 
@@ -16,25 +16,49 @@ I have used real world teams and players, including images to give the site auth
 # Structure
 * For the site I have used HTML for the core structure and CSS for styling -
     * HTML structuring:
-        * Whilst i followed the industry standard for a core html structure, to ensure my site was consistent i used Flex boxes to structure my content. 
-        * this proved extremely beneficial in structuring each section. I used no more than 3 divs per section using display:flex, this meant each section is positioned equally in either 100%, 50% or 33% divs. This increases the visual consistency and display of my content, and allowed my elements to be aligned.
+        * My structure includes three pages with consistent structures of a: Header & Nav > Sections with headers, divs and additional elements > Footer & Nav.
+        * Whilst I followed the industry standard for a core html structure, I used Flexboxes to structure my content throughout.  
+        * This proved extremely beneficial in structuring each section. I used no more than 3 divs per section using display:flex, this meant each section is positioned equally in either 100%, 50% or 33% divs. This increases the visual consistency and display of my content, and allowed my elements to be aligned.
         * I ensured I correctly linked my CSS stylesheet (checked using the background color technique) with appropriate SEO key words so my site is searchable on the internet.
-        * Because of the way i structured my site, I was able to duplicate many of my html elements into new pages. this was great for time saving and consistency.
+        * Because of the way i structured my site, I was able to duplicate many of my html elements into new pages. This was great for time saving and consistency.
     * CSS
         * I created an asset folder that held my style.css sheet which allowed me to style many pages at once. I linked this in to the html using rel and href attributes 
         * Images were kept in the asset folder under an inserted Images foler, this ensured there would always be an image there, without the risk of an external owner closing a website or authorisations. 
         * I used Pexels for the background and form image, this is a free image site that requires no consent. My other two images were taken by myself. 
         * Some of my pictures needed scaling. I used the free site promo.com to resale, and compressor.io to reduce the size of my image files. 
 
-
-
-    * The site has been designed to be simple, effective and easy to navigate. This includes navigation, background and font color, relatable images, responsive and accessibility. 
-    * Font color and sizing has been designed to be clearly visible, consistent with appropriate sizing.
+# Site layout
+* The site has been designed to be simple, effective and easy to navigate. 
+    * Layout
+        * My site consists of a landing page with content, a commutiy page with content, and a sign up page with a form. 
+        * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image)
+        * Images are specific.
+        * Each section has been designed to sell, provide information and direct the user to the product. 
+        * Have kepy mt background standard white, which allows for content to be easily visible and also minimilistic. a background color to divide certain sections has been used, which links with the sites font color of rgb(0,255,0), only i have used transparency of 0.7. 
+    * Navigation 
+        * I have used lots of naviation in my site, to allow users to navigate the site with ease.
+            * A visible header, with a position:sticky and Z-index of 999 means it is always accessible and visible. The title and three page navs all have hrefs.
+            * In my icons I have added href links to the appropriate sections and pages. An example of this is the 'how' icons on the index page. They direct to sign up and to the available game section. I have also used :hover elements to make them stand out and easier to click on. 
+            * My buttons have links, and also stand out with red backgrounds. I have also used :hover elements to make them stand out and easier to click on. 
+    * Font size, color, type and styling:
+        * Font color and sizing has been designed to be clearly visible, consistent with appropriate sizing.
         * Font sizing has been duplicated where possible. This includes appropriate proportions for icons vs their text, all headers on each page the same size and font.
-        * Font color has been consistent, with a basic and effective pallet. Dark Green using 'rgb' is the standard font color, with white for backgrounds and red for highlighted navs, buttons and icons.
-        * Font Style was imported from Google Fonts, I chose Roboto and Lora with a back up sans Serif. This gave headings and their text meaning.
+            * I have used the same font color throughout. Dark Green using 'rgb' is the standard font color and have used white for text on backgrounds. This is to blend nicely with the set background colors.
+        * Font Type was imported from Google Fonts, I chose Roboto and Lora with a back up sans Serif. This gave headings and their text meaning and ensured should the improt link ever change, the site would always have a standard fall back font of sans-serif, which is commonly used as standard across all browswers.
         * I used font styling across the site. This includes font spacing for (header) and line heights (p's and addresses) to make text easier to read.
-    * Background kept simple, only differentiating in color to define sections of the page, minus backgorund images.
+
+# Accessibility
+
+# Responsiveness
+* Structure:
+    * As i have stated above in my html structure, i used FlexBox to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sextions and divs were automatically positioned correctly, and did so when scaling your screen size up or down. This saves a lot of time and looks great!
+* % units:
+    * Across the site I have used % for sizing. This inclused in height, width, padding, margins and font-sizes etc. I implemented this from the beginning to ensure my design was adaptive across multiple screen sizes - This is extremely important in todays world as there is not one size fits all. 
+* Media queries have been implemented at different screen resolution images to ensure the site is responsive at different sizes:
+    * Using Google Developer, I have tested each element of the site to ensure it responds to scaling. 
+    * The minimum resolution the site is responsive at is 490px.
+    * I have used a Max and Min width media type for the landing page main image, set from 480-1250px.
+    * My Media Max queries have been set at 1250, 950, 800 and 600px. I grouped my elements as much as possible to streamline the code, but after thorough testing and to ensure each section and its elements are responsive and contained, I used the above four sizes.
 
  
 ## Features:
