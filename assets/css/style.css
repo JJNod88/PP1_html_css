@@ -114,7 +114,7 @@ h1, h2, h3 {
 #main-image {
     height: 100%;
     width: 100%;
-    background: url("../images/19687F1C-D354-44FE-8565-756DB80A20DC_1_201_a.jpeg") no-repeat center center;
+    background: url("../images/resized-image-Promo\ \(1\).jpeg") no-repeat center center;
     opacity: 0.7;
 }
 
@@ -317,7 +317,7 @@ footer {
 }
 
 #total-games h3 {
-    font-size: 1000%;
+    font-size: 700%;
     color: rgb(0,43,0);
 }
 
@@ -431,7 +431,7 @@ footer {
 
 #ordsall-address h3 {
     color: white;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     font-size: 150%;
 }
 
@@ -519,6 +519,13 @@ footer {
 
 
 /* media queries large */
+@media screen and (min-device-width: 480px) and (max-device-width: 1250px) {
+    #main-image {
+    height: 800px;
+    width: 100%;
+    background: url("../images/resized-image-Promo\ \(3\).jpeg") no-repeat center center;
+    opacity: 0.7;
+    }
 
 
 @media screen and (max-width: 1250px) {
@@ -534,10 +541,10 @@ footer {
     }
 
     #left-about h3 {
-        font-size: 130%;
+        font-size: 150%;
     }
     #right-about ul {
-        font-size: 130%;
+        font-size: 150%;
     }
 
 
