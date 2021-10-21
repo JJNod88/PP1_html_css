@@ -244,26 +244,14 @@ h1, h2, h3 {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-
-#qm1 {
-    flex: 1;
-    align-items: right;
-    
-}
-
-#qm1image {
-    background: url("../images/resized-image-Promo\ \(6\).jpeg") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    border-top: 1px solid black;
-    box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
+    text-align: center;
 }
 
 #qm2 {
     flex: 1;
     margin-top: 4%;
+    align-items: center;
+
 }
 
 #qm2text {
@@ -274,6 +262,7 @@ h1, h2, h3 {
     box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
     padding: 2%;
     background-color: white;
+    width: 600px;
 }
 
 #qm2text i {
@@ -448,6 +437,8 @@ footer {
     font-size: 180%;
     color: white;
     height: 300px;
+    border-top: 1px solid black;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
 }
 
 #ordsall-address h3 {
@@ -464,6 +455,8 @@ footer {
     opacity: 0.9;
     height: 300px;
     width: 50%;
+    border-top: 1px solid black;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
 }
 
 #location-title h2 {
