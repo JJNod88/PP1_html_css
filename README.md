@@ -135,6 +135,8 @@ Bug: Icons not aligned.
 
 Fix:
 
+bug: how to alt and reference images done in css
+
 ## Deployment
 
 
