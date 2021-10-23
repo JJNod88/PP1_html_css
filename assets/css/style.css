@@ -7,11 +7,11 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgba(0,44,0,.1);
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: black;   
+    color: rgb(0,43,0);
 }
 
 a {
@@ -30,9 +30,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
 
 /* header and headings */
 
@@ -255,6 +252,7 @@ h1, h2, h3 {
     text-align: center;
     align-items: flex-end;
     color: rgb(0,43,0);
+    background-color: white;
 }
 
 #qm1 {
@@ -301,6 +299,7 @@ h1, h2, h3 {
     text-align: center;
     align-items: flex-start;
     color: rgb(0,43,0);
+    background-color: white;
 }
 
 #qm4 {
@@ -381,6 +380,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 #ms1 {
@@ -456,6 +456,7 @@ footer {
     box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
     border: 1px solid black;
     margin: 5% 15%;
+    background-color: white;
 }
 
 #meet-comm1 div {
@@ -510,6 +511,7 @@ footer {
     margin: 0 0.5%;
     margin-top: 20px;
     border-radius: 5%;
+    color: rgb(0,43,0);
 }
 
 #meet-comm1 button:hover {
@@ -532,6 +534,7 @@ footer {
     font-size: 300%;
     margin-top: 1%;
     margin-bottom: 5%;
+    color: rgb(0,43,0)
 }
 
 #location div {
