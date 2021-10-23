@@ -640,6 +640,11 @@ footer {
         opacity: 0.7;
     }
 
+@media screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    #ms1 {
+        background: url("../images/resized-image-Promo\ \(8\).jpeg") no-repeat center center;
+    }
+} 
 
 @media screen and (max-width: 1250px) {
     #main-image {
@@ -727,6 +732,10 @@ footer {
     .select-box {
         width: 50%;
     }
+
+    #qm2text {
+        font-size: 100%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -766,9 +775,18 @@ footer {
         font-size: 500%;
     }
 
-    #quote-image {
-        height: 900px;
+    #totaldiv {
+        font-size: 80%;
     }
+
+    #qm1 {
+        font-size: 100%;
+    }
+
+    #qm4 {
+        font-size: 100%;
+    }
+
     /* next page 800px media */
 
     #total-games {
