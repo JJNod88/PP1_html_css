@@ -885,4 +885,69 @@ footer {
         padding-top: 50%;
         text-align: center;
     }
+
+    #posterh h2 {
+        padding-top: 3%;
+    }
+
+    #second-section {
+        height: 630px;
+    }
+
+    #second-section div {
+        padding: 1% 3%;
+    }
+
+    #right-about ul {
+        font-size: 100%;
+    }
+
+    #mapsection {
+        height: 540px;
+    }
+
+    #ms1 {
+        background: url("../images/resized-image-Promo\ \(11\).jpeg") no-repeat center center;
+
+    }
+
+    #totaldiv p {
+        font-size: 130%;
+    }
+
+    #how {
+        height: 630px;
+    }
+
+    #how i {
+        font-size: 500%;
+    }
+
+    #how p {
+        font-size: 130%;
+    }
+
+    #quote-games1 {
+        height: 270px;
+    }
+
+    #quote-games2 {
+        height: 290px;
+    }
+
+    #qm1 h2 {
+        font-size: 150%;
+    }
+
+    #qm2text {
+        font-size: 80%;
+    }
+
+    #qm3text {
+        font-size: 100%;
+    }
+
+    #qm4 h2 {
+        font-size: 150%;
+    }
 }
