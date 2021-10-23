@@ -155,6 +155,8 @@ Stack Overflow for the correct media min max for images.
 
 promo.com for picture re-sizing
 
+Image of UK - http://www.supercoloring.com/coloring-pages/united-kingdom-blank-outline-map. Author: Supercoloring. License: Creative Commons Attribution-Share Alike 4.0 License.
+
 ## Content
 
 
