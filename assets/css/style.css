@@ -347,27 +347,58 @@ footer {
     font-size: 200%;
 }
 
-/* community first section */
 
-#total-games {
-    height: 450px;
+
+/* community new first section */
+
+#mapsection {
+    height: 900px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: rgba(0,43,0,0.1);
+    align-items: center;
 }
 
-#total-games div {
-    width: 100%;
+#ms1 {
+    flex: 1;
+    background: url("../images/resized-image-Promo\ \(7\).jpeg") no-repeat center center;
+    height: 75%;
+}
+
+#ms2 {
+    flex:1;
+    height: 75%;
+}
+
+#totaldiv {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    align-items: center;
+}
+
+#totaldiv div {
     text-align: center;
 }
 
-#total-games h3 {
+#total1 {
+    flex: 1;
+}
+
+#total2 {
+    flex: 1;
+}
+
+#total3 {
+    flex: 1;
+}
+
+
+#totaldiv h3 {
     font-size: 500%;
     color: rgb(0,43,0);
 }
 
-#total-games p {
+#totaldiv p {
     font-size: 150%;
     color: rgb(0,43,0);
 }
