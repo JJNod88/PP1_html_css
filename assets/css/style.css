@@ -961,6 +961,8 @@ footer {
 
     #meet-comm1 {
         flex-direction: column;
+        height: 450px;
+        padding-top: 3%;
     }
 
     #meet-comm1 i {
@@ -988,5 +990,20 @@ footer {
 
     #location-title {
         font-size: 100%;
+    }
+
+    /* third page for smartphones */
+
+    #form-section {
+        flex-direction: column;
+    }
+
+    .form-data {
+        margin-top: 33%;
+    }
+
+    #form-title h1 {
+        font-size: 300%;
+        padding: 10% 5%;
     }
 }
