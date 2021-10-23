@@ -123,7 +123,7 @@ h1, h2, h3 {
     letter-spacing: 3px;
     height: 100%;
     width: 100%;
-    padding-left: 150px;
+    padding-left: 50px;
 }
 
 #posterh {
@@ -269,6 +269,7 @@ h1, h2, h3 {
 #qm2 {
     flex: 1;
     align-items: center;
+    margin: 2%;
 }
 
 #qm2text {
@@ -314,6 +315,7 @@ h1, h2, h3 {
 #qm3 {
     flex: 1;
     align-items: center;
+    margin: 2%;
 }
 
 
@@ -451,10 +453,10 @@ footer {
     width: 100;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid rgb(0,43,0);
-    border-top: 1px solid rgb(0,43,0);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
+    border: 1px solid black;
+    margin: 5% 15%;
 }
-
 
 #meet-comm1 div {
     flex: 1;
@@ -525,6 +527,13 @@ footer {
     align-items: center;
 }
 
+#location-title h2 {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
 #location div {
     flex: 1;
     justify-content: center;
@@ -559,13 +568,6 @@ footer {
     width: 50%;
     border-top: 1px solid black;
     box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
-}
-
-#location-title h2 {
-    text-align: center;
-    font-size: 200%;
-    margin-top: 1%;
-    margin-bottom: 1%;
 }
 
 
@@ -641,7 +643,6 @@ footer {
         height: 800px;
         width: 100%;
         background: url("../images/resized-image-Promo\ \(3\).jpeg") no-repeat center center;
-        opacity: 0.7;
     }
     
     #ms1 {
@@ -975,6 +976,7 @@ footer {
         flex-direction: column;
         height: 450px;
         padding-top: 3%;
+        margin: 5% 10%;
     }
 
     #meet-comm1 i {
