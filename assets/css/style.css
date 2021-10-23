@@ -744,11 +744,13 @@ footer {
     }
     
     #second-section {
-        height: 800px;
+        height: 630px;
+        flex-direction: column;
     }
 
     #left-about h3 {
         font-size: 120%;
+        padding-top: 15%;
     }
 
     #right-about ul {
@@ -892,11 +894,17 @@ footer {
     }
 
     #second-section {
-        height: 630px;
+        height: 540px;
+        flex-direction: column;
     }
 
     #second-section div {
         padding: 1% 3%;
+        text-align: center;
+    }
+
+    #left-about h3 {
+        padding-top: 15%;
     }
 
     #right-about ul {
@@ -904,16 +912,20 @@ footer {
     }
 
     #mapsection {
-        height: 540px;
+        height: 450px;
     }
 
     #ms1 {
-        background: url("../images/resized-image-Promo\ \(11\).jpeg") no-repeat center center;
+        background: url("../images/resized-image-Promo\ \(12\).jpeg") no-repeat center center;
 
     }
 
     #totaldiv p {
         font-size: 130%;
+    }
+
+    #totaldiv h3 {
+        font-size: 400%;
     }
 
     #how {
