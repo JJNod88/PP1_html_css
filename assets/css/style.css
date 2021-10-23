@@ -245,12 +245,13 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items: flex-end;
     color: rgb(0,43,0);
 }
 
 #qm1 {
     flex: 1;
+    align-self: center;
 }
 
 #qm1 h2 {
@@ -268,7 +269,6 @@ h1, h2, h3 {
     box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
     padding: 2%;
     background-color: white;
-    width: 66%;
 }
 
 #qm2text i {
@@ -286,12 +286,13 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items: flex-start;
     color: rgb(0,43,0);
 }
 
 #qm4 {
     flex: 1;
+    align-self: center;
 }
 
 #qm4 h2 {
@@ -309,7 +310,6 @@ h1, h2, h3 {
     box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
     padding: 2%;
     background-color: white;
-    width: 66%;
 }
 
 #qm3text i {
