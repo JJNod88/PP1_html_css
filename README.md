@@ -1,10 +1,10 @@
-# Your 5-A-Side
+# My 5-A-Side
 
 
 ## Introduction
-Welcome to Your 5-A-Side
+Welcome to My 5-A-Side
 
-A site for footballers looking for a game, players to add to their squad or somewhere they can create and manage a 5-A-Side Team in Manchester, UK.
+A site for footballers looking for a new game, new players to add to their squad or a place they can create and manage a 5-A-Side Team in Manchester, UK.
 
 It is designed for people looking for a good blend of social and fitness activities. Everyone is welcome and has access to the available games in their area. 
 
@@ -12,73 +12,91 @@ The site will be targeted toward people who have a keen interest in football, so
 
 I have used real world teams and players, including images to give the site authenticity, and to connect with users.
 
+## Value
+# To ther User
+* The site has an SEO defined to accurately show up when people search for 5,6 and 7-a-side football games in Manchester.
+* Designed to be simple and engaging, users will know instantly what the sites intention is, and can navigate around the site with ease.    
+    * Navigation elements in the header, footer and icons/buttons means they can access all parts of the site no matter where they.
+    * The site has been seperated into sections with a clear purpose. Headers and their corresponsding information are clear and easy to distinguish.
+    * Div, Icon and Buttom elements have been styled to Hover to improve the interactiveness of the site.
+* They will see the benefits to the site, and to football, and can see what games are available with details around the captains and why the games were created. They'll be able to click on locations of the games to be directed to detailed address and google maps of the football pitches, which open on a seperate browser. An easy to fill in form means they are not spending a long time signing up. 
+* The site is responsive, so they can access the site on the move on their smartphone, tablet or desktop.
+* Specific Images have been used to make the site easier on the eye and fun to view. 
+* All images have an alt attribute for those needing a site that is accessible. 
+
+
+## Screenshots
+
+
 ## UX
 # Structure
 * For the site I have used HTML for the core structure and CSS for styling -
     * HTML structuring:
-        * My structure includes three pages with consistent structures of a: Header & Nav > Sections with headers, divs and additional elements > Footer & Nav.
+        * My structure includes three pages, each with: Header & Nav > Sections with headers, divs and additional elements > Footer & Nav.
         * Whilst I followed the industry standard for a core html structure, I used Flexboxes to structure my content throughout.  
         * This proved extremely beneficial in structuring each section. I used no more than 3 divs per section using display:flex, this meant each section is positioned equally in either 100%, 50% or 33% divs. This increases the visual consistency and display of my content, and allowed my elements to be aligned.
         * I ensured I correctly linked my CSS stylesheet (checked using the background color technique) with appropriate SEO key words so my site is searchable on the internet.
-        * Because of the way i structured my site, I was able to duplicate many of my html elements into new pages. This was great for time saving and consistency.
+        * Because of the way I structured my site, I was able to duplicate many of my html elements into new pages. This was great for time saving and consistency.
     * CSS
         * I created an asset folder that held my style.css sheet which allowed me to style many pages at once. I linked this in to the html using rel and href attributes 
-        * Images were kept in the asset folder under an inserted Images foler, this ensured there would always be an image there, without the risk of an external owner closing a website or authorisations. 
-        * I used Pexels for the background and form image, this is a free image site that requires no consent. My other two images were taken by myself. 
-        * Some of my pictures needed scaling. I used the free site promo.com to resale, and compressor.io to reduce the size of my image files. 
+        * Images were kept in the Asset folder under an inserted Images folder, this ensured there would always be an image there, without the risk of an external owner closing a website or authorisations. 
+            * I used Pexels for the background and form image, this is a free image site that requires no consent. My other image for the Location section was taken by myself. 
+        * Some of my pictures needed scaling. I used the free site promo.com to rescale, and compressor.io to reduce the size of my image files. 
 
 # Site layout
 * The site has been designed to be simple, effective and easy to navigate. 
     * Layout
         * My site consists of a landing page with content, a commutiy page with content, and a sign up page with a form. 
         * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image)
-        * Images are specific.
+        * Headings and Images are specific.
         * Each section has been designed to sell, provide information and direct the user to the product. 
-        * Have kepy mt background standard white, which allows for content to be easily visible and also minimilistic. a background color to divide certain sections has been used, which links with the sites font color of rgb(0,255,0), only i have used transparency of 0.7. 
+        * For my background color I used rgba 0.1 green, which allows for content to be easily visible and also minimilistic whilst the green matched the theme of a football site. I have seperated sections using the standard white background color or Images.
     * Navigation 
         * I have used lots of naviation in my site, to allow users to navigate the site with ease.
-            * A visible header, with a position:sticky and Z-index of 999 means it is always accessible and visible. The title and three page navs all have hrefs.
+            * A visible header, with a position:sticky and Z-index of 999 means it is always accessible and visible. The title and three page navs link to all aspects of the site. 
+                * This is the same for the Footer.
             * In my icons I have added href links to the appropriate sections and pages. An example of this is the 'how' icons on the index page. They direct to sign up and to the available game section. I have also used :hover elements to make them stand out and easier to click on. 
             * My buttons have links, and also stand out with red backgrounds. I have also used :hover elements to make them stand out and easier to click on. 
     * Font size, color, type and styling:
-        * Font color and sizing has been designed to be clearly visible, consistent with appropriate sizing.
-        * Font sizing has been duplicated where possible. This includes appropriate proportions for icons vs their text, all headers on each page the same size and font.
-            * I have used the same font color throughout. Dark Green using 'rgb' is the standard font color and have used white for text on backgrounds. This is to blend nicely with the set background colors.
-        * Font Type was imported from Google Fonts, I chose Roboto and Lora with a back up sans Serif. This gave headings and their text meaning and ensured should the improt link ever change, the site would always have a standard fall back font of sans-serif, which is commonly used as standard across all browswers.
+        * Font color has been standardised to dark green, designed to be clearly visible, consistent and following the football theme color.
+        * Font sizing has been duplicated where possible. This includes appropriate proportions for icons vs their text, all headers on each page the same size and font. Have used % to icnrease responsiveness.
+        * Font Type was imported from Google Fonts, I chose Roboto and Lora with a back up sans Serif. This gave headings and their text meaning and provides a foundation font should the google fonts ever be unreadable on a browser. 
         * I used font styling across the site. This includes font spacing for (header) and line heights (p's and addresses) to make text easier to read.
 
 # Accessibility
 
 # Responsiveness
 * Structure:
-    * As i have stated above in my html structure, i used FlexBox to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sextions and divs were automatically positioned correctly, and did so when scaling your screen size up or down. This saves a lot of time and looks great!
+    * I used FlexBox to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sextions and divs were automatically positioned correctly, and did so when scaling your screen size up or down. This saves a lot of time and looks great!
 * % units:
     * Across the site I have used % for sizing. This inclused in height, width, padding, margins and font-sizes etc. I implemented this from the beginning to ensure my design was adaptive across multiple screen sizes - This is extremely important in todays world as there is not one size fits all. 
-* Media queries have been implemented at different screen resolution images to ensure the site is responsive at different sizes:
-    * Using Google Developer, I have tested each element of the site to ensure it responds to scaling. 
-    * The minimum resolution the site is responsive at is 490px.
-    * I have used a Max and Min width media type for the landing page main image, set from 480-1250px.
-    * My Media Max queries have been set at 1250, 950, 800 and 600px. I grouped my elements as much as possible to streamline the code, but after thorough testing and to ensure each section and its elements are responsive and contained, I used the above four sizes.
+* Media queries and designs have been implemented at different screen resolutions  to ensure the site is responsive at different sizes and can be used on any device.
+    * Using Google Developer, I have tested each element of the site to ensure it responds to scaling.
+        * For smartphones and Tablets I adapted the media queries to use smaller images, fonts and changed structures by using Flex-Directions. 
+        * I grouped my elements as much as I could to reduce the amount of changes to the layout. I started my Media Queries at max 1250px which is around the industry standard size for desktop screns and worked my way down, until I got to smartphones with a Media Query set up for Min 0px and Max 480px. 
+        * Seperating my Media Queries like this really helped as I tested the site scaling. Fortunately I have two screens t work from which meant not only could I code whilst using GDeveloper, I can test the Site realtime using an Apple MacBook Screen and a HP Large Desktop Monitor Screen.
 
  
 ## Features:
 
 ### Landing Page (Home)
-* Landing Page
+* Consistent interactive Header and Nav elements are used throughout the entire site.
+    * The site has a Navigation bar accessible at all times, that blends in to the web page. It includes a link to the *Home*, *Community* and *Sign Up* pages.    
+    * A simple Footer with links to *facebook*, *Email/Contact us* and *Sign Up* pages.
+
+* Landing Page section -
     * An image of a football will instantly tell the user the sites main focus, giving it visual context to grab their attention.
-    * The image will have text overlay with the Sites Name, a catchy slogan, and a location. 
-    * The image has an opacity value, to help blend the text and header. 
-* Header and Nav Bar consistent throuhgout
-    * The site has a Navigation bar accessible at all times, that blends in to the web page. It includes a link to the *Home*, *Community* and *Sign Up* pages. 
-* Section below
-    * The format here will be consistent throughout the site
-    * It will include an introduction to the site
-    * A brief description of the benefits of the site including *keeping fit*, *socialising* and *friendly*. 
-* Game On ection
-    * A Header highlighting the prupose and directing users to available games
-    * Linked Signup button below the available games links them to the 'Captain' section on aother page when they click on it
-* Footer
-    * A simple Footer with links to Social Media, this will be consistent across all pages for UX and UI.
+    * The image has. text overlay with the Sites Name, a catchy slogan, and a location. Re-inforcing the reason the site exists and why the User is visiting.  
+    * The image has an opacity value, to help blend the text and header.  
+* Benefits Section -
+    * A Catchy phrase giving the User an other reason why they are visiting. 
+    * Benefits displayed with appropriate Icons in Red, in a List style. 
+* Map and Key Indicator Section -
+    * There is a basic Map with Manchester circled, reminding the user of the sites taregteed locations
+    * Adjacent to the Map are some Key Indicators of how many live games, members and Goals there is. This was to give the User a personal feel to the site, one where if they are a member they can contribute too.
+* 
+
+
 
 ### Community Page
 * Header and Nav Bar consistent throughout
