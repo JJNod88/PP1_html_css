@@ -64,12 +64,14 @@ I have used real world teams and players, including images to give the site auth
         * I used font styling across the site. This includes font spacing for (header) and line heights (p's and addresses) to make text easier to read.
 
 # Accessibility
+* The site is accessible to Users who may have a disability that prevents them from accessing the site in certain ways.
     Semantic HTML - Headers, ULs provide addiitoal functionality and operation by keyboard, tab keys and enter.
     Text Content - HTML strucutre, headings p and lists, screen reader can have indiciators to read out, so the way site flows can help the screen reader
     Page Layouts - section and navs, provides screen reader hekps
     UI Controls - Buttons links and Forms. Browsers can be accessed using. akeyboard, using tab. 
     Form Labels - Connecting Inputs to Labels, id and for. scren Readers can lavel fields
-    Aria Attributes - Aria - acceisble rich internet applications. 
+    * To ensure I have provided enough information for any links in my site, I have added aria-label outlinining the purpose of the link, and have used brackets if it is taking the person to a new tab.
+
     Alt for CSS Images
 
 # Responsiveness
