@@ -71,7 +71,7 @@ I have used real world teams and players, including images to give the site auth
     UI Controls - Buttons links and Forms. Browsers can be accessed using. akeyboard, using tab. 
     Form Labels - Connecting Inputs to Labels, id and for. scren Readers can lavel fields
     * To ensure I have provided enough information for any links in my site, I have added aria-label outlinining the purpose of the link, and have used brackets if it is taking the person to a new tab.
-
+    * All images that have been added to the CSS stylesheet, have corresponding alt attributes with concise text
     Alt for CSS Images
 
 # Responsiveness
