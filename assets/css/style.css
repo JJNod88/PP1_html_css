@@ -76,7 +76,7 @@ h1, h2, h3 {
 }
 
 #nav-bar li {
-    float: right;
+    float: left;
     margin-right: 30px;
     margin-top: 10px;
     color: white;
