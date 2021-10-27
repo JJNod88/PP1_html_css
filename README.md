@@ -155,7 +155,9 @@ Footer equal size and consistent on each page
 
 
 ## Testing
-
+* Lighthouse -
+    * Mobile average: Performance 90%, Accessibility 94%, Best Practice 98%, SEO 97%.
+    * Desktop average: Performance 100%, Accessibility 94%, Best Practice 98%, SEO 100%.
 
 ## Validator Testing
 
