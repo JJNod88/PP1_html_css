@@ -108,11 +108,8 @@ I have used real world teams and players, including images to give the site auth
     * I have created 3 large icons with a few words outlining how to use the site. 
     * the icons have a link to the corresponsing part of the site, with 'hover' styling to increase its size when a user hovers over them.
 * Quote Section -
-    * to give the site addiitonal context and personality, a quote from one of the members of the site has been added. This isn adjacent to a clear header.
+    * To give context and personality, a quote from one of the members of the site has been added. This is adjacent to a clear header.
     * The quote has a white background so it stands out, it in italic, and has a 'hover' styling.
-    * Below this and in a mirror format for a visual pleasing secttion, I have added a large button for people to access the community from here, with the samer style ehader adjacent to it.
-
-
 
 ### Community Page (Second)
 * Same consistent header and footer
