@@ -32,6 +32,7 @@ I have used real world teams and players, including images to give the site auth
 
 
 ## UX
+
 ### Structure
 * For the site I have used HTML for the core structure and CSS for styling -
     * HTML structuring:
@@ -176,7 +177,7 @@ Bug: Icons not aligned.
 Fix:
 
 Bug: How to alt and reference images done in css
-Fix: I have provided an alt in the Id the image is linked too.
+Fix: 
 
 ## Deployment
 
