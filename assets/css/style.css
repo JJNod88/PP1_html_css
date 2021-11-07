@@ -611,6 +611,35 @@ footer {
     text-align: center;
 }
 
+
+/* submit page */
+#submit-background {
+    height: 810px;
+    width: 100%;
+    padding: 0;
+    background: url("../images/resized-image-Promo\ \(1\).jpeg") no-repeat center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thank-you {
+    flex: 1;
+    padding: 0 50% 0 10%;
+}
+
+#thank-you h1 {
+    font-size: 400%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+#thank-you p {
+    font-size: 150%;
+    color: white;
+}
+
+
 /* min mid image queries */
 
 @media screen and (min-device-width: 480px) and (max-device-width: 800px) {
