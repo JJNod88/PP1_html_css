@@ -284,47 +284,6 @@ h1, h2, h3 {
     font-size: 100%;
 }
 
-/* 
-#quote-games2 {
-    height: 360px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: flex-start;
-    color: rgb(0,43,0);
-    background-color: white;
-}
-
-#qm4 {
-    flex: 1;
-    align-self: center;
-}
-
-#qm4 h2 {
-    font-size: 200%;
-}
-
-#qm3 {
-    flex: 1;
-    align-items: center;
-    margin: 2%;
-}
-
-#qm3text {
-    font-size: 150%;
-    padding: 15%;
-    border: 1px solid black;
-    box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%);
-    background-color: rgba(255,0,0,0.2);
-}
-
-#qm3text h4 {
-    color: rgb(0,43,0);
-}
-
-*/
-
 /* footer */
 
 footer {
@@ -349,6 +308,14 @@ footer {
     color: white;
     padding: 3%;
     font-size: 200%;
+}
+
+#icon-smaller {
+    font-size: 145%;
+}
+
+#icon-smaller2 {
+    font-size: 160%;
 }
 
 /* community new first section */
