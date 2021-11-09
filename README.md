@@ -1,42 +1,78 @@
 # My 5-A-Side
 
+# Contents
+* Introduction
+* Value (user & owner)
+* Screenshots
+* UX (structure & site layout)
+* Accessibility
+* Responsiveness
+* Features
+* Technologies
+* Testing (validator, lighthouse & bugs/fixes)
+* Deployment
+* Credits
+* Content
+
 
 # Introduction
 Welcome to My 5-A-Side
 
-A site for footballers looking for a new game, new players to add to their squad or a place they can create and manage a 5-A-Side Team in Manchester, UK.
+The focus of this site is to provide a fictional platform for people to locate available football games and players in their local community.
 
-It is designed for people looking for a good blend of social and fitness activities. Everyone is welcome and has access to the available games in their area. 
+The site is aimed at footballers and people looking to get involved in football, bringing together a social aspect with teansparent locations, captains and teams. It outlays the benefits of playing football, calculating game stats and giving users the opportunity to contact propsective teams.
 
-The site will be targeted toward people who have a keen interest in football, socialising and keeping fit. The site provides details of the benefits of joining, gives them the ability to check the next avaialble games, meet existing teams and a sign up section.
+I have used real world teams, players and images to give the site authenticity, and to connect with users and members.
 
-I have used real world teams and players, including images to give the site authenticity, and to connect with users and members.
+
 
 # Value
-### User
+### User / Target Audience
+* Users who are both new and experienced in playing football, specficially 5, 6 and 7-aside football. 
+* Who want to learn of the benefits to playing 5-a-side.
+* Who do not currently play in a team and are looking to join one.
+* Who play as part of a team and want to find new players.
+* Who have a team but want a platform to manage their locations, fixtures and players easily and digitally.
+
+### Site Aims
+* The site aims to provide users a platform for finding new players and games to connect with.
+* Providing the opportunity to:
+    * Learn the benefits of 5-a-side and the site
+    * See live stats of the games history to help the site come to life. 
+    * View games, teams and locations of available football games.
+    * Sign Up to the site via a form
+    * Have access to relevant parts of the sites with links and buttons contained in Header, Footer and Section elements.
+
+### How the Site achieves this
 * The site has an SEO defined to accurately show up when people search for 5,6 and 7-a-side football games in Manchester.
+* A consistent Header and Footer will be accessible at all times for each user, with the title of the site consitently in view.
 * Designed to be simple and engaging, users will know instantly what the sites intention is, and can navigate around the site with ease. 
+    ### Page specific
+    * Index / Home Page contains images of a football pitch and ball, key benefits to the site, stats on current games, how-to-guide to sign up and a peer review.
+    * Community Page provides available games with key information, with links to the locations of each game including address details, google maps link and an image of the corresponding football pitch.
+    * Sign Up page provides a simple form to allow sign up, with an image giving the impression of a football player / manager signing a contract.
+    * Submit Page provides confirmation of users successful sign up, and allows them to return to the Index / Landing Page.
+    ### Site specific
     * The landing page has a background-image of a football pitch and ball, giving the user an instant impression of the sites use.
     * Navigation elements in the header, footer and icons/buttons means they can access all parts of the site no matter where they are.
     * The site has been seperated into sections with a clear purpose. Headers and their corresponsding information are clear and easy to distinguish, Images have been used that are appropriate for the site, and the sections they are in.
     * Div, Icon and Buttom elements have been styled to Hover to improve the interactiveness of the site.
-* They will see the benefits to the site, and to football, and can see what games are available with details around the captains and why the games were created. They'll be able to click on locations of the games to be directed to detailed address and google maps of the football pitches, which open on a seperate browser. An easy to fill in form means they are not spending a long time signing up. 
-* The use of real world images, players and locations give the site authenticity and a personal touch, giving it relateability.
-* The site is responsive, so they can access the site on the move on their smartphone, tablet or desktop.
-* Specific Images have been used to make the site easier on the eye and fun to view. 
-* All images have an alt attribute for those needing a site that is accessible. 
-* It is inclusive. It has social media, contact links and forms to be able to sign up. 
+    * Users can click on locations of the games to be directed to detailed address and google maps of the football pitches, which open on a seperate browser. An easy to fill in form means they are not spending a long time signing up. 
+    * The use of real world images, players and locations give the site authenticity and a personal touch, giving it relateability.
+    * The site is responsive, so they can access the site on the move on their smartphone, tablet or desktop.
+    * Specific Images have been used to make the site easier on the eye and fun to view. 
+    * All images have an alt attribute for those needing a site that is accessible. 
+    * It is inclusive. It has social media, contact links and forms to be able to sign up. 
 
 
-## Screenshots
+# Screenshots
 
 
-## UX
-
+# UX
 ### Structure
 * For the site I have used HTML for the core structure and CSS for styling -
     * HTML structuring:
-        * My structure includes three pages, each with: Header & Nav > Sections with headers, divs and additional elements > Footer & Nav.
+        * My structure includes four pages, each with: Header & Nav > Sections with headers, divs and additional elements > Footer & Nav.
         * Whilst I followed the industry standard for a core html structure, I used Flexboxes to structure my content throughout.  
         * This proved extremely beneficial in structuring each section. I used no more than 3 divs per section using display:flex, this meant each section is positioned equally in either 100%, 50% or 33% divs. This increases the visual consistency and display of my content, and allowed my elements to be aligned.
         * I ensured I correctly linked my CSS stylesheet (checked using the background color technique) with appropriate SEO key words so my site is searchable on the internet.
@@ -50,7 +86,7 @@ I have used real world teams and players, including images to give the site auth
 ### Site layout
 * The site has been designed to be simple, effective and easy to navigate. 
     * Layout
-        * My site consists of a landing page with content, a commutiy page with content, and a sign up page with a form. 
+        * My site consists of a landing page with content, a community page with content,  a sign up page with a form and a submit successful page. 
         * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image)
         * Headings and Images are specific.
         * Each section has been designed to sell, provide information and direct the user to the product. 
@@ -69,7 +105,7 @@ I have used real world teams and players, including images to give the site auth
 
 # Accessibility
 * The site is accessible to Users who may have a disability that prevents them from accessing the site in certain ways.
-    * the foundation of this is the site layout and semantic HTML elements.
+    * The foundation of this is the site layout and semantic HTML elements.
         * The Page is layed out with a standard HTML format to improve its flow, allowing screen readers to indicate header, nav, section, heading, p, ul, form and footer elements of the site. 
         * Using these Semantic Elements in the correct order provides additional functionality for tab keys and screen readers.
     * UI Controls - Nav bar is set to Float Left so that you can use the tab to navigate it accurately. All buttons are accessible using the keyboard tab and enter functions.
@@ -78,11 +114,12 @@ I have used real world teams and players, including images to give the site auth
     * All images that have been added to the CSS stylesheet, have corresponding alt attributes with concise text in the corresponding body of its html. 
     
 # Responsiveness
-* Structure:
-    * I used FlexBox to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sections and divs were automatically positioned correctly, and did so when scaling your screen size up or down. This saves a lot of time and looks great!
-* % units:
-    * Across the site I have used % for sizing. This inclused in height, width, padding, margins and font-sizes etc. I implemented this from the beginning to ensure my design was adaptive across multiple screen sizes - This is extremely important in todays world as there is not one size fits all. 
-* Media queries and designs have been implemented at different screen resolutions  to ensure the site is responsive at different sizes and can be used on any device.
+### Structure:
+* Flexbox has been used to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sections and divs were automatically positioned correctly, and did so when scaling the screen size up and down. This saves a lot of time and looks great!
+### Units:
+* Across the site I have used primarily % for sizing. This inclused in height, width, padding, margins and font-sizes etc. I implemented this from the beginning to ensure my design was adaptive across multiple screen sizes - This is extremely important in todays world as there is not one size fits all. 
+### Media queries and designs 
+* I have implemented different screen resolutions  to ensure the site is responsive at different sizes and can be used on any device.
     * Using Google Developer, I have tested each element of the site to ensure it responds to scaling.
         * For smartphones and Tablets I adapted the media queries to use smaller images, fonts and changed structures by using Flex-Directions. 
         * I grouped my elements as much as I could to reduce the amount of changes to the layout. I started my Media Queries at max 1250px which is around the industry standard size for desktop screns and worked my way down, until I got to smartphones with a Media Query set up for Min 0px and Max 480px. 
@@ -114,7 +151,6 @@ I have used real world teams and players, including images to give the site auth
 
 ### Community Page (Second)
 * Same consistent header and footer
-
 * Avalable Games section -
     * This section has details of the available games. It is designed to be inclusive with an image of the games creator with details of the game.
     * Each game section has a border with a 3D effect to help it blend in. It has a white background to stand out, with three accessible buttons.
@@ -129,14 +165,29 @@ I have used real world teams and players, including images to give the site auth
         * The Address details have a transparent red background, following the color scheme of the site, with large and readable text.
         * For additional site functionality, there is also a Google Maps image of the location, which can be enlarged and followed on an external tab.
 
-### Sign Up
+### Sign Up Page (third)
 * Same consistent header and footer
-
 * Form Section - 
     * Kept simple and to the point, there is only once section for the Sign Up page.
         * It has a formal background image of a person in a suit writing down on paper on a desk. This image was chosen, as it reflects a football manager or player signing a football contract. So is relateable.
         * It is set at the same opacity as the landing page background image. This keeps theme consistency but also allows the form to be more visible.
     * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** and**Location** with a radio buttons of **Manchester** and **Other**.
+
+### Submit Page (additional)
+* To ensure excellent user UX, when submitting the button 'sign up' when completin the form, users are taken to a seprate page that consists with the sites design, to let them know that their sign up has been successful. There is also a message to wish them luck.
+* They are able to return back to the home page using either the 'Home' Button on the Nav Bar.
+
+
+# Technnologies
+* CSS
+* HTML5
+
+## Programmes
+* Git - Version Control (add, commit, push)
+* Github - Store Projects, Repositories and commits from Git
+* Google Fonts - For addiitonal font styles
+* Font Awesome - Use of Icons
+* Balsamiq - Wireframes for site designs and planning
 
 
 UX
@@ -152,15 +203,15 @@ nav bar fixed, and colored to be visible across all site
 Footer equal size and consistent on each page
 
 
-## Testing
-* Lighthouse -
+# Testing
+### Lighthouse -
     * Mobile average: Performance 90%, Accessibility 94%, Best Practice 98%, SEO 97%.
     * Desktop average: Performance 100%, Accessibility 94%, Best Practice 98%, SEO 100%.
 
-## Validator Testing
+### Validator Testing
 
 
-## All things Bugs and Fixes
+### Bugs and Fixes
 Bug: Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
 Fix: had line-style-type: non in the 'li' not 'ul.
 
@@ -179,7 +230,15 @@ Fix:
 Bug: How to alt and reference images done in css
 Fix: 
 
-## Deployment
+Bug: Hover Buttons on community page effect structure and repsonsiveness on smartphones and tablets
+Fix: 
+
+# Deployment
+* GitHub and GitPod was been used for the creating and deployment of the site.
+    * By using Github Pages, the site can be viewed on all devices. To do this I:
+    * Created a Repository > Utilised GitPod to create the html and css code > commited and pushed code to update the repository in GitHub > Under settings in the Repository locate the Pages Section > Changed the source to Master Branch and Published.
+
+* < Insert Link to the Page >
 
 
 ## Credits
