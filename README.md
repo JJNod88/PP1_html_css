@@ -86,7 +86,7 @@ I have used real world teams, players and images to give the site authenticity, 
 ### Site layout
 * The site has been designed to be simple, effective and easy to navigate. 
     * Layout
-        * My site consists of a landing page with content, a community page with content,  a sign up page with a form and a submit successful page. 
+        * It consists of a landing page, a community page, a sign up page and a submit successful page. 
         * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image)
         * Headings and Images are specific.
         * Each section has been designed to sell, provide information and direct the user to the product. 
@@ -127,14 +127,18 @@ I have used real world teams, players and images to give the site authenticity, 
 
  
 # Features:
-### Landing Page (Home)
+### Header & Footer
 * Consistent interactive Header and Nav elements are used throughout the entire site.
     * The site has a Navigation bar accessible at all times, that blends in to the web page. It includes a link to the *Home*, *Community* and *Sign Up* pages.    
     * A simple Footer with links to *facebook*, *Email/Contact us* and *Sign Up* pages.
+    * both are fixed with an index rating of 999 so are accessible and visible on all parts of the site.
 
+## Four pages -
+
+### Landing Page (Home)
 * Landing Page section -
     * An image of a football will instantly tell the user the sites main focus, giving it visual context to grab their attention.
-    * The image has. text overlay with the Sites Name, a catchy slogan, and a location. Re-inforcing the reason the site exists and why the User is visiting.  
+    * The image has text overlay with the Sites Name, a catchy slogan, and a location. Re-inforcing the reason the site exists and why the User is visiting.  
     * The image has an opacity value, to help blend the text and header.  
 * Benefits Section -
     * A Catchy phrase giving the User an other reason why they are visiting. 
@@ -181,7 +185,6 @@ I have used real world teams, players and images to give the site authenticity, 
 # Technnologies
 * CSS
 * HTML5
-
 ## Programmes
 * Git - Version Control (add, commit, push)
 * Github - Store Projects, Repositories and commits from Git
@@ -234,7 +237,7 @@ Bug: Hover Buttons on community page effect structure and repsonsiveness on smar
 Fix: 
 
 # Deployment
-* GitHub and GitPod was been used for the creating and deployment of the site.
+* GitHub and GitPod has been used for the creation and deployment of the site.
     * By using Github Pages, the site can be viewed on all devices. To do this I:
     * Created a Repository > Utilised GitPod to create the html and css code > commited and pushed code to update the repository in GitHub > Under settings in the Repository locate the Pages Section > Changed the source to Master Branch and Published.
 
