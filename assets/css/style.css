@@ -1021,6 +1021,10 @@ footer {
         width: 100%;
     }
 
+    #location div {
+        flex-direction: column;
+    }
+
     #location-title {
         font-size: 100%;
     }
