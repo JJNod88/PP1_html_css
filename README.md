@@ -10,6 +10,7 @@
 * Features
 * Technologies
 * Testing (validator, lighthouse & bugs/fixes)
+* Validation
 * Deployment
 * Credits
 * Content
@@ -214,6 +215,8 @@ Footer equal size and consistent on each page
 ### Validator Testing
 
 
+
+
 ### Bugs and Fixes
 Bug: Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
 Fix: had line-style-type: non in the 'li' not 'ul.
@@ -239,7 +242,10 @@ Fix:
 # Deployment
 * GitHub and GitPod has been used for the creation and deployment of the site.
     * By using Github Pages, the site can be viewed on all devices. To do this I:
+    Number bullet point: 
+    Step 2: 
     * Created a Repository > Utilised GitPod to create the html and css code > commited and pushed code to update the repository in GitHub > Under settings in the Repository locate the Pages Section > Changed the source to Master Branch and Published.
+
 
 * < Insert Link to the Page >
 
