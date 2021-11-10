@@ -601,6 +601,9 @@ footer {
     opacity: 0.8;
 }
 
+#thank-you a {
+    color: yellow;
+}
 
 /* min mid image queries */
 
