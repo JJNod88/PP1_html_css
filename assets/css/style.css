@@ -1021,12 +1021,39 @@ footer {
         width: 100%;
     }
 
-    #location div {
+    #location {
         flex-direction: column;
+        height: 675px;
+    }
+
+    #location-address {
+        width: 60%;
+        margin-bottom: 1%;
+    }
+
+    #location-address h3 {
+        padding-bottom: 10%;
+    }
+
+    #location-address ul {
+        line-height: 25px;
+    }
+
+    #ordsall-address {
+        margin-left: 0;
+        margin-top: 10%;
     }
 
     #location-title {
         font-size: 100%;
+    }
+
+    #location-map {
+        margin-top: 1%;
+    }
+
+    #google-map {
+        width: 100%;
     }
 
     /* third page for smartphones */
