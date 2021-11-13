@@ -1,19 +1,19 @@
 # My 5-A-Side
 
 # Contents
-* Introduction
-* Value (user & owner)
-* Screenshots
-* UX (structure & site layout)
-* Accessibility
-* Responsiveness
-* Features
-* Technologies
-* Testing (validator, lighthouse & bugs/fixes)
-* Validation
-* Deployment
-* Credits
-* Content
+* [Introduction](#-Introduction)
+* [Value](#-Value)
+* [Screenshots]
+* [UX]
+* [Accessibility]
+* [Responsiveness]
+* [Features]
+* [Technologies]
+* [Testing]
+* [Validation]
+* [Deployment]
+* [Credits]
+* [Content]
 
 
 # Introduction
@@ -222,6 +222,8 @@ W3C CSS
     * style.css document
 
 ### Site Testing
+Please follow this link
+
 
 
 ### Bugs and Fixes
