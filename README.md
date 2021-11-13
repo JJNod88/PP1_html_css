@@ -239,7 +239,6 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ![image-of-submit-page](/assets/images/readme-images/Submit-Page.png)
 
 
-
 # Technologies
 * CSS
 * HTML5
@@ -251,19 +250,6 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * Balsamiq - Wireframes for site designs and planning
 * Promo.com for rescaling images
 * Compressor.io to reduce the size of the file image size, improving the sites loading speeds
-
-
-UX
-For headers i used the same style and formatting.
-Have used FlexBox across the site promoting fluidity and repetition for site structure
-Copied my html and css structure when possible for site consistency
-for sign up and home page, same size first section & image
-Font sizes for main title and ending title the same
-color theme consistent
-Eahc section mupltiples of 90px, often the same height each page
-_blank used to keep users on the site when viisting externals
-nav bar fixed, and colored to be visible across all site
-Footer equal size and consistent on each page
 
 
 # Testing

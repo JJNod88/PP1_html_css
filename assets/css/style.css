@@ -891,6 +891,10 @@ footer {
         font-size: 60%;
     }
 
+    #main-image-text h1 {
+        padding-bottom: 10%;
+    }
+
     #posterh {
         padding-top: 50%;
         text-align: center;
