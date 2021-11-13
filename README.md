@@ -172,20 +172,32 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
     * The image has text overlay with the Sites Name, a catchy slogan, and a location. Re-inforcing the reason the site exists and why the User is visiting.  
     * The image has an opacity value, to help blend the text and header.  
 
-![image-of-landing-page](../images/readme-images/landing-page.png)
+![image-of-landing-page](/assets/images/readme-images/landing-page.png)
 
 * Benefits Section -
     * A Catchy phrase giving the User an other reason why they are visiting. 
     * Benefits displayed with appropriate Icons in Red, in a List style. 
+
+![image-of-landing-page-benefit-section](/assets/images/readme-images/LP-benefits.png)
+
 * Map and Key Indicator Section -
     * There is a basic Map with Manchester circled, reminding the user of the sites taregteed locations
     * Adjacent to the Map are some Key Indicators of how many live games, members and Goals there is. This was to give the User a personal feel to the site, one where if they are a member they can contribute too.
+
+![image-of-landing-page-map-stats-section](/assets/images/readme-images/LP-map-and-stats.png)
+
 * How Section -
     * I have created 3 large icons with a few words outlining how to use the site. 
     * the icons have a link to the corresponsing part of the site, with 'hover' styling to increase its size when a user hovers over them.
+
+![image-of-landing-page-how-section](/assets/images/readme-images/LP-how-to.png)
+
 * Quote Section -
     * To give context and personality, a quote from one of the members of the site has been added. This is adjacent to a clear header.
     * The quote has a white background so it stands out, it in italic, and has a 'hover' styling.
+
+![image-of-landing-page-feedback-section](/assets/images/readme-images/LP-feedback.png)
+
 
 ### 2. Community Page (Second)
 * Same consistent header and footer
@@ -196,12 +208,18 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
         * Request to Join - Takes the user to the sign up page if they are not a member
         * Check Location - Takes the User to the Location section and its specific pitch location
         * Contact Us - Takes the User to Outlook External Website, where they could contact the Game Creator (in the absence of a member chat area)
+
+![image-of-community-page](/assets/images/readme-images/Community-Page.png)
+
 * Location section - 
     * Background image of the football pitches that are specific to each available game. 
         * For this example, the background is indeed of the pitch, and players, of the available games. This gives the site personality and makes it relatebale to its members and users.
     * Embedded in the abckgroudn image are two divs containing Address Details and a Google Maps link.
         * The Address details have a transparent red background, following the color scheme of the site, with large and readable text.
         * For additional site functionality, there is also a Google Maps image of the location, which can be enlarged and followed on an external tab.
+
+![image-of-community-location](/assets/images/readme-images/CP-Locations.png)
+
 
 ### 3. Sign Up Page (third)
 * Same consistent header and footer
@@ -211,9 +229,15 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
         * It is set at the same opacity as the landing page background image. This keeps theme consistency but also allows the form to be more visible.
     * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** and**Location** with a radio buttons of **Manchester** and **Other**.
 
+![image-of-sign-up-page](/assets/images/readme-images/Sign-Up-Page.png)
+
+
 ### 4. Submit Page (additional)
 * To ensure excellent user UX, when submitting the button 'sign up' when completin the form, users are taken to a seprate page that consists with the sites design, to let them know that their sign up has been successful. There is also a message to wish them luck.
 * They are able to return back to the home page using either the 'Home' Button on the Nav Bar.
+
+![image-of-submit-page](/assets/images/readme-images/Submit-Page.png)
+
 
 
 # Technologies
