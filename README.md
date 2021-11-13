@@ -43,6 +43,7 @@ I have used real world teams, players and images to give the site authenticity, 
     * View games, teams and locations of available football games.
     * Sign Up to the site via a form
     * Have access to relevant parts of the sites with links and buttons contained in Header, Footer and Section elements.
+    * Build a pool of players and Teams, with increased functionality that can be commercialised.
 
 ### How the Site achieves this
 * The site has an SEO defined to accurately show up when people search for 5,6 and 7-a-side football games in Manchester.
@@ -70,7 +71,17 @@ I have used real world teams, players and images to give the site authenticity, 
 
 
 # UX
-### Structure
+The Site needed to be intuitive, simple, and provide an enjoyable experience for the Users. 
+For UX, I kept in mind the Five pillars of good UX, and used these as foundations for my Website. 
+
+## 1. Strategy Plane -
+I have explained the startegy in detail [here](#-Value)
+ 
+## 2. Scope Plane -
+This includes the features needed to provide content, material and access for Users. you can find the detail to this [here](#-Features)
+
+## 3. Structure Plane -
+### Structure
 * For the site I have used HTML for the core structure and CSS for styling -
     * HTML structuring:
         * My structure includes four pages, each with: Header & Nav > Sections with headers, divs and additional elements > Footer & Nav.
@@ -81,28 +92,40 @@ I have used real world teams, players and images to give the site authenticity, 
     * CSS
         * I created an asset folder that held my style.css sheet which allowed me to style many pages at once. I linked this in to the html using rel and href attributes 
         * Images were kept in the Asset folder under an inserted Images folder, this ensured there would always be an image there, without the risk of an external owner closing a website or authorisations. 
-            * I used Pexels for the background and form image, this is a free image site that requires no consent. My other image for the Location section was taken by myself. 
+        * I used Pexels for the background and form image, this is a free image site that requires no consent. My other image for the Location section was taken by myself. 
         * Some of my pictures needed scaling. I used the free site promo.com to rescale, and compressor.io to reduce the size of my image files. 
 
-### Site layout
-* The site has been designed to be simple, effective and easy to navigate. 
+## 4. Skeleton Plane -
+### Site Layout
+* The Site needed to be presented in an intuitive and simple way. One that makes it easy to use with its naviagtion and features.
     * Layout
         * It consists of a landing page, a community page, a sign up page and a submit successful page. 
-        * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image)
-        * Headings and Images are specific.
+        * Left to Right, the Site flows correctly. Home > Community > Sign Up.
+        * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image). The height of each section is in mupltiples of 90px to maintain consistency throughout. 
+        * Headings and Images are specific to the sites purpose.
         * Each section has been designed to sell, provide information and direct the user to the product. 
-        * For my background color I used rgba 0.1 green, which allows for content to be easily visible and also minimilistic whilst the green matched the theme of a football site. I have seperated sections using the standard white background color or Images.
+        * For my background color I used rgba(0,44,0,.1);, which allows for content to be easily visible and also minimilistic whilst the green matches the theme of a football site. I have seperated sections using the standard white background color or Images for good contrast and simplicity.
     * Navigation 
         * I have used lots of naviation in my site, to allow users to navigate the site with ease.
-            * A visible header, with a position:sticky and Z-index of 999 means it is always accessible and visible. The title and three page navs link to all aspects of the site. 
-                * This is the same for the Footer.
-            * In my icons I have added href links to the appropriate sections and pages. An example of this is the 'how' icons on the index page. They direct to sign up and to the available game section. I have also used :hover elements to make them stand out and easier to click on. 
-            * My buttons have links, and also stand out with red backgrounds. I have also used :hover elements to make them stand out and easier to click on. 
-    * Font size, color, type and styling:
-        * Font color has been standardised to dark green, designed to be clearly visible, consistent and following the football theme color.
-        * Font sizing has been duplicated where possible. This includes appropriate proportions for icons vs their text, all headers on each page the same size and font. Have used % to icnrease responsiveness.
-        * Font Type was imported from Google Fonts, I chose Roboto and Lora with a back up sans Serif. This gave headings and their text meaning and provides a foundation font should the google fonts ever be unreadable on a browser. 
-        * I used font styling across the site. This includes font spacing for (header) and line heights (p's and addresses) to make text easier to read.
+        * A visible header, with a position:sticky and Z-index of 999 means it is always accessible and visible. The title and three page navs link to all aspects of the site. 
+            * This is the same for the Footer.
+        * In my icons I have added href links to the appropriate sections and pages. An example of this is the 'how' icons on the index page. They direct to sign up and to the available game section. I have also used :hover elements to make them stand out and easier to click on. 
+        * My buttons have links, and also stand out with red backgrounds. I have also used :hover elements to make them stand out and easier to click on. 
+        * _blank has been used to ensure new tabs are created when a user is directed to one, to keep them active on my website
+        
+
+## 5. Surface Plane -
+I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great indication of how the site will look once completed. 
+###  Font size, color, type and styling:
+* Font color has been standardised to dark green, designed to be clearly visible, consistent and following the football theme color.
+* Font sizing has been duplicated where possible. This includes appropriate proportions for icons vs their text, all headers on each page the same size and font. Have used % to increase responsiveness.
+* Font Type was imported from Google Fonts, I chose Roboto and Lora with a back up sans Serif. This gave headings and their text meaning and provides a foundation font should the google fonts ever be unreadable on a browser. 
+* I used font styling across the site. This includes font spacing for (header) and line heights to make text easier to read - Headings, paragraphs and lists primarily.
+
+### Images
+* Images were chosen that represented the sites identity. Stored in an Assets folder so they would always be visible. 
+    * Landing Page has a picture of a football pitch that gives the site meaning instantly to the user.
+    * Use of real images of the football teams (Location section) gives the site meaning.
 
 # Accessibility
 * The site is accessible to Users who may have a disability that prevents them from accessing the site in certain ways.
@@ -112,31 +135,34 @@ I have used real world teams, players and images to give the site authenticity, 
     * UI Controls - Nav bar is set to Float Left so that you can use the tab to navigate it accurately. All buttons are accessible using the keyboard tab and enter functions.
     * For the form, I have used labels and linked them to inputs so that a screen reader can distinguish each field.
     * To ensure I have provided enough information for any links in my site, I have added aria-label outlinining the purpose of the link, and have used brackets if it is taking the person to a new tab.
-    * All images that have been added to the CSS stylesheet, have corresponding alt attributes with concise text in the corresponding body of its html. 
-    
+
+
 # Responsiveness
 ### Structure:
 * Flexbox has been used to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sections and divs were automatically positioned correctly, and did so when scaling the screen size up and down. This saves a lot of time and looks great!
 ### Units:
 * Across the site I have used primarily % for sizing. This inclused in height, width, padding, margins and font-sizes etc. I implemented this from the beginning to ensure my design was adaptive across multiple screen sizes - This is extremely important in todays world as there is not one size fits all. 
 ### Media queries and designs 
-* I have implemented different screen resolutions  to ensure the site is responsive at different sizes and can be used on any device.
+* I have implemented different screen resolutions to ensure the site is responsive at different sizes and can be used on any device.
     * Using Google Developer, I have tested each element of the site to ensure it responds to scaling.
         * For smartphones and Tablets I adapted the media queries to use smaller images, fonts and changed structures by using Flex-Directions. 
         * I grouped my elements as much as I could to reduce the amount of changes to the layout. I started my Media Queries at max 1250px which is around the industry standard size for desktop screns and worked my way down, until I got to smartphones with a Media Query set up for Min 0px and Max 480px. 
-        * Seperating my Media Queries like this really helped as I tested the site scaling. Fortunately I have two screens t work from which meant not only could I code whilst using Google Developer, I can test the Site realtime using an Apple MacBook Screen and a HP Large Desktop Monitor Screen.
+        * Seperating my Media Queries like this really helped as I tested the site scaling. Fortunately I have two screens to work from which meant not only could I code whilst using Google Developer, I can test the Site realtime using an Apple MacBook Screen and a HP Large Desktop Monitor Screen.
+        * The site went through thorough testing to ensure these Media queries worked. Please visit [Testing](#-Testing) for further detail.
 
  
 # Features:
 ### Header & Footer
 * Consistent interactive Header and Nav elements are used throughout the entire site.
-    * The site has a Navigation bar accessible at all times, that blends in to the web page. It includes a link to the *Home*, *Community* and *Sign Up* pages.    
+    * The site has a Navigation bar accessible at all times, that blends in to the web page. It includes a link to the *Home*, *Community* and *Sign Up* pages.  
+        * Navigation Bar is the same size throughout, and repsonds to responsive design in the same way.  
+        * Navigation Bar is fixed with a position:fixed and a z-index: 999; ensuring it is always visible and accessible
     * A simple Footer with links to *facebook*, *Email/Contact us* and *Sign Up* pages.
-    * both are fixed with an index rating of 999 so are accessible and visible on all parts of the site.
+        * The Footer is the same size throughout, and repsonds to responsive design in the same way.  
 
 ## Four pages -
 
-### Landing Page (Home)
+### 1. Landing Page (Home)
 * Landing Page section -
     * An image of a football will instantly tell the user the sites main focus, giving it visual context to grab their attention.
     * The image has text overlay with the Sites Name, a catchy slogan, and a location. Re-inforcing the reason the site exists and why the User is visiting.  
@@ -154,7 +180,7 @@ I have used real world teams, players and images to give the site authenticity, 
     * To give context and personality, a quote from one of the members of the site has been added. This is adjacent to a clear header.
     * The quote has a white background so it stands out, it in italic, and has a 'hover' styling.
 
-### Community Page (Second)
+### 2. Community Page (Second)
 * Same consistent header and footer
 * Avalable Games section -
     * This section has details of the available games. It is designed to be inclusive with an image of the games creator with details of the game.
@@ -170,7 +196,7 @@ I have used real world teams, players and images to give the site authenticity, 
         * The Address details have a transparent red background, following the color scheme of the site, with large and readable text.
         * For additional site functionality, there is also a Google Maps image of the location, which can be enlarged and followed on an external tab.
 
-### Sign Up Page (third)
+### 3. Sign Up Page (third)
 * Same consistent header and footer
 * Form Section - 
     * Kept simple and to the point, there is only once section for the Sign Up page.
@@ -178,20 +204,22 @@ I have used real world teams, players and images to give the site authenticity, 
         * It is set at the same opacity as the landing page background image. This keeps theme consistency but also allows the form to be more visible.
     * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** and**Location** with a radio buttons of **Manchester** and **Other**.
 
-### Submit Page (additional)
+### 4. Submit Page (additional)
 * To ensure excellent user UX, when submitting the button 'sign up' when completin the form, users are taken to a seprate page that consists with the sites design, to let them know that their sign up has been successful. There is also a message to wish them luck.
 * They are able to return back to the home page using either the 'Home' Button on the Nav Bar.
 
 
-# Technnologies
+# Technologies
 * CSS
 * HTML5
-## Programmes
+### Programmes
 * Git - Version Control (add, commit, push)
 * Github - Store Projects, Repositories and commits from Git
 * Google Fonts - For addiitonal font styles
 * Font Awesome - Use of Icons
 * Balsamiq - Wireframes for site designs and planning
+* Promo.com for rescaling images
+* Compressor.io to reduce the size of the file image size, improving the sites loading speeds
 
 
 UX
@@ -240,13 +268,13 @@ Bug: Not sure how to have the active only highlight current page. It highlights 
 Fix: None 
 
 Bug: Icons not aligned.
-Fix:
+Fix: Decreased size of the icons to match the others. Could have used Flexbox to do this also. 
 
 Bug: How to alt and reference images done in css
-Fix: 
+Fix: Mentor, Dick, confirmed this was not neccessary when images are stored correctly in a linked css folder.
 
 Bug: Hover Buttons on community page effect structure and repsonsiveness on smartphones and tablets
-Fix: 
+Fix: Removed Hover buttons, not necessary here. 
 
 Bug: Location address and Google Maps when smaller resolution looked conjested and hard to read
 Fix: Added flex-direction: column and added margin / padding to increase the look and usability.
@@ -264,16 +292,17 @@ Fix: Added flex-direction: column and added margin / padding to increase the loo
 
 
 ## Credits
-Flexbox positioning, learned from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox introduced by my mentor
+Flexbox positioning, learned from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox introduced by my mentor, Antonija.
 
 Confirming button html and css https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 
 w3schools - Added opacity to my images
 https://www.w3schools.com/html/html_form_elements.asp for Form > Select element
 
-Adding Google Maps - a google search had bullet points that i easily followed
+Adding Google Maps - a google search had bullet points that I easily followed
 
-Love Running project for media query rereshing
+Love Running project for media query refresher training. 
+
 Stack Overflow for the correct media min max for images.
 
 promo.com for picture re-sizing
