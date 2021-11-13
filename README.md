@@ -1,8 +1,8 @@
 # My 5-A-Side
 
 # Contents
-* [Introduction](#-Introduction)
-* [Value](#-Value)
+* [Introduction](#-introduction)
+* [Value](#Value)
 * [Screenshots]
 * [UX]
 * [Accessibility]
@@ -26,14 +26,18 @@ The site is aimed at footballers and people looking to get involved in football,
 I have used real world teams, players and images to give the site authenticity, and to connect with users and members.
 
 
-
 # Value
-### User / Target Audience
+### New User / Target Audience
 * Users who are both new and experienced in playing football, specficially 5, 6 and 7-aside football. 
 * Who want to learn of the benefits to playing 5-a-side.
 * Who do not currently play in a team and are looking to join one.
 * Who play as part of a team and want to find new players.
 * Who have a team but want a platform to manage their locations, fixtures and players easily and digitally.
+
+### Return User
+* Users who have previously utilised the site to find players 
+* Who have previously utilisted the site to find games
+* Who would like to use the sites functionality to find locations of games and teams 
 
 ### Site Aims
 * The site aims to provide users a platform for finding new players and games to connect with.
@@ -148,7 +152,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
         * For smartphones and Tablets I adapted the media queries to use smaller images, fonts and changed structures by using Flex-Directions. 
         * I grouped my elements as much as I could to reduce the amount of changes to the layout. I started my Media Queries at max 1250px which is around the industry standard size for desktop screns and worked my way down, until I got to smartphones with a Media Query set up for Min 0px and Max 480px. 
         * Seperating my Media Queries like this really helped as I tested the site scaling. Fortunately I have two screens to work from which meant not only could I code whilst using Google Developer, I can test the Site realtime using an Apple MacBook Screen and a HP Large Desktop Monitor Screen.
-        * The site went through thorough testing to ensure these Media queries worked. Please visit [Testing](#-Testing) for further detail.
+* The site had thorough testing to ensure these Media queries worked and the site was responsive. Please visit [Testing](#-Testing) for further detail and 
 
  
 # Features:
@@ -167,6 +171,9 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
     * An image of a football will instantly tell the user the sites main focus, giving it visual context to grab their attention.
     * The image has text overlay with the Sites Name, a catchy slogan, and a location. Re-inforcing the reason the site exists and why the User is visiting.  
     * The image has an opacity value, to help blend the text and header.  
+
+![image-of-landing-page](../images/readme-images/landing-page.png)
+
 * Benefits Section -
     * A Catchy phrase giving the User an other reason why they are visiting. 
     * Benefits displayed with appropriate Icons in Red, in a List style. 
@@ -252,6 +259,9 @@ W3C CSS
 ### Site Testing
 Please follow this link
 
+### Browser Testing
+* Microsoft Edge
+* Safari (apple) 
 
 
 ### Bugs and Fixes
