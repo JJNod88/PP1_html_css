@@ -1091,3 +1091,39 @@ footer {
             font-size: 220%;
         }
 }
+
+@media screen and (min-width: 0px) and (max-width: 280px) {
+    #sticky h1 {
+        font-size: 120%;
+    }
+
+    #nav-bar {
+        letter-spacing: 1px;
+        font-size: 180%;
+    }
+
+    #second-section {
+        height: 630px;
+    }
+
+    #right-about ul {
+        font-size: 80%;
+    }
+
+    #quote-games1 {
+        height: 450px;
+    }
+
+    .meet-comm1 div {
+        flex: none;
+    }
+
+    .meet-a {
+        line-height: 30px;
+    }
+
+    #submit {
+        width: 100%;
+        margin-left: 0;
+    }
+}
