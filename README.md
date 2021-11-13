@@ -25,6 +25,8 @@ The site is aimed at footballers and people looking to get involved in football,
 
 I have used real world teams, players and images to give the site authenticity, and to connect with users and members.
 
+![image-of-responsive-site-design](/assets/images/readme-images/am-i-responsive.png)
+
 
 # Value
 ### New User / Target Audience
