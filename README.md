@@ -213,8 +213,15 @@ Footer equal size and consistent on each page
     * Desktop average: Performance 100%, Accessibility 94%, Best Practice 98%, SEO 100%.
 
 ### Validator Testing
+W3C HTML
+    * Page 1 (Index)
+    * Page 2 (Community)
+    * Page 3 (Form)
+    * Page 4 (Submit Page)
+W3C CSS
+    * style.css document
 
-
+### Site Testing
 
 
 ### Bugs and Fixes
@@ -239,14 +246,18 @@ Fix:
 Bug: Hover Buttons on community page effect structure and repsonsiveness on smartphones and tablets
 Fix: 
 
+Bug: Location address and Google Maps when smaller resolution looked conjested and hard to read
+Fix: Added flex-direction: column and added margin / padding to increase the look and usability.
+
 # Deployment
-* GitHub and GitPod has been used for the creation and deployment of the site.
-    * By using Github Pages, the site can be viewed on all devices. To do this I:
-    Number bullet point: 
-    Step 2: 
-    * Created a Repository > Utilised GitPod to create the html and css code > commited and pushed code to update the repository in GitHub > Under settings in the Repository locate the Pages Section > Changed the source to Master Branch and Published.
-
-
+* GitHub and GitPod has been used for the creation and deployment of the site. By using Github Pages, the site can be viewed on all devices. 
+    To do this I:
+    1. Created a Repository on [GitHub Pages](https://github.com/) using my user profile.
+    2. Utilised GitPod, accessible in my repository, to create my site using html and css.
+    3. GitPods version control funcitonality meant I could commit and push my code as I progresses. Previouses commits were always accessible should I have needed to revisit them. 
+    4. Returning to my repository in GitHub, I located the 'page section' in Settings
+    5. I then changed the source from 'none' to 'Master Branch' and published the link.
+    6. I checked this was working by following the link. 
 * < Insert Link to the Page >
 
 
