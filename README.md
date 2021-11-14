@@ -259,10 +259,12 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
     * Desktop average: Performance 100%, Accessibility 96%, Best Practice 98%, SEO 100%.
     * Mobile average: Performance 94%, Accessibility 96%, Best Practice 98%, SEO 100%.
     * Accessibility scoring is lowered due to the following: 'Links do not have a discernable name'. This is in relation to my footer icon used to direct users to thr sign up page. The footer is designed to be simplistic without words, however aria-labels have been utilised for accessibility.
+<details><summary>Evidence</summary>
 
 ![Image-of-lighthouse-results-desktop](/assets/images/readme-images/lighthouse-desktop.png)
 ![Image-of-lighthouse-results-mobile](/assets/images/readme-images/lighthouse-mobile.png)
 
+ </details>
 
 
 ## Validator Testing
@@ -291,25 +293,206 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/css-code.png)
 
-## Site Testing
-Please follow this [link](../tworeadme.md)
+## Manual Testing
+<details><summary>Actions, Expectations and Results</summary>
 
+Have checked everything works on my website.
+
+* Desktop - MacBookAir 13" 
+* HP 24” Monitor
+* Ipad Generation 6
+* Iphone 11 
+* Android Galaxy S5
+
+### Header & Nav
+
+Action: Visible and accessible
+* Expected: Visible and accessible 
+* Result: Pass.
+
+Action: Check if hover attribute is working
+* Expected: Red border surrounds the nav element in which the cursor is placed
+* Result: Pass
+
+Action: Click on the ‘My 5-A-Side page title’
+* Expected: Directs to Home Page
+* Result: Pass
+
+Action: Click on ‘Home’
+* Expected: Directs to Home Page
+* Result: Pass
+
+Action: Click on ‘Community’
+* Expected: Directs to Community Page
+* Result: Pass
+
+Action: Click on ‘Sign Up’
+* Expected: Directs to Sign Up Page
+* Result: Pass
+
+### Footer
+Action: Visible and accessible
+* Expected: Always at the bottom of the page
+* Result: Pass
+
+Action: Click on Facebook icon
+* Expected: Directs you to facebook.com via new tab
+* Result: Pass
+
+Action: Click on Envelope icon
+* Expected: Directs you to outlook.com via new tab
+* Result: Pass
+
+Action: Click on User+ icon
+* Expected: Directs you to Sign Up page
+* Result: Pass
+
+### First Page - Home
+
+Action: Enter URL of website into browser
+* Expected: Taken to the Landing Page of the site
+* Result: Pass
+
+Action: Hover over ‘Sign up & create your profile’ icon		
+* Expected: Increases in Size 
+* Result: Pass
+
+Action: Click on ‘Sign up & create your profile’ icon		
+* Expected: Directs user to the Sign Up page
+* Result: Pass
+
+Action: Hover over ‘Join games & manage your team’ icon		
+* Expected: Increases in Size
+* Result: Pass
+
+Action: Click on ‘Join games & manage your team’ icon	
+* Expected: Directs user to Community Page		
+* Result: Pass
+
+Action: Hover over the feedback comment 
+* Expected: Increases in size
+* Result: Pass
+
+### Second Page - Community
+
+Action: Click ‘request to join’ button
+* Expected: Directs you to Sign Up page
+* Result: Pass
+
+Action: Click ‘check location’ button
+* Expected: Directs you to the Location section of the page
+* Result: Pass
+
+Action: Click ‘contact’ button
+* Expected: Directs you too outlook.com via new tab
+* Result: Pass
+
+Repeated for the second game:
+* Result: Pass
+
+Action: Navigate google Maps
+* Expected: Google Maps functional. Link to ‘view larger map’ directs via new tab
+* Result: Pass 
+
+### Third Page - Sign Up
+
+Action: Click Sign up without entering any information into the required fields
+* Expected: Asks to fill in ‘First Name’ field before progressing
+* Result: Pass
+
+Action: Type name in First Name field and click sign up
+* Expected: Asks to fill in ‘Second Name’ before progressing
+* Result: Pass
+
+Action: Type First and Second Name into appropriate fields and click sign up 
+* Expected: Asks to fill in ‘Email’ files before progressing
+* Result: Pass
+
+Action: type inappropriate email address, with @ missing and click sign up
+* Expected: Asks to include an @ in the email address
+* Result: Pass
+
+Action: Fill in First Name and Email Address only and click sign up
+* Expected: Asks to complete missing field
+* Result: Pass
+
+Action: Change location to Other and click sign up (with completed fields)
+* Expected: Progresses to Submit Page
+* Result: Pass
+
+### Fourth Page - Submit Confirmation
+
+Action: Click the yellow link ‘Click here to return to home page’
+* Expected: Directs to the Home Page
+* Result: Pass
+</details>
+<details> <summary>Responsiveness Tests for ux</summary>
+
+* 1350px 
+    * All sections appear correctly
+* 1250px
+    * Page 1 Benefit Section - Font size reduced
+    * Page 2 game Section - Font size reduces
+    * Page 2 Location Section - Address font size reduced
+    * Pagee 3 Form section - Font size reduced
+* 950px
+    * Page 1 Benefit Section - UL font size reduced
+    * Page 1 How Section - flex-direction:column 
+    * Page 1 Quote Section - font size reduced in the quote div
+    * Page 3 Form Section - location box size reduced
+* 800px
+    * Nav element font size reduced
+    * Page 1 First Section - Height of section reduced by 200px. Heading font size reduced
+    * Page 1 Benefit section - flex-direction:columm
+    * Page 1 Map Section - Height increases by 90px. Smaller Image appears, font size reduced
+    * Page 1 How Section - Height of the section reduced by 200px
+    * Page 2 Game Section - Headers and fotn size reduced, margin left and right reduced
+    * Page 3 Form Section - Height reduced to 800px, font size reduced
+    * Page 4 Submit Section - Height Reduced to 700px 
+* 600px
+    * Page 4 Submit Section - Height reduced to 600px, font size reduced with increased padding-left
+* 480px
+    * Nav element font size reduced
+    * Page 1 First Section - Height reduced to 310px. Smaller image replaced. Heading font size reduced, text centred.
+    * Page 1 Benefit Section - Height reduced by 90px, font size reduced
+    * Page 1 Map Section - Height reduced by 180px, smaller image replaced, font size reduced
+    * Page 1 How Section - Height reduced to 630px, font and icon size reduced
+    * Page 2 Game Section - flex-none, incresed margin by 5% 
+    * page 2 Location Section - flex-direction:column, increased height to 675px
+    * Page 3 Form Section - flex-direction:column 
+    * Page 4 Submit Section - Height reduced to 500px, font size reduced
+* 340px
+    * Page 2 Game Section - Flex-none, Height reduced to 450px, line-height increased
+* 280px 
+    * Nav element font size reduced
+    * Page 1 Benefit Section - Height increased by 90px, font size reduced
+    * Page 1 Map Section - Smaller image replaced
+    * Page 1 Quote Section - Height increased to 450px
+
+* No responsiveness problems to report, all sections are visible and readable on a range of devices and screen sizes.
+
+</details>
 
 ## Browser Testing
+<details><summary>Browser List</summary>
 * Microsoft Edge
 * Safari (apple) 
 * FireFox
+</details>
 
 ## Device Testing
+<details><summary>Device List</summary>
 * Iphone 7
 * Iphone 11
 * Samsung Galaxy s5
 * Ipad 6th Generation
 * MacBook Air 13"
 * HP Monitor 24"
+</details>
 
+## Bugs and Fixes
 
-### Bugs and Fixes
+<details><summary>Bug List</summary>
 
 Bug: Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
 * Fix: had line-style-type: non in the 'li' not 'ul.
@@ -337,6 +520,7 @@ Bug: Validator notifying me theres a problem with my font-awesome script locatio
 
 Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image files.
 * Fix: I converted files to webp and then compressed them further. This increased the performance by 9%.
+</details>
 
 # Deployment
 * GitHub and GitPod has been used for the creation and deployment of the site. By using Github Pages, the site can be viewed on all devices. 

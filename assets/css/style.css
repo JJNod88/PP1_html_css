@@ -997,6 +997,7 @@ footer {
     .meet-comm1 div {
         text-align: center;
         margin: 5%;
+        flex: none;
     }
 
     .meet-comm-text h3 {
@@ -1090,6 +1091,18 @@ footer {
             letter-spacing: 1px;
             font-size: 220%;
         }
+
+        #quote-games1 {
+            height: 450px;
+        }
+    
+        .meet-comm1 div {
+            flex: none;
+        }
+    
+        .meet-a {
+            line-height: 30px;
+        }
 }
 
 @media screen and (min-width: 0px) and (max-width: 280px) {
@@ -1112,18 +1125,6 @@ footer {
 
     #ms1 {
         background: url("../images/com-image-Promo_13_\ \(1\).webp") no-repeat center center;
-    }
-
-    #quote-games1 {
-        height: 450px;
-    }
-
-    .meet-comm1 div {
-        flex: none;
-    }
-
-    .meet-a {
-        line-height: 30px;
     }
 
     #submit {
