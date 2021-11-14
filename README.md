@@ -75,11 +75,12 @@ The Site needed to be intuitive, simple, and provide an enjoyable experience for
 For UX, I kept in mind the Five pillars of good UX, and used these as foundations for my Website. 
 
 ## 1. Strategy Plane -
-I have explained the strategy in detail in my Values page [here](#Value)
-* I used Wireframes for the basic design, utilised traditional football colours, kept the site simple, engaging and intuitive.
+I used Wireframes for the basic design, utilised traditional football colours, kept the site simple, engaging and intuitive.
+* I have explained the strategy around the site in detail in my Values page [here](#Value)
  
 ## 2. Scope Plane -
-This includes the features needed to provide content, material and access for Users. You can find this in detail [here](#Features) in my Features section.
+This includes the features needed to provide content, material and access for Users. 
+* You can find this in detail [here](#Features) in my Features section.
 
 ## 3. Structure Plane -
 ### Structure
@@ -295,6 +296,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * For reducing my Image files [Compressor.io](https://compressor.io/)
 * For image re-sizing I used [promo.com](https://promo.com)
 * For jpeg to webp conversions I used [Online-Converter-Free](https://onlineconvertfree.com/) 
+* Free images, royalty free. I used [pexels.com](https://www.pexels.com/)
 
 # Validation
 ## Lighthouse -
@@ -613,18 +615,20 @@ The purpose of a local deployment is for other coders to use my code to deploy m
     * Fixed my font-awesome script bug
     * Amending the h1 element in my header so that only one h1 element per page
 
-* Flexbox positioning, learned from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox 
+* Flexbox positioning, learned from developer.mozilla - [link](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
     * Introduced by mentor Antonija.
 
-* Confirming the correct html and css for using buttons https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+* Confirming the correct html and css for using buttons via developer.mozilla - [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
 
-* w3schools - Added opacity to my images https://www.w3schools.com/html/html_form_elements.asp for Form > Select element
+* Added opacity to my images, text, forms and button elements - [w3schools](https://www.w3schools.com/html/html_form_elements.asp) - 
 
-* Adding Google Maps - a google search had bullet points that I easily followed [link](https://www.google.com/search?q=how+to+add+google+maps+to+website+html&rlz=1C5CHFA_enGB972GB972&oq=how+to+add+google+maps+to&aqs=chrome.3.0i512l2j69i57j0i512l7.6790j0j7&sourceid=chrome&ie=UTF-8)
+* Adding Google Maps - a google search had bullet points that I easily followed - [link](https://www.google.com/search?q=how+to+add+google+maps+to+website+html&rlz=1C5CHFA_enGB972GB972&oq=how+to+add+google+maps+to&aqs=chrome.3.0i512l2j69i57j0i512l7.6790j0j7&sourceid=chrome&ie=UTF-8)
 
-* Love Running project for media query refresher training. 
+* Love Running project for media query refresher training 
 
-* Stack Overflow for extra ideas around media queries [link](https://stackoverflow.com/questions/51606127/standard-media-query-to-make-website-responsive/51606295) 
+* Stack Overflow for extra ideas around media queries - [link](https://stackoverflow.com/questions/51606127/standard-media-query-to-make-website-responsive/51606295) 
 
 * Image of UK - http://www.supercoloring.com/coloring-pages/united-kingdom-blank-outline-map. 
     * Author: Supercoloring. License: Creative Commons Attribution-Share Alike 4.0 License.
+
+* Image of person signing a document at a desk via pexels.com - [link](https://www.pexels.com/)
