@@ -61,6 +61,7 @@ h1, h2, h3 {
 #nav-header, #nav-bar {
     line-height: 50px;
     position: fixed;
+    letter-spacing: 3px;
 }
 
 /* navigation links */
@@ -985,9 +986,6 @@ footer {
 
     .meet-comm1 {
         flex-direction: column;
-        height: 540px;
-        padding-top: 3%;
-        margin: 5% 10%;
     }
 
     .meet-comm1 i {
@@ -1035,10 +1033,6 @@ footer {
     #ordsall-address {
         margin-left: 0;
         margin-top: 10%;
-    }
-
-    #location-title {
-        font-size: 100%;
     }
 
     #location-map {
@@ -1108,6 +1102,10 @@ footer {
 @media screen and (min-width: 0px) and (max-width: 280px) {
     #sticky h1 {
         font-size: 120%;
+    }
+
+    #nav-header {
+        letter-spacing: 1px;
     }
 
     #nav-bar {

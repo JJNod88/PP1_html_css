@@ -300,7 +300,10 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ## Lighthouse -
     * Desktop average: Performance 100%, Accessibility 96%, Best Practice 98%, SEO 100%.
     * Mobile average: Performance 94%, Accessibility 96%, Best Practice 98%, SEO 100%.
-    * Accessibility scoring is lowered due to the following: 'Links do not have a discernable name'. This is in relation to my footer icon used to direct users to thr sign up page. The footer is designed to be simplistic without words, however aria-labels have been utilised for accessibility.
+    * Accessibility scoring is lowered due to the following: 
+        * 'Links do not have a discernable name'. This is in relation to my footer icon used to direct users to thr sign up page. 
+        * The footer is designed to be simplistic without words, however aria-labels have been utilised for accessibility.
+        
 <details><summary>Evidence</summary>
 
 ![Image-of-lighthouse-results-desktop](/assets/images/readme-images/lighthouse-desktop.png)
@@ -316,19 +319,19 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 * Page 1 (Index) 
 
-![Image-of-w3c-validated-code](/assets/images/readme-images/index-html.png)
+![Image-of-w3c-validated-code](/assets/images/readme-images/validated-html.png)
 
 * Page 2 (Community)
 
-![Image-of-w3c-validated-code](/assets/images/readme-images/community-html.png)
+![Image-of-w3c-validated-code](/assets/images/readme-images/validated-html.png)
 
 * Page 3 (Form)
 
-![Image-of-w3c-validated-code](/assets/images/readme-images/form-html.png)
+![Image-of-w3c-validated-code](/assets/images/readme-images/validated-html.png)
 
 * Page 4 (Submit Page)
 
-![Image-of-w3c-validated-code](/assets/images/readme-images/index-html.png)
+![Image-of-w3c-validated-code](/assets/images/readme-images/validated-html.png)
 
 </details>
 
