@@ -1,18 +1,17 @@
 # My 5-A-Side
 
 # Contents
-* [Introduction](#-introduction)
+* [Introduction](#Introduction)
 * [Value](#Value)
-* [Screenshots]
-* [UX]
-* [Accessibility]
-* [Responsiveness]
-* [Features]
-* [Technologies]
-* [Testing]
-* [Validation]
-* [Deployment]
-* [Credits]
+* [UX](#UX)
+* [Accessibility](#Accessibility)
+* [Responsiveness](#Responsiveness)
+* [Features](#Features)
+* [Technologies](#Technologies)
+* [Validation](#Validation)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
 * [Content]
 
 
@@ -71,10 +70,6 @@ I have used real world teams, players and images to give the site authenticity, 
     * Specific Images have been used to make the site easier on the eye and fun to view. 
     * All images have an alt attribute for those needing a site that is accessible. 
     * It is inclusive. It has social media, contact links and forms to be able to sign up. 
-
-
-# Screenshots
-
 
 # UX
 The Site needed to be intuitive, simple, and provide an enjoyable experience for the Users. 
@@ -261,7 +256,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * Compressor.io to reduce the size of the file image size, improving the sites loading speeds
 * Online Converter Free for my jpeg to webp converts [link](https://onlineconvertfree.com/)
 
-# Testing
+# Validation
 ## Lighthouse -
     * Desktop average: Performance 100%, Accessibility 96%, Best Practice 98%, SEO 100%.
     * Mobile average: Performance 94%, Accessibility 96%, Best Practice 98%, SEO 100%.
@@ -299,6 +294,8 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
     * style.css document
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/css-code.png)
+
+# Testing 
 
 ## Manual Testing
 <details><summary>Actions, Expectations and Results</summary>
