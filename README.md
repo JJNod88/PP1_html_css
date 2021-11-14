@@ -300,9 +300,6 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ## Lighthouse -
     * Desktop average: Performance 100%, Accessibility 96%, Best Practice 98%, SEO 100%.
     * Mobile average: Performance 94%, Accessibility 96%, Best Practice 98%, SEO 100%.
-    * Accessibility scoring is lowered due to the following: 
-        * 'Links do not have a discernable name'. This is in relation to my footer icon used to direct users to thr sign up page. 
-        * The footer is designed to be simplistic without words, however aria-labels have been utilised for accessibility.
         
 <details><summary>Evidence</summary>
 
@@ -340,6 +337,14 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * style.css document
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/css-code.png)
+
+### Warnings with Code and validator
+
+* Validator raised one Warming, and Accessibility scoring is lowered in Lioghthouse due to the following: 
+    * 'Links do not have a discernable name'. This is in relation to my footer icon used to direct users to the sign up page. 
+    * The Validator warned of a possible missuse of this aria label, however both other footer elements have the same with no problems.
+* The footer is designed to be simplistic without words, however aria-labels have been utilised for accessibility.
+
 
 # Testing 
 
@@ -548,6 +553,7 @@ Action: Click the yellow link ‘Click here to return to home page’
 
 <details><summary>Bug List</summary>
 <br> 
+
 Bug: Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
 * Fix: had line-style-type: none in the 'li' not 'ul'.
 
@@ -590,21 +596,22 @@ Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image file
 
 ## Local Deployment
 The purpose of a local deployment is for other coders to use my code to deploy my website, allowing them to utilise the code and design so that they cna make changes to build their own. You can do this by: 
-1. Ensure git is installed
+1. Ensure git is installed on your device
 2. In Github, locate the correct repository, click the code button 'next to the gitpod button'
 3. Copy the link
-4. In the Git terminal, type the following code: git clone 'pasted link of the code from the repository'
+4. In the Gitpod terminal, type the following code: git clone 'pasted link of the code from the repository'
 5. Once loaded, check the correct files are in your repository, and that the code has loaded in Git.
 6. Run the code using a server of choice
-7. Check that the site is working, and begin to amend edit code
-8. Because there is a repository in github, the commands add, commit and push can be used for version control.
+7. Check that the site is working, and begin to amend and edit code
+8. Because there is a repository in github, the commands add, commit and push can be used for version control
 
 
 ## Credits
 * Mentor, Dick, for supporting me with bugs and recommendations.
     * Adding a link to the home page on submit page
-    * Chanding the flex-direction of the location & google maps section for smaller screen sizes
-    * Fixed my font-awesome script bug. 
+    * Changing the flex-direction of the location & google maps section for smaller screen sizes
+    * Fixed my font-awesome script bug
+    * Amending the h1 element in my header so that only one h1 element per page
 
 * Flexbox positioning, learned from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox 
     * Introduced by mentor Antonija.
