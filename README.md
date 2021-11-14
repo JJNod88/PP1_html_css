@@ -12,7 +12,7 @@
 * [Testing](#Testing)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
-* [Content]
+
 
 
 # Introduction
@@ -76,10 +76,10 @@ The Site needed to be intuitive, simple, and provide an enjoyable experience for
 For UX, I kept in mind the Five pillars of good UX, and used these as foundations for my Website. 
 
 ## 1. Strategy Plane -
-I have explained the startegy in detail [here](#-Value)
+I have explained the startegy in detail [here](#Value)
  
 ## 2. Scope Plane -
-This includes the features needed to provide content, material and access for Users. you can find the detail to this [here](#-Features)
+This includes the features needed to provide content, material and access for Users. you can find the detail to this [here](#Features)
 
 ## 3. Structure Plane -
 ### Structure
@@ -116,6 +116,36 @@ This includes the features needed to provide content, material and access for Us
 
 ## 5. Surface Plane -
 I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great indication of how the site will look once completed.
+
+<details><summary>Balsamiq WireFrames</summary>
+
+### Desktop
+
+* In order of Pages 1 - 4:
+
+![image-of-wireframe-page-1-desktop](/assets/images/readme-images/Page-1-dt.png)
+
+![image-of-wireframe-page-2-desktop](/assets/images/readme-images/Page-2-dt.png)
+
+![image-of-wireframe-page-3-desktop](/assets/images/readme-images/Page-3-dt.png)
+
+![image-of-wireframe-page-4-desktop](/assets/images/readme-images/Page-4-dt.png)
+
+### Smart Phones
+
+* In order of Pages 1 - 4:
+
+![image-of-wireframe-page-1-mobile](/assets/images/readme-images/Page-1-m.png)
+
+![image-of-wireframe-page-2-mobile](/assets/images/readme-images/Page-2-m.png)
+
+![image-of-wireframe-page-3-mobile](/assets/images/readme-images/Page-3-m.png)
+
+![image-of-wireframe-page-4-mobile](/assets/images/readme-images/Page-4-m.png)
+
+
+</details>
+
 ### Site Color palette
 * The sites main colors of choice are Green, White, Black and Red - 
     * Green, white and black are traditionaly associated with football, as the color of a football pitch is traidtionally green, with white lines. 
@@ -152,7 +182,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
         * For smartphones and Tablets I adapted the media queries to use smaller images, fonts and changed structures by using Flex-Directions. 
         * I grouped my elements as much as I could to reduce the amount of changes to the layout. I started my Media Queries at max 1250px which is around the industry standard size for desktop screns and worked my way down, until I got to smartphones with a Media Query set up for Min 0px and Max 480px. 
         * Seperating my Media Queries like this really helped as I tested the site scaling. Fortunately I have two screens to work from which meant not only could I code whilst using Google Developer, I can test the Site realtime using an Apple MacBook Screen and a HP Large Desktop Monitor Screen.
-* The site had thorough testing to ensure these Media queries worked and the site was responsive. Please visit [Testing](#-Testing) for further detail and 
+* The site had thorough testing to ensure these Media queries worked and the site was responsive. Please visit [Testing](##Manual-Testing) for further detail and 
 
  
 # Features:
@@ -567,8 +597,3 @@ Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image file
 
 * Image of UK - http://www.supercoloring.com/coloring-pages/united-kingdom-blank-outline-map. 
     * Author: Supercoloring. License: Creative Commons Attribution-Share Alike 4.0 License.
-
-## Content
-
-
-## Media
