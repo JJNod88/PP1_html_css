@@ -582,7 +582,8 @@ Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image file
     4. Returning to my repository in GitHub, I located the 'page section' in Settings
     5. I then changed the source from 'none' to 'Master Branch' and published the link.
     6. I checked this was working by following the link. 
-* < Insert Link to the Page >
+
+* Link to my Site [jjn-my-five-aside](https://jjnod88.github.io/jjn-my-five-aside/)
 
 
 ## Credits
