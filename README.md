@@ -256,22 +256,38 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 # Testing
 ### Lighthouse -
-    * Mobile average: Performance 90%, Accessibility 94%, Best Practice 98%, SEO 97%.
-    * Desktop average: Performance 100%, Accessibility 94%, Best Practice 98%, SEO 100%.
+    * Desktop average: Performance 100%, Accessibility 96%, Best Practice 98%, SEO 100%.
+    * Mobile average: Performance 94%, Accessibility 96%, Best Practice 98%, SEO 100%.
+
+![Image-of-lighthouse-results-desktop](/assets/images/readme-images/lighthouse-desktop.png)
+![Image-of-lighthouse-results-mobile](/assets/images/readme-images/lighthouse-mobile.png)
+
+
 
 ### Validator Testing
-W3C HTML
+#### W3C HTML
+
     * Page 1 (Index) 
-![Image-of-w3c-validated-code](/assets/images/readme-images/index html.png)
+
+![Image-of-w3c-validated-code](/assets/images/readme-images/index-html.png)
+
     * Page 2 (Community)
-    ![Image-of-w3c-validated-code](/assets/images/readme-images/community-html.png)
+
+![Image-of-w3c-validated-code](/assets/images/readme-images/community-html.png)
+
     * Page 3 (Form)
-    ![Image-of-w3c-validated-code](/assets/images/readme-images/form-html.png)
+
+![Image-of-w3c-validated-code](/assets/images/readme-images/form-html.png)
+
     * Page 4 (Submit Page)
-    ![Image-of-w3c-validated-code](/assets/images/readme-images/index html.png)
-W3C CSS
+
+![Image-of-w3c-validated-code](/assets/images/readme-images/index-html.png)
+
+#### W3C CSS
+
     * style.css document
-    ![Image-of-w3c-validated-code](/assets/images/readme-images/css-code.png)
+
+![Image-of-w3c-validated-code](/assets/images/readme-images/css-code.png)
 
 ### Site Testing
 Please follow this [link](../tworeadme.md)
@@ -280,6 +296,15 @@ Please follow this [link](../tworeadme.md)
 ### Browser Testing
 * Microsoft Edge
 * Safari (apple) 
+* FireFox
+
+### Device Testing
+* Iphone 7
+* Iphone 11
+* Samsung Galaxy s5
+* Ipad 6th Generation
+* MacBook Air 13"
+* HP Monitor 24"
 
 
 ### Bugs and Fixes

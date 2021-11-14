@@ -9,13 +9,13 @@ Have checked everything works on my website.
 * Android Galaxy S5
 
 ### Header & Nav
-Action: Visible and accessible
-Expected: Constant
-Result: Pass
+* Action: Visible and accessible
+* Expected: Constant
+* Result: Pass
 
-Action: Click on the ‘My 5-A-Side page title’
-Expected: Directs to Home Page
-Result: Pass
+* Action: Click on the ‘My 5-A-Side page title’
+* Expected: Directs to Home Page
+* Result: Pass
 
 Action: Click on ‘Home’
 Expected: Directs to Home Page
