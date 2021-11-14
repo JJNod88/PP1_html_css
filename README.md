@@ -255,16 +255,17 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 
 # Testing
-### Lighthouse -
+## Lighthouse -
     * Desktop average: Performance 100%, Accessibility 96%, Best Practice 98%, SEO 100%.
     * Mobile average: Performance 94%, Accessibility 96%, Best Practice 98%, SEO 100%.
+    * Accessibility scoring is lowered due to the following: 'Links do not have a discernable name'. This is in relation to my footer icon used to direct users to thr sign up page. The footer is designed to be simplistic without words, however aria-labels have been utilised for accessibility.
 
 ![Image-of-lighthouse-results-desktop](/assets/images/readme-images/lighthouse-desktop.png)
 ![Image-of-lighthouse-results-mobile](/assets/images/readme-images/lighthouse-mobile.png)
 
 
 
-### Validator Testing
+## Validator Testing
 #### W3C HTML
 
     * Page 1 (Index) 
@@ -283,22 +284,23 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/index-html.png)
 
-#### W3C CSS
+
+#### W3C CSS
 
     * style.css document
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/css-code.png)
 
-### Site Testing
+## Site Testing
 Please follow this [link](../tworeadme.md)
 
 
-### Browser Testing
+## Browser Testing
 * Microsoft Edge
 * Safari (apple) 
 * FireFox
 
-### Device Testing
+## Device Testing
 * Iphone 7
 * Iphone 11
 * Samsung Galaxy s5
@@ -308,29 +310,33 @@ Please follow this [link](../tworeadme.md)
 
 
 ### Bugs and Fixes
+
 Bug: Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
-Fix: had line-style-type: non in the 'li' not 'ul.
+* Fix: had line-style-type: non in the 'li' not 'ul.
 
 Bug: Font not working properly.
-Fix: Capitalise first letter of font with brackets.
-
-Bug: Cant get my button to move in 'upcoming games'. I can style but not move it. 
-Fix: none
+* Fix: Capitalise first letter of font with brackets.
 
 Bug: Not sure how to have the active only highlight current page. It highlights home regardless
-Fix: None 
+* Fix: Mentor pointed out I only had the active class specified in one of my nav elements. I had previously copied and pasted my code into the seperate new pages, which was the cause. 
 
-Bug: Icons not aligned.
-Fix: Decreased size of the icons to match the others. Could have used Flexbox to do this also. 
+Bug: Icons not aligned in my benefits list.
+* Fix: Decreased size of the icons to match the others. Could have used Flexbox to do this also. 
 
-Bug: How to alt and reference images done in css
-Fix: Mentor, Dick, confirmed this was not neccessary when images are stored correctly in a linked css folder.
+Bug: How to alt and reference images done in css.
+* Fix: Mentor, Dick, confirmed this was not neccessary when images are stored correctly in a linked css folder.
 
 Bug: Hover Buttons on community page effect structure and repsonsiveness on smartphones and tablets
-Fix: Removed Hover buttons, not necessary here. 
+* Fix: Removed Hover buttons, not necessary here. 
 
 Bug: Location address and Google Maps when smaller resolution looked conjested and hard to read
-Fix: Added flex-direction: column and added margin / padding to increase the look and usability.
+* Fix: Added flex-direction: column and added margin / padding to increase the look and usability.
+
+Bug: Validator notifying me theres a problem with my font-awesome script location.
+* Fix: Mentor identified that on one of my pages the script was otuside the body. 
+
+Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image files.
+* Fix: I converted files to webp and then compressed them further. This increased the performance by 9%.
 
 # Deployment
 * GitHub and GitPod has been used for the creation and deployment of the site. By using Github Pages, the site can be viewed on all devices. 
@@ -345,22 +351,30 @@ Fix: Added flex-direction: column and added margin / padding to increase the loo
 
 
 ## Credits
-Flexbox positioning, learned from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox introduced by my mentor, Antonija.
+* Mentor, Dick, for supporting me with bugs and reciommendations.
+    * Adding a link to the home page on submit page
+    * Chanding the flex-direction of the location & google maps section for smaller screen sizes
+    * Fixed my font-awesome script bug. 
 
-Confirming button html and css https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+* Flexbox positioning, learned from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox 
+    * introduced by mentor Antonija.
 
-w3schools - Added opacity to my images
-https://www.w3schools.com/html/html_form_elements.asp for Form > Select element
+* Confirming the correct html and css for using buttons https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 
-Adding Google Maps - a google search had bullet points that I easily followed
+* w3schools - Added opacity to my images https://www.w3schools.com/html/html_form_elements.asp for Form > Select element
 
-Love Running project for media query refresher training. 
+* Adding Google Maps - a google search had bullet points that I easily followed [link](https://www.google.com/search?q=how+to+add+google+maps+to+website+html&rlz=1C5CHFA_enGB972GB972&oq=how+to+add+google+maps+to&aqs=chrome.3.0i512l2j69i57j0i512l7.6790j0j7&sourceid=chrome&ie=UTF-8)
 
-Stack Overflow for the correct media min max for images.
+* Love Running project for media query refresher training. 
 
-promo.com for picture re-sizing
+* Stack Overflow for extra ideas around media queries [link](https://stackoverflow.com/questions/51606127/standard-media-query-to-make-website-responsive/51606295) 
 
-Image of UK - http://www.supercoloring.com/coloring-pages/united-kingdom-blank-outline-map. Author: Supercoloring. License: Creative Commons Attribution-Share Alike 4.0 License.
+* promo.com for picture re-sizing
+
+* https://onlineconvertfree.com/ for jpeg to webp conversions 
+
+* Image of UK - http://www.supercoloring.com/coloring-pages/united-kingdom-blank-outline-map. 
+    * Author: Supercoloring. License: Creative Commons Attribution-Share Alike 4.0 License.
 
 ## Content
 
