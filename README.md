@@ -175,7 +175,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
     * UI Controls - Nav bar is set to Float Left so that you can use the tab to navigate it accurately. All buttons are accessible using the keyboard tab and enter functions.
     * For the form, I have used labels and linked them to inputs so that a screen reader can distinguish each field.
     * To ensure I have provided enough information for any links in my site, I have added aria-label outlinining the purpose of the link, and have used brackets if it is taking the person to a new tab.
-    * No Alt Attributes were used for images, as they were stored in the css folder (as directed by mentor).
+    * Images have been included using css statements, the w3c validator was telling me that these were not required as a result of this. 
 
 # Responsiveness
 ### Structure:
@@ -584,6 +584,17 @@ Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image file
     6. I checked this was working by following the link. 
 
 * Link to my Site [jjn-my-five-aside](https://jjnod88.github.io/jjn-my-five-aside/)
+
+## Local Deployment
+The purpose of a local deployment is for other coders to use my code to deploy my website, allowing them to utilise the code and design so that they cna make changes to build their own. You can do this by: 
+1. Ensure git is installed
+2. In Github, locate the correct repository, click the code button 'next to the gitpod button'
+3. Copy the link
+4. In the Git terminal, type the following code: git clone 'pasted link of the code from the repository'
+5. Once loaded, check the correct files are in your repository, and that the code has loaded in Git.
+6. Run the code using a server of choice
+7. Check that the site is working, and begin to amend edit code
+8. Because there is a repository in github, the commands add, commit and push can be used for version control.
 
 
 ## Credits
