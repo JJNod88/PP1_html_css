@@ -182,7 +182,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
         * For smartphones and Tablets I adapted the media queries to use smaller images, fonts and changed structures by using Flex-Directions. 
         * I grouped my elements as much as I could to reduce the amount of changes to the layout. I started my Media Queries at max 1250px which is around the industry standard size for desktop screns and worked my way down, until I got to smartphones with a Media Query set up for Min 0px and Max 480px. 
         * Seperating my Media Queries like this really helped as I tested the site scaling. Fortunately I have two screens to work from which meant not only could I code whilst using Google Developer, I can test the Site realtime using an Apple MacBook Screen and a HP Large Desktop Monitor Screen.
-* The site had thorough testing to ensure these Media queries worked and the site was responsive. Please visit [Testing](##Manual-Testing) for further detail and 
+* The site had thorough testing to ensure these Media queries worked and the site was responsive. Please visit [Testing](#Testing) for further detail and 
 
  
 # Features:
@@ -300,28 +300,31 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 
 ## Validator Testing
-#### W3C HTML
+### W3C HTML
 
-    * Page 1 (Index) 
+<details><summary>Pages 1 - 4:</summary>
+
+* Page 1 (Index) 
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/index-html.png)
 
-    * Page 2 (Community)
+* Page 2 (Community)
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/community-html.png)
 
-    * Page 3 (Form)
+* Page 3 (Form)
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/form-html.png)
 
-    * Page 4 (Submit Page)
+* Page 4 (Submit Page)
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/index-html.png)
 
+</details>
 
-#### W3C CSS
+### W3C CSS
 
-    * style.css document
+* style.css document
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/css-code.png)
 
