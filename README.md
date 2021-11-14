@@ -110,7 +110,6 @@ This includes the features needed to provide content, material and access for Us
         * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image). The height of each section is in mupltiples of 90px to maintain consistency throughout. 
         * Headings and Images are specific to the sites purpose.
         * Each section has been designed to sell, provide information and direct the user to the product. 
-        * For my background color I used rgba(0,44,0,.1);, which allows for content to be easily visible and also minimilistic whilst the green matches the theme of a football site. I have seperated sections using the standard white background color or Images for good contrast and simplicity.
     * Navigation 
         * I have used lots of naviation in my site, to allow users to navigate the site with ease.
         * A visible header, with a position:sticky and Z-index of 999 means it is always accessible and visible. The title and three page navs link to all aspects of the site. 
@@ -121,7 +120,12 @@ This includes the features needed to provide content, material and access for Us
         
 
 ## 5. Surface Plane -
-I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great indication of how the site will look once completed. 
+I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great indication of how the site will look once completed.
+### Site Color palette
+* The sites main colors of choice are Green, White, Black and Red - 
+    * Green, white and black are traditionaly associated with football, as the color of a football pitch is traidtionally green, with white lines. 
+    * I used red as a background for text, icons and attributes as it effectively stands out against the other colors. Often, football corner flags are red. 
+* For my background color I used rgba(0,44,0,.1);, which allows for content to be easily visible and also minimilistic whilst the green matches the theme of a football site. I have seperated sections using the standard white background color or Images for good contrast and simplicity.
 ###  Font size, color, type and styling:
 * Font color has been standardised to dark green, designed to be clearly visible, consistent and following the football theme color.
 * Font sizing has been duplicated where possible. This includes appropriate proportions for icons vs their text, all headers on each page the same size and font. Have used % to increase responsiveness.
@@ -142,7 +146,6 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
     * For the form, I have used labels and linked them to inputs so that a screen reader can distinguish each field.
     * To ensure I have provided enough information for any links in my site, I have added aria-label outlinining the purpose of the link, and have used brackets if it is taking the person to a new tab.
 
-
 # Responsiveness
 ### Structure:
 * Flexbox has been used to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sections and divs were automatically positioned correctly, and did so when scaling the screen size up and down. This saves a lot of time and looks great!
@@ -160,11 +163,15 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 # Features:
 ### Header & Footer
 * Consistent interactive Header and Nav elements are used throughout the entire site.
-    * The site has a Navigation bar accessible at all times, that blends in to the web page. It includes a link to the *Home*, *Community* and *Sign Up* pages.  
+    * The site has a Navigation bar accessible at all times via the header, that blends in to the web page. It includes a link to the *Home*, *Community* and *Sign Up* pages.  
         * Navigation Bar is the same size throughout, and repsonds to responsive design in the same way.  
         * Navigation Bar is fixed with a position:fixed and a z-index: 999; ensuring it is always visible and accessible
     * A simple Footer with links to *facebook*, *Email/Contact us* and *Sign Up* pages.
         * The Footer is the same size throughout, and repsonds to responsive design in the same way.  
+
+![image-of-header](/assets/images/readme-images/header.png)
+![image-of-footer](/assets/images/readme-images/footer.png)
+
 
 ## Four pages -
 
@@ -249,10 +256,10 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * Github - Store Projects, Repositories and commits from Git
 * Google Fonts - For addiitonal font styles
 * Font Awesome - Use of Icons
-* Balsamiq - Wireframes for site designs and planning
+* Balsamiq.com - Wireframes for site designs and planning
 * Promo.com for rescaling images
 * Compressor.io to reduce the size of the file image size, improving the sites loading speeds
-
+* Online Converter Free for my jpeg to webp converts [link](https://onlineconvertfree.com/)
 
 # Testing
 ## Lighthouse -
@@ -475,27 +482,31 @@ Action: Click the yellow link ‘Click here to return to home page’
 
 ## Browser Testing
 <details><summary>Browser List</summary>
+
 * Microsoft Edge
 * Safari (apple) 
 * FireFox
+
 </details>
 
 ## Device Testing
 <details><summary>Device List</summary>
+
 * Iphone 7
 * Iphone 11
 * Samsung Galaxy s5
 * Ipad 6th Generation
 * MacBook Air 13"
 * HP Monitor 24"
+
 </details>
 
 ## Bugs and Fixes
 
 <details><summary>Bug List</summary>
-
+<br> 
 Bug: Theres a single circle in one of my div elements as part of my 'li'. I have text-decoration:none but still shows. It shows on Dev Tools but theres nothing in my html pointing to what it is. 
-* Fix: had line-style-type: non in the 'li' not 'ul.
+* Fix: had line-style-type: none in the 'li' not 'ul'.
 
 Bug: Font not working properly.
 * Fix: Capitalise first letter of font with brackets.
@@ -535,13 +546,13 @@ Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image file
 
 
 ## Credits
-* Mentor, Dick, for supporting me with bugs and reciommendations.
+* Mentor, Dick, for supporting me with bugs and recommendations.
     * Adding a link to the home page on submit page
     * Chanding the flex-direction of the location & google maps section for smaller screen sizes
     * Fixed my font-awesome script bug. 
 
 * Flexbox positioning, learned from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox 
-    * introduced by mentor Antonija.
+    * Introduced by mentor Antonija.
 
 * Confirming the correct html and css for using buttons https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 
