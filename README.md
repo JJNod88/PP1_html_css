@@ -29,7 +29,7 @@ I have used real world teams, players and images to give the site authenticity, 
 
 # Value
 ### New User / Target Audience
-* Users who are both new and experienced in playing football, specficially 5, 6 and 7-aside football. 
+* Users who are both new and experienced in playing football, specifically 5, 6 and 7-aside football. 
 * Who want to learn of the benefits to playing 5-a-side.
 * Who do not currently play in a team and are looking to join one.
 * Who play as part of a team and want to find new players.
@@ -68,7 +68,6 @@ I have used real world teams, players and images to give the site authenticity, 
     * The use of real world images, players and locations give the site authenticity and a personal touch, giving it relateability.
     * The site is responsive, so they can access the site on the move on their smartphone, tablet or desktop.
     * Specific Images have been used to make the site easier on the eye and fun to view. 
-    * All images have an alt attribute for those needing a site that is accessible. 
     * It is inclusive. It has social media, contact links and forms to be able to sign up. 
 
 # UX
@@ -76,20 +75,24 @@ The Site needed to be intuitive, simple, and provide an enjoyable experience for
 For UX, I kept in mind the Five pillars of good UX, and used these as foundations for my Website. 
 
 ## 1. Strategy Plane -
-I have explained the startegy in detail [here](#Value)
+I have explained the strategy in detail in my Values page [here](#Value)
+* I used Wireframes for the basic design, utilised traditional football colours, kept the site simple, engaging and intuitive.
  
 ## 2. Scope Plane -
-This includes the features needed to provide content, material and access for Users. you can find the detail to this [here](#Features)
+This includes the features needed to provide content, material and access for Users. You can find this in detail [here](#Features) in my Features section.
 
 ## 3. Structure Plane -
 ### Structure
 * For the site I have used HTML for the core structure and CSS for styling -
     * HTML structuring:
         * My structure includes four pages, each with: Header & Nav > Sections with headers, divs and additional elements > Footer & Nav.
+        * Each page is ordered to go left to right, with the suitable direction of the Landing Page, Community Page and then the Sign Up page where users have had sufficient time and knowledge on whether they would like to sign up.
         * Whilst I followed the industry standard for a core html structure, I used Flexboxes to structure my content throughout.  
-        * This proved extremely beneficial in structuring each section. I used no more than 3 divs per section using display:flex, this meant each section is positioned equally in either 100%, 50% or 33% divs. This increases the visual consistency and display of my content, and allowed my elements to be aligned.
+            * This proved extremely beneficial in structuring each section. I used no more than 3 divs per section using display:flex, this meant each section is positioned equally in either 100%, 50% or 33% divs. This increases the visual consistency and display of my content, and allowed my elements to be aligned.
         * I ensured I correctly linked my CSS stylesheet (checked using the background color technique) with appropriate SEO key words so my site is searchable on the internet.
         * Because of the way I structured my site, I was able to duplicate many of my html elements into new pages. This was great for time saving and consistency.
+        * For the sections of my site, i used multiples of 90px when possible to keep the site consistent.
+        * Some of the sections do change in format as screen resolutions reduce, however the structure of the site remains in the same order.
     * CSS
         * I created an asset folder that held my style.css sheet which allowed me to style many pages at once. I linked this in to the html using rel and href attributes 
         * Images were kept in the Asset folder under an inserted Images folder, this ensured there would always be an image there, without the risk of an external owner closing a website or authorisations. 
@@ -100,22 +103,22 @@ This includes the features needed to provide content, material and access for Us
 ### Site Layout
 * The Site needed to be presented in an intuitive and simple way. One that makes it easy to use with its naviagtion and features.
     * Layout
+        * Each page has the same Header and Footer.
         * It consists of a landing page, a community page, a sign up page and a submit successful page. 
-        * Left to Right, the Site flows correctly. Home > Community > Sign Up.
+        * Left to Right, the Site flows correctly and in an order. Home > Community > Sign Up.
         * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image). The height of each section is in mupltiples of 90px to maintain consistency throughout. 
         * Headings and Images are specific to the sites purpose.
         * Each section has been designed to sell, provide information and direct the user to the product. 
     * Navigation 
-        * I have used lots of naviation in my site, to allow users to navigate the site with ease.
+        * I have used lots of navigation in my site, to allow users to navigate the site with ease.
         * A visible header, with a position:sticky and Z-index of 999 means it is always accessible and visible. The title and three page navs link to all aspects of the site. 
             * This is the same for the Footer.
         * In my icons I have added href links to the appropriate sections and pages. An example of this is the 'how' icons on the index page. They direct to sign up and to the available game section. I have also used :hover elements to make them stand out and easier to click on. 
         * My buttons have links, and also stand out with red backgrounds. I have also used :hover elements to make them stand out and easier to click on. 
-        * _blank has been used to ensure new tabs are created when a user is directed to one, to keep them active on my website
-        
+        * _blank has been used to ensure new tabs are created when a user is directed to one, to keep them active on my website      
 
 ## 5. Surface Plane -
-I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great indication of how the site will look once completed.
+I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great indication of how the site will look once completed. Please see them below.
 
 <details><summary>Balsamiq WireFrames</summary>
 
@@ -149,7 +152,8 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ### Site Color palette
 * The sites main colors of choice are Green, White, Black and Red - 
     * Green, white and black are traditionaly associated with football, as the color of a football pitch is traidtionally green, with white lines. 
-    * I used red as a background for text, icons and attributes as it effectively stands out against the other colors. Often, football corner flags are red. 
+    * I used red as a background for text, icons and attributes as it effectively stands out against the other colors. Often, football corner flags are red.
+    * I ensured all text, images and content was distinctly visible, careful not to use colours that contrast and make them hard to distinguish from one another.  
 * For my background color I used rgba(0,44,0,.1);, which allows for content to be easily visible and also minimilistic whilst the green matches the theme of a football site. I have seperated sections using the standard white background color or Images for good contrast and simplicity.
 ###  Font size, color, type and styling:
 * Font color has been standardised to dark green, designed to be clearly visible, consistent and following the football theme color.
@@ -161,6 +165,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * Images were chosen that represented the sites identity. Stored in an Assets folder so they would always be visible. 
     * Landing Page has a picture of a football pitch that gives the site meaning instantly to the user.
     * Use of real images of the football teams (Location section) gives the site meaning.
+    * A ReadMe Images folder was created, for images utilised in the ReadMe. 
 
 # Accessibility
 * The site is accessible to Users who may have a disability that prevents them from accessing the site in certain ways.
@@ -170,12 +175,14 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
     * UI Controls - Nav bar is set to Float Left so that you can use the tab to navigate it accurately. All buttons are accessible using the keyboard tab and enter functions.
     * For the form, I have used labels and linked them to inputs so that a screen reader can distinguish each field.
     * To ensure I have provided enough information for any links in my site, I have added aria-label outlinining the purpose of the link, and have used brackets if it is taking the person to a new tab.
+    * No Alt Attributes were used for images, as they were stored in the css folder (as directed by mentor).
 
 # Responsiveness
 ### Structure:
 * Flexbox has been used to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sections and divs were automatically positioned correctly, and did so when scaling the screen size up and down. This saves a lot of time and looks great!
+    * Flex-Direction has been used also to restructure sections and screen sizes are reduced.
 ### Units:
-* Across the site I have used primarily % for sizing. This inclused in height, width, padding, margins and font-sizes etc. I implemented this from the beginning to ensure my design was adaptive across multiple screen sizes - This is extremely important in todays world as there is not one size fits all. 
+* Across the site I have used primarily % for sizing. This inclused in height, width, padding, margins and font-sizes etc. I implemented this from the beginning to ensure my design was adaptive across multiple screen sizes - This is extremely important in todays world with so many devices of different sizes. 
 ### Media queries and designs 
 * I have implemented different screen resolutions to ensure the site is responsive at different sizes and can be used on any device.
     * Using Google Developer, I have tested each element of the site to ensure it responds to scaling.
@@ -183,7 +190,6 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
         * I grouped my elements as much as I could to reduce the amount of changes to the layout. I started my Media Queries at max 1250px which is around the industry standard size for desktop screns and worked my way down, until I got to smartphones with a Media Query set up for Min 0px and Max 480px. 
         * Seperating my Media Queries like this really helped as I tested the site scaling. Fortunately I have two screens to work from which meant not only could I code whilst using Google Developer, I can test the Site realtime using an Apple MacBook Screen and a HP Large Desktop Monitor Screen.
 * The site had thorough testing to ensure these Media queries worked and the site was responsive. Please visit [Testing](#Testing) for further detail and 
-
  
 # Features:
 ### Header & Footer
@@ -192,7 +198,8 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
         * Navigation Bar is the same size throughout, and repsonds to responsive design in the same way.  
         * Navigation Bar is fixed with a position:fixed and a z-index: 999; ensuring it is always visible and accessible
     * A simple Footer with links to *facebook*, *Email/Contact us* and *Sign Up* pages.
-        * The Footer is the same size throughout, and repsonds to responsive design in the same way.  
+        * The Footer is the same size throughout, and repsonds to responsive design in the same way. 
+        * It has a Z-Index of 900 to ensure it is always visible, but not sticky as this would have impacted the visbility of the content.  
 
 ![image-of-header](/assets/images/readme-images/header.png)
 ![image-of-footer](/assets/images/readme-images/footer.png)
@@ -209,26 +216,28 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ![image-of-landing-page](/assets/images/readme-images/landing-page.png)
 
 * Benefits Section -
-    * A Catchy phrase giving the User an other reason why they are visiting. 
+    * A Catchy phrase reinforcing a reason as to why the user is visiting.
     * Benefits displayed with appropriate Icons in Red, in a List style. 
+    * The structure of this section changes when at a reduced screen size to ensure the UX of it. 
 
 ![image-of-landing-page-benefit-section](/assets/images/readme-images/LP-benefits.png)
 
 * Map and Key Indicator Section -
-    * There is a basic Map with Manchester circled, reminding the user of the sites taregteed locations
+    * There is a basic Map with Manchester circled, reminding the user of the sites taregted locations
     * Adjacent to the Map are some Key Indicators of how many live games, members and Goals there is. This was to give the User a personal feel to the site, one where if they are a member they can contribute too.
+    * I have included multiple images of the map for improved ux as the screen size reduces
 
 ![image-of-landing-page-map-stats-section](/assets/images/readme-images/LP-map-and-stats.png)
 
 * How Section -
-    * I have created 3 large icons with a few words outlining how to use the site. 
-    * the icons have a link to the corresponsing part of the site, with 'hover' styling to increase its size when a user hovers over them.
+    * I have created 3 large icons with key words outlining how to use the site. 
+    * The icons have a link to the corresponsing part of the site, with 'hover' styling to increase its size when a user hovers over them.
 
 ![image-of-landing-page-how-section](/assets/images/readme-images/LP-how-to.png)
 
 * Quote Section -
     * To give context and personality, a quote from one of the members of the site has been added. This is adjacent to a clear header.
-    * The quote has a white background so it stands out, it in italic, and has a 'hover' styling.
+    * The quote has a white background so it stands out, it in italic, and has a 'hover' styling for improved user experience.
 
 ![image-of-landing-page-feedback-section](/assets/images/readme-images/LP-feedback.png)
 
@@ -238,10 +247,10 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * Avalable Games section -
     * This section has details of the available games. It is designed to be inclusive with an image of the games creator with details of the game.
     * Each game section has a border with a 3D effect to help it blend in. It has a white background to stand out, with three accessible buttons.
-    * Each button has a link to the corresponsing part of the site.
-        * Request to Join - Takes the user to the sign up page if they are not a member
-        * Check Location - Takes the User to the Location section and its specific pitch location
-        * Contact Us - Takes the User to Outlook External Website, where they could contact the Game Creator (in the absence of a member chat area)
+    * Each button has a link to the corresponsing part of the site, or external site depending.
+        * Request to Join - Takes the user to the sign up page if they are not a member.
+        * Check Location - Takes the User to the Location section and its specific pitch location.
+        * Contact Us - Takes the User to Outlook External Website, where they could contact the Game Creator (in the absence of a member chat area).
 
 ![image-of-community-page](/assets/images/readme-images/Community-Page.png)
 
@@ -251,6 +260,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
     * Embedded in the abckgroudn image are two divs containing Address Details and a Google Maps link.
         * The Address details have a transparent red background, following the color scheme of the site, with large and readable text.
         * For additional site functionality, there is also a Google Maps image of the location, which can be enlarged and followed on an external tab.
+        * The structure of this section changes when at a reduced screen size to ensure the UX of it. 
 
 ![image-of-community-location](/assets/images/readme-images/CP-Locations.png)
 
@@ -261,7 +271,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
     * Kept simple and to the point, there is only once section for the Sign Up page.
         * It has a formal background image of a person in a suit writing down on paper on a desk. This image was chosen, as it reflects a football manager or player signing a football contract. So is relateable.
         * It is set at the same opacity as the landing page background image. This keeps theme consistency but also allows the form to be more visible.
-    * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** and**Location** with a radio buttons of **Manchester** and **Other**.
+        * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** and**Location** with a radio buttons of **Manchester** and **Other**.
 
 ![image-of-sign-up-page](/assets/images/readme-images/Sign-Up-Page.png)
 
@@ -278,13 +288,13 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * HTML5
 ### Programmes
 * Git - Version Control (add, commit, push)
-* Github - Store Projects, Repositories and commits from Git
-* Google Fonts - For addiitonal font styles
-* Font Awesome - Use of Icons
-* Balsamiq.com - Wireframes for site designs and planning
-* Promo.com for rescaling images
-* Compressor.io to reduce the size of the file image size, improving the sites loading speeds
-* Online Converter Free for my jpeg to webp converts [link](https://onlineconvertfree.com/)
+* To Store Projects, Repositories and commits from Git, GitHub was used [GitHub](https://github.com/)
+* Google Fonts for addiitonal font styles [google-fonts](https://fonts.google.com/)
+* I used Font awesoe for my icons [font-awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+* Wireframes for site designs and planning I used [balsamiq](https://balsamiq.com/)
+* For reducing my Image files [Compressor.io](https://compressor.io/)
+* For image re-sizing I used [promo.com](https://promo.com)
+* For jpeg to webp conversions I used [Online-Converter-Free](https://onlineconvertfree.com/) 
 
 # Validation
 ## Lighthouse -
@@ -333,7 +343,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ## Manual Testing
 <details><summary>Actions, Expectations and Results</summary>
 
-Have checked everything works on my website.
+Have tested everything works on my website on the following devices:
 
 * Desktop - MacBookAir 13" 
 * HP 24” Monitor
@@ -593,10 +603,6 @@ Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image file
 * Love Running project for media query refresher training. 
 
 * Stack Overflow for extra ideas around media queries [link](https://stackoverflow.com/questions/51606127/standard-media-query-to-make-website-responsive/51606295) 
-
-* promo.com for picture re-sizing
-
-* https://onlineconvertfree.com/ for jpeg to webp conversions 
 
 * Image of UK - http://www.supercoloring.com/coloring-pages/united-kingdom-blank-outline-map. 
     * Author: Supercoloring. License: Creative Commons Attribution-Share Alike 4.0 License.
