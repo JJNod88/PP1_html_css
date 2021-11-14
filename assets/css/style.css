@@ -102,7 +102,7 @@ h1, h2, h3 {
     height: 900px;
     width: 100%;
     padding: 0;
-    background: url("../images/resized-image-Promo\ \(1\).jpeg") no-repeat center center;
+    background: url("../images/com-image-Promo-_1_\ \(1\).webp") no-repeat center center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,7 +209,7 @@ h1, h2, h3 {
 
 #ms1 {
     flex: 1;
-    background: url("../images/resized-image-Promo\ \(7\).jpeg") no-repeat center center;
+    background: url("../images/com-image-Promo_7_\ \(1\).webp") no-repeat center center;
     height: 100%;
 }
 
@@ -455,7 +455,7 @@ footer {
 
 #location {
     height: 450px;
-    background: url("../images/PHOTO-2021-10-14-22-31-59.jpg") no-repeat center center;
+    background: url("../images/com-ordsall-pitch\ \(1\).webp") no-repeat center center;
     opacity: 0.7;
     display: flex;
     align-items: center;
@@ -516,7 +516,7 @@ footer {
     align-items: center;
     justify-content: center;
     line-height: 1.5;
-    background: url("../images/pexels-andrea-piacquadio-3771097.jpg") no-repeat center center;
+    background: url("../images/com-pexels-andrea-piacquadio-3771097\ \(1\).webp") no-repeat center center;
     opacity: 0.7;
     display: flex;
 }
@@ -573,7 +573,7 @@ footer {
     height: 810px;
     width: 100%;
     padding: 0;
-    background: url("../images/resized-image-Promo\ \(1\).jpeg") no-repeat center center;
+    background: url("../images/com-image-Promo-_1_\ \(1\).webp") no-repeat center center;
     opacity: 0.6
 }
 
@@ -703,17 +703,17 @@ footer {
     #poster {
         height: 700px;
         width: 100%;
-        background: url("../images/resized-image-Promo\ \(3\).jpeg") no-repeat center center;
+        background: url("../images/com-image-Promo_3_\ \(1\).webp") no-repeat center center;
     }
     
     #ms1 {
-        background: url("../images/resized-image-Promo\ \(8\).jpeg") no-repeat center center;
+        background: url("../images/com-image-Promo_8_\ \(1\).webp") no-repeat center center;
     }
 
     #submit-background {
         height: 800px;
         width: 100%;
-        background: url("../images/resized-image-Promo\ \(3\).jpeg") no-repeat center center;
+        background: url("../images/com-image-Promo_3_\ \(1\).webp") no-repeat center center;
     }
 
     #main-image-text {
@@ -869,7 +869,7 @@ footer {
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
     #poster {
-        background: url("../images/resized-image-Promo\ \(10\).jpeg") no-repeat center center;
+        background: url("../images/com-image-Promo_10_\ \(1\).webp") no-repeat center center;
         height: 500px;
     }
 
@@ -929,7 +929,7 @@ footer {
     }
 
     #ms1 {
-        background: url("../images/resized-image-Promo\ \(12\).jpeg") no-repeat center center;
+        background: url("../images/com-image-Promo_12_\ \(1\).webp") no-repeat center center;
     }
 
     #totaldiv p {
@@ -1108,6 +1108,10 @@ footer {
 
     #right-about ul {
         font-size: 80%;
+    }
+
+    #ms1 {
+        background: url("../images/com-image-Promo_13_\ \(1\).webp") no-repeat center center;
     }
 
     #quote-games1 {
