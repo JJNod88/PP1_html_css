@@ -261,15 +261,21 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 ### Validator Testing
 W3C HTML
-    * Page 1 (Index)
+    * Page 1 (Index) 
+![Image-of-w3c-validated-code](/assets/images/readme-images/index html.png)
     * Page 2 (Community)
+    ![Image-of-w3c-validated-code](/assets/images/readme-images/community-html.png)
     * Page 3 (Form)
+    ![Image-of-w3c-validated-code](/assets/images/readme-images/form-html.png)
     * Page 4 (Submit Page)
+    ![Image-of-w3c-validated-code](/assets/images/readme-images/index html.png)
 W3C CSS
     * style.css document
+    ![Image-of-w3c-validated-code](/assets/images/readme-images/css-code.png)
 
 ### Site Testing
-Please follow this link
+Please follow this [link](../tworeadme.md)
+
 
 ### Browser Testing
 * Microsoft Edge

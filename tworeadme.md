@@ -1,7 +1,6 @@
 
 ## Site Testing
 
-
 Have checked everything works on my website.
 
 * Desktop - Mac Book Air 13" and 24” additional screen
