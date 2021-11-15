@@ -300,52 +300,30 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 # Validation
 ## Lighthouse -
-    * Desktop average: Performance 100%, Accessibility 96%, Best Practice 98%, SEO 100%.
-    * Mobile average: Performance 94%, Accessibility 96%, Best Practice 98%, SEO 100%.
+    * Desktop average: Performance 100%, Accessibility 100%%, Best Practice 98%, SEO 100%.
+    * Mobile average: Performance 94%, Accessibility 100%, Best Practice 98%, SEO 100%.
         
 <details><summary>Evidence</summary>
 
-![Image-of-lighthouse-results-desktop](/assets/images/readme-images/lighthouse-desktop.png)
-![Image-of-lighthouse-results-mobile](/assets/images/readme-images/lighthouse-mobile.png)
+![Image-of-lighthouse-results-desktop](/assets/images/readme-images/lighthouse-desktop1.png)
+
+![Image-of-lighthouse-results-mobile](/assets/images/readme-images/lighthouse-mobile1.png)
 
  </details>
 
 
 ## Validator Testing
+
 ### W3C HTML
 
-<details><summary>Pages 1 - 4:</summary>
-
-* Page 1 (Index) 
-
-![Image-of-w3c-validated-code](/assets/images/readme-images/validated-html.png)
-
-* Page 2 (Community)
-
-![Image-of-w3c-validated-code](/assets/images/readme-images/validated-html.png)
-
-* Page 3 (Form)
-
-![Image-of-w3c-validated-code](/assets/images/readme-images/validated-html.png)
-
-* Page 4 (Submit Page)
-
-![Image-of-w3c-validated-code](/assets/images/readme-images/validated-html.png)
-
-</details>
+* Pages 1-4 were put through the w3c validator test, all with zero errors and warning. Please see below confirmation: 
+![Image-of-w3c-validated-code](/assets/images/readme-images/html-validator.png)
 
 ### W3C CSS
 
-* style.css document
+* style.css document:
 
 ![Image-of-w3c-validated-code](/assets/images/readme-images/css-code.png)
-
-### Warnings with Code and validator
-
-* Validator raised one Warming, and Accessibility scoring is lowered in Lighthouse due to the following: 
-    * Lighthouse - 'Links do not have a discernable name'. This is in relation to my footer icon used to direct users to the sign up page. 
-    * The Validator warned of a possible missuse of this aria label, however both other footer elements have the same with no problems, and was advised this was suitable.
-* The footer is designed to be simplistic without words, however aria-labels have been utilised for accessibility.
 
 
 # Testing 
