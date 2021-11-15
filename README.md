@@ -543,6 +543,7 @@ Action: Click the yellow link ‘Click here to return to home page’
 ## Browser Testing
 <details><summary>Browser List</summary>
 
+* Google Chrome
 * Microsoft Edge
 * Safari (apple) 
 * FireFox
