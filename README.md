@@ -82,7 +82,7 @@ For UX, I kept in mind the Five pillars of good UX, and used these as foundation
 ## 2. Scope Plane -
 This includes the features needed to provide content, material and access for Users. 
 * You can find this in detail [here](#Features) in my Features section.
-    * I needed to ensure the content was relevant and what the key functions were for a User of the site - Benefits, locations, feedback from current users, access to team information and the ability to sign up. 
+    * I needed to ensure the content was relevant and outline the key functions for a User of the site - Benefits, locations, feedback from current users, access to team information and the ability to sign up. 
 
 ## 3. Structure Plane -
 ### Structure
@@ -156,17 +156,18 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 ## 5. Surface Plane -
 
+### User Friendly
+* The sites main goal and content is specific: 
+    * It functions correctly and demonstrates to its users why it exists and how it can provide them with solutions to their problems and needs.
+
+### Site Color palette
+
 <details><summary>Color Palette in principal </summary>
 
 ![image-of-footer](/assets/images/readme-images/color-palette.png)
 
 </details>
 
-### User Friendly
-* The sites main goal and content is specific: 
-    * It functions correctly and demonstrates to its users why it exists and how it can provide them with solutions to their problems and needs.
-
-### Site Color palette
 * The sites main colors of choice are Green, White, Black and Red - 
     * Green, white and black are traditionaly associated with football, as the color of a football pitch is traidtionally green, with white lines. 
     * I used red as a background for text, icons and attributes as it effectively stands out against the other colors. Often, football corner flags are red.
@@ -235,7 +236,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ### 1. Landing Page (Home)
 * Landing Page section -
     * An image of a football will instantly tell the user the sites main focus, giving it visual context to grab their attention.
-    * The image has text overlay with the Sites Name, a catchy slogan, and a location. Re-inforcing the reason the site exists and why the User is visiting.  
+    * The image has text overlay with the Sites Name, a catchy slogan, and a location. Reinforcing the reason the site exists and why the User is visiting.  
     * The image has an opacity value, to help blend the text and header.  
 
 ![image-of-landing-page](/assets/images/readme-images/landing-page.png)
@@ -249,7 +250,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 * Map and Key Indicator Section -
     * There is a basic Map with Manchester circled, reminding the user of the sites targeted locations.
-    * Adjacent to the Map are some Key Indicators of how many live games, members and Goals there is. This was to give the User a personal feel to the site, one where if they are a member they can contribute too.
+    * Adjacent to the Map are some Key Indicators of how many live games, members and Goals there is. This was to give the User a personal feel to the site, one where if they are a member they can contribute to it.
     * I have included multiple images of the map for improved ux as the screen size reduces
 
 ![image-of-landing-page-map-stats-section](/assets/images/readme-images/LP-map-and-stats.png)
@@ -272,7 +273,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * Avalable Games section -
     * This section has details of the available games. It is designed to be inclusive with an image of the games creator with details of the game.
     * Each game section has a border with a 3D effect to help it blend in. It has a white background to stand out, with three accessible buttons.
-    * Each button has a link to the corresponsing part of the site, or external site depending allowing easy navigation for the User.
+    * Each button has a link to the corresponding part of the site, or external site depending allowing easy navigation for the User.
         * Request to Join - Takes the user to the sign up page if they are not a member.
         * Check Location - Takes the User to the Location section and its specific pitch location.
         * Contact Us - Takes the User to Outlook External Website, where they could contact the Game Creator (in the absence of a member chat area).
@@ -290,7 +291,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ![image-of-community-location](/assets/images/readme-images/CP-Locations.png)
 
 
-### 3. Sign Up Page (third)
+### 3. Sign Up Page (Third)
 * Same consistent header and footer
 * Form Section - 
     * Kept simple and to the point, there is only one section for the Sign Up page, and is clearly displayed as 'Sign Up'. 
@@ -302,7 +303,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ![image-of-sign-up-page](/assets/images/readme-images/Sign-Up-Page.png)
 
 
-### 4. Submit Page (additional)
+### 4. Submit Page (Fourth - additional)
 * To ensure excellent user UX, when submitting the button 'sign up' when completin the form, users are taken to a seprate page that consists with the sites design, to let them know that their sign up has been successful. There is also a message to wish them luck.
 * They are able to return back to the home page using either the 'Home' Button on the Nav Bar or a highlighted link in yellow. 
 
@@ -607,7 +608,7 @@ Bug: Was getting warnign of an incorrect aria-label one of my footer icon elemen
     3. GitPods version control funcitonality meant I could commit and push my code as I progressed. Previous commits were always accessible should I have needed to revisit them. I did this using the gitpod terminal: 'git add .' , 'git commit -m "message"' , 'Git push'. My Commit Messages were designed to be simple and descriptive. 
     4. Returning to my repository in GitHub, I located the 'page section' in 'Settings'. Located above the green GitPod button. 
     5. Via the 'source' section, I selected 'Master Branch' from the drop down and published the link.
-    6. My site was rthen displaying as published.
+    6. My site was then displaying as published.
     7. I followed the link by clicking on it to check that the site was working.
 
 * Link to my Site [jjn-my-five-aside](https://jjnod88.github.io/jjn-my-five-aside/)
