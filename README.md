@@ -273,6 +273,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
         * It has a formal background image of a person in a suit writing down on paper on a desk. This image was chosen, as it reflects a football manager or player signing a football contract. So is relateable.
         * It is set at the same opacity as the landing page background image. This keeps theme consistency but also allows the form to be more visible.
         * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** and**Location** with a radio buttons of **Manchester** and **Other**.
+        * I have added 'required' into these inputs so that users are prompted to fill in all of their information correctly, and will ensure they have to before submitting.
 
 ![image-of-sign-up-page](/assets/images/readme-images/Sign-Up-Page.png)
 
@@ -283,6 +284,11 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 ![image-of-submit-page](/assets/images/readme-images/Submit-Page.png)
 
+### Future Features
+
+* I will add a carousel to the games section as more games are added.
+* Using additional languages and programmes, I will enable users to create profiles, utilise a dashboard and allow them to manage their games and teams. 
+* Add a payment section to collect player subs. 
 
 # Technologies
 * CSS
@@ -317,6 +323,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ### W3C HTML
 
 * Pages 1-4 were put through the w3c validator test, all with zero errors and warning. Please see below confirmation: 
+
 ![Image-of-w3c-validated-code](/assets/images/readme-images/html-validator.png)
 
 ### W3C CSS
@@ -560,33 +567,40 @@ Bug: Validator notifying me theres a problem with my font-awesome script locatio
 
 Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image files.
 * Fix: I converted files to webp and then compressed them further. This increased the performance by 9%.
+
+### No Unfixed Bugs to report.
+
 </details>
 
 # Deployment
 * GitHub and GitPod has been used for the creation and deployment of the site. By using Github Pages, the site can be viewed on all devices. 
     To do this I:
-    1. Created a Repository on [GitHub Pages](https://github.com/) using my user profile.
-    2. Utilised GitPod, accessible in my repository, to create my site using html and css.
-    3. GitPods version control funcitonality meant I could commit and push my code as I progresses. Previouses commits were always accessible should I have needed to revisit them. 
-    4. Returning to my repository in GitHub, I located the 'page section' in Settings
-    5. I then changed the source from 'none' to 'Master Branch' and published the link.
-    6. I checked this was working by following the link. 
+    1. Created a Repository on [GitHub Pages](https://github.com/) using my user profile that i set up for personal use.
+    2. Utilised GitPod, accessible in my repository, to create my site using html and css. The Gitpod Button is in bright green, below the setting tab and above the repository documents etc.
+    3. GitPods version control funcitonality meant I could commit and push my code as I progresses. Previouses commits were always accessible should I have needed to revisit them. I did this using the gitpod terminal: 'git add .' , 'git commit -m "message"' , 'Git push'. My Commit Messages were designed to be simple and descriptive. 
+    4. Returning to my repository in GitHub, I located the 'page section' in 'Settings'. Located above the green GitPod button. 
+    5. Via the 'source' section, I selected 'Master Branch' from the drop down and published the link.
+    6. My site was rthen displaying as published.
+    7. I followed the link by clicking on it to check that the site was working.
 
 * Link to my Site [jjn-my-five-aside](https://jjnod88.github.io/jjn-my-five-aside/)
 
 ## Local Deployment
 The purpose of a local deployment is for other coders to use my code to deploy my website, allowing them to utilise the code and design so that they cna make changes to build their own. You can do this by: 
 1. Ensure git is installed on your device
-2. In Github, locate the correct repository, click the code button 'next to the gitpod button'
+2. In Github, locate the correct repository, click the code button 'next to the gitpod button'.
 3. Copy the link
-4. In the Gitpod terminal, type the following code: git clone 'pasted link of the code from the repository'
-5. Once loaded, check the correct files are in your repository, and that the code has loaded in Git.
-6. Run the code using a server of choice
-7. Check that the site is working, and begin to amend and edit code
+4. In a ternminal, type the following code: git clone 'pasted link of the code from the repository'
+5. Once loaded, change into the created directory
+6. Double click index.html which will open the website in the default browser.
+7. Check that the site is working, and begin to amend and edit the code.
 8. Because there is a repository in github, the commands add, commit and push can be used for version control
 
 
 ## Credits
+
+### Content 
+
 * Mentor, Dick, for supporting me with bugs and recommendations.
     * Adding a link to the home page on submit page
     * Changing the flex-direction of the location & google maps section for smaller screen sizes
@@ -600,13 +614,15 @@ The purpose of a local deployment is for other coders to use my code to deploy m
 
 * Added opacity to my images, text, forms and button elements - [w3schools](https://www.w3schools.com/html/html_form_elements.asp) - 
 
-* Adding Google Maps - a google search had bullet points that I easily followed - [link](https://www.google.com/search?q=how+to+add+google+maps+to+website+html&rlz=1C5CHFA_enGB972GB972&oq=how+to+add+google+maps+to&aqs=chrome.3.0i512l2j69i57j0i512l7.6790j0j7&sourceid=chrome&ie=UTF-8)
-
 * Love Running project for media query refresher training 
 
 * Stack Overflow for extra ideas around media queries - [link](https://stackoverflow.com/questions/51606127/standard-media-query-to-make-website-responsive/51606295) 
+
+### Media 
 
 * Image of UK - http://www.supercoloring.com/coloring-pages/united-kingdom-blank-outline-map. 
     * Author: Supercoloring. License: Creative Commons Attribution-Share Alike 4.0 License.
 
 * Image of person signing a document at a desk via pexels.com - [link](https://www.pexels.com/)
+
+* Adding Google Maps - a google search had bullet points that I easily followed - [link](https://www.google.com/search?q=how+to+add+google+maps+to+website+html&rlz=1C5CHFA_enGB972GB972&oq=how+to+add+google+maps+to&aqs=chrome.3.0i512l2j69i57j0i512l7.6790j0j7&sourceid=chrome&ie=UTF-8)

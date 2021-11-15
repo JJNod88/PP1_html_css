@@ -97,7 +97,7 @@ h1, h2, h3 {
     border-bottom: 2px solid #df1616;
 }
 
-/* image section */
+/* Landing Page section */
 
 #poster {
     height: 900px;
@@ -141,7 +141,7 @@ h1, h2, h3 {
     color: white;
 }
 
-/* about us section */
+/* Benefit Section */
 
 #second-section {
     height: 540px;
@@ -198,7 +198,7 @@ h1, h2, h3 {
     color: rgba(255,0,0,0.7);  
 }
 
-/* map section */
+/* Map and Key Stats section */
 
 #mapsection {
     height: 630px;
@@ -252,7 +252,7 @@ h1, h2, h3 {
     color: rgb(0,43,0);
 }
 
-/* how section */
+/* How section */
 
 #how {
     height: 540px;
@@ -289,7 +289,7 @@ h1, h2, h3 {
     color: rgb(0,43,0);
 }
 
-/* new section */
+/* Feedback and Follow section */
 
 #quote-games1 {
     height: 450px;
@@ -371,7 +371,7 @@ footer {
     font-size: 160%;
 }
 
-/* community Games section */
+/* Commmunity Page and Games section */
 
 #captain-title {
     height: 200px;
@@ -452,7 +452,7 @@ footer {
     color: rgb(0,43,0);
 }
 
-/* location section */
+/* Location section */
 
 #location {
     height: 450px;
@@ -506,7 +506,7 @@ footer {
     box-shadow: 0 3px 6px rgb(0 0 0 / 40%), -1px 0px 15px 12px rgb(0 0 0 / 24%); 
 }
 
-/* form */
+/* Form Page and section */
 
 #form-section {
     height: 900px;
@@ -569,7 +569,8 @@ footer {
     text-align: center;
 }
 
-/* submit page */
+/* Submit Page section */
+
 #submit-background {
     height: 810px;
     width: 100%;
@@ -600,8 +601,7 @@ footer {
     color: yellow;
 }
 
-
-/* media queries large */
+/* Media queries Section - large screens 1250 - 1550px */
 
 @media screen and (max-width: 1550px) {
     .meet-comm1 {
@@ -625,7 +625,7 @@ footer {
         line-height: 60px;
     }
 
-/* next page 1250px media */
+/* Community page 1250px media */
 
     .meet-comm-image1 i {
         font-size: 500%;
@@ -650,7 +650,7 @@ footer {
         line-height: 30px;
     }
 
-    /* last page 1250px media */
+    /* Form page 1250px media */
 
     .form-data {
         font-size: 150%;
@@ -671,6 +671,8 @@ footer {
         padding-top: 30%;
     }
 }
+
+/* Media queries Section - max 950px */
 
 @media screen and (max-width: 950px) {
     #right-about ul {
@@ -696,6 +698,8 @@ footer {
     }
 }
 
+/* Media queries Section - max 800px */
+
 @media screen and (max-width: 800px) {
     #sticky {
         font-size: 70%;
@@ -709,12 +713,6 @@ footer {
     
     #ms1 {
         background: url("../images/com-image-Promo_8_\ \(1\).webp") no-repeat center center;
-    }
-
-    #submit-background {
-        height: 800px;
-        width: 100%;
-        background: url("../images/com-image-Promo_3_\ \(1\).webp") no-repeat center center;
     }
 
     #main-image-text {
@@ -760,7 +758,7 @@ footer {
         font-size: 100%;
     }
 
-    /* next page 800px media */
+    /* Community Page 800px media */
 
     #captain-title h2 {
         font-size: 200%;
@@ -790,7 +788,7 @@ footer {
         font-size: 70%;
     }
 
-    /* location */
+    /* location section */
 
     #location-address {
         margin: 0 auto;
@@ -811,7 +809,7 @@ footer {
         width: 60%;
     }
 
-/* last page 800px media */
+/* Form page 800px media */
 
     #form-section {
         height: 800px;
@@ -834,10 +832,12 @@ footer {
         font-size: 80%;
     }
 
-    /* Submit Page media */
+    /* Submit Page 800px media */
 
     #submit-background {
-        height: 700px;
+        height: 800px;
+        width: 100%;
+        background: url("../images/com-image-Promo_3_\ \(1\).webp") no-repeat center center;
     }
 
     #thank-you {
@@ -846,12 +846,14 @@ footer {
     }
 }
 
+/* Media queries Section - max 600px */
+
 @media screen and (max-width: 600px) {
     #sticky {
         font-size: 50%;
     }
 
-    /* submit Page smartphones */
+    /* Submit Page smartphones */
 
     #submit-background {
         height: 600px;
@@ -866,7 +868,7 @@ footer {
     }
 }
 
-/* smart phones */
+/* Media queries Section - Smart Phones - max 480px */
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
     #poster {
@@ -977,7 +979,7 @@ footer {
         pointer-events: none;
     }
 
-    /* next page */
+    /* Community page section */
 
     #captain-title {
         height: 150px;
@@ -1043,7 +1045,7 @@ footer {
         width: 100%;
     }
 
-    /* third page for smartphones */
+    /* Form page section */
 
     #form-section {
         flex-direction: column;
@@ -1058,7 +1060,7 @@ footer {
         padding: 10% 5%;
     }
 
-    /* submit Page smartphones */
+    /* Submit Page section */
 
     #submit-background {
         height: 500px;
@@ -1074,6 +1076,8 @@ footer {
         font-size: 250%;
         padding-bottom: 1rem;
     }
+
+/* Media queries Section - Smart Phones - max 340px */
 
 }
     @media screen and (min-width: 0px) and (max-width: 340px) {
@@ -1098,6 +1102,8 @@ footer {
             line-height: 30px;
         }
 }
+
+/* Media queries Section - Smart Phones - max 280px */
 
 @media screen and (min-width: 0px) and (max-width: 280px) {
     #sticky h1 {
