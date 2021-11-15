@@ -561,6 +561,10 @@ Action: Click the yellow link ‘Click here to return to home page’
 
 </details>
 
+## ReadMe Testing 
+
+* Testing of the ReadMe document was done by clicking every link on this ReadMe on github.com and qualifying each corresponding link.
+
 ## Bugs and Fixes
 
 <details><summary>Bug List</summary>
