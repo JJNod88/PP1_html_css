@@ -20,7 +20,7 @@ Welcome to My 5-A-Side
 
 The focus of this site is to provide a fictional platform for people to locate available football games and players in their local community.
 
-The site is aimed at footballers and people looking to get involved in football, bringing together a social aspect with teansparent locations, captains and teams. It outlays the benefits of playing football, calculating game stats and giving users the opportunity to contact propsective teams.
+The site is aimed at footballers and people looking to get involved in football, bringing a social aspect with real life football pitch locations, captains and teams. It outlays the benefits of playing football, calculating game stats and giving users the opportunity to contact propsective teams and sign up to use the site.
 
 I have used real world teams, players and images to give the site authenticity, and to connect with users and members.
 
@@ -75,21 +75,25 @@ The Site needed to be intuitive, simple, and provide an enjoyable experience for
 For UX, I kept in mind the Five pillars of good UX, and used these as foundations for my Website. 
 
 ## 1. Strategy Plane -
-I used Wireframes for the basic design, utilised traditional football colours, kept the site simple, engaging and intuitive.
 * I have explained the strategy around the site in detail in my Values page [here](#Value)
+    * Why the product exists, its goals and who are the users.
+* I used Wireframes for the basic design, utilised traditional football colours, kept the site simple, engaging and intuitive.
  
 ## 2. Scope Plane -
 This includes the features needed to provide content, material and access for Users. 
 * You can find this in detail [here](#Features) in my Features section.
+    * I needed to ensure the content was relevant and what the key functions were for a User of the site - Benefits, locations, feedback from current users, access to team information and the ability to sign up. 
 
 ## 3. Structure Plane -
 ### Structure
+
 * For the site I have used HTML for the core structure and CSS for styling -
     * HTML structuring:
         * My structure includes four pages, each with: Header & Nav > Sections with headers, divs and additional elements > Footer & Nav.
         * Each page is ordered to go left to right, with the suitable direction of the Landing Page, Community Page and then the Sign Up page where users have had sufficient time and knowledge on whether they would like to sign up.
         * Whilst I followed the industry standard for a core html structure, I used Flexboxes to structure my content throughout.  
             * This proved extremely beneficial in structuring each section. I used no more than 3 divs per section using display:flex, this meant each section is positioned equally in either 100%, 50% or 33% divs. This increases the visual consistency and display of my content, and allowed my elements to be aligned.
+        * The site structure and its elements can be easily changed.
         * I ensured I correctly linked my CSS stylesheet (checked using the background color technique) with appropriate SEO key words so my site is searchable on the internet.
         * Because of the way I structured my site, I was able to duplicate many of my html elements into new pages. This was great for time saving and consistency.
         * For the sections of my site, i used multiples of 90px when possible to keep the site consistent.
@@ -102,23 +106,7 @@ This includes the features needed to provide content, material and access for Us
 
 ## 4. Skeleton Plane -
 ### Site Layout
-* The Site needed to be presented in an intuitive and simple way. One that makes it easy to use with its naviagtion and features.
-    * Layout
-        * Each page has the same Header and Footer.
-        * It consists of a landing page, a community page, a sign up page and a submit successful page. 
-        * Left to Right, the Site flows correctly and in an order. Home > Community > Sign Up.
-        * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image). The height of each section is in mupltiples of 90px to maintain consistency throughout. 
-        * Headings and Images are specific to the sites purpose.
-        * Each section has been designed to sell, provide information and direct the user to the product. 
-    * Navigation 
-        * I have used lots of navigation in my site, to allow users to navigate the site with ease.
-        * A visible header, with a position:sticky and Z-index of 999 means it is always accessible and visible. The title and three page navs link to all aspects of the site. 
-            * This is the same for the Footer.
-        * In my icons I have added href links to the appropriate sections and pages. An example of this is the 'how' icons on the index page. They direct to sign up and to the available game section. I have also used :hover elements to make them stand out and easier to click on. 
-        * My buttons have links, and also stand out with red backgrounds. I have also used :hover elements to make them stand out and easier to click on. 
-        * _blank has been used to ensure new tabs are created when a user is directed to one, to keep them active on my website      
 
-## 5. Surface Plane -
 I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great indication of how the site will look once completed. Please see them below.
 
 <details><summary>Balsamiq WireFrames</summary>
@@ -150,14 +138,47 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 </details>
 
+* The Site needed to be presented in an intuitive and simple way. One that makes it easy to use with its naviagtion and features.
+    * Layout
+        * Each page has the same Header and Footer.
+        * It consists of a landing page, a community page, a sign up page and a submit successful page. 
+        * Left to Right, the Site flows correctly and in an order. Home > Community > Sign Up.
+        * Each page is divided into sections of equal size (unless it affected the look of the site, i.e the opening section for the background image). The height of each section is in mupltiples of 90px to maintain consistency throughout. 
+        * Headings and Images are specific to the sites purpose.
+        * Each section has been designed to sell, provide information and direct the user to the product. 
+    * Navigation 
+        * I have used lots of navigation in my site, to allow users to navigate the site with ease.
+        * A visible header, with a position:sticky and Z-index of 999 means it is always accessible and visible. The title and three page navs link to all aspects of the site. 
+            * This is the same for the Footer.
+        * In my icons I have added href links to the appropriate sections and pages. An example of this is the 'how' icons on the index page. They direct to sign up and to the available game section. I have also used :hover elements to make them stand out and easier to click on. 
+        * My buttons have links, and also stand out with red backgrounds. I have also used :hover elements to make them stand out and easier to click on. 
+        * _blank has been used to ensure new tabs are created when a user is directed to one, to keep them active on my website      
+
+## 5. Surface Plane -
+
+<details><summary>Color Palette in principal </summary>
+
+![image-of-footer](/assets/images/readme-images/color-palette.png)
+
+</details>
+
+### User Friendly
+* The sites main goal and content is specific: 
+    * It functions correctly and demonstrates to its users why it exists and how it can provide them with solutions to their problems and needs.
+
 ### Site Color palette
 * The sites main colors of choice are Green, White, Black and Red - 
     * Green, white and black are traditionaly associated with football, as the color of a football pitch is traidtionally green, with white lines. 
     * I used red as a background for text, icons and attributes as it effectively stands out against the other colors. Often, football corner flags are red.
     * I ensured all text, images and content was distinctly visible, careful not to use colours that contrast and make them hard to distinguish from one another.  
 * For my background color I used rgba(0,44,0,.1);, which allows for content to be easily visible and also minimilistic whilst the green matches the theme of a football site. I have seperated sections using the standard white background color or Images for good contrast and simplicity.
+
 ###  Font size, color, type and styling:
 * Font color has been standardised to dark green, designed to be clearly visible, consistent and following the football theme color.
+    * Background Color was set to: rgba(0,44,0,.1)
+    * text Color was set to: rgb(0,43,0);
+    * For Icons, attributes, and form background, it was set to: #df1616
+    * Opacity was used to enable to text and forms to be more visible. 
 * Font sizing has been duplicated where possible. This includes appropriate proportions for icons vs their text, all headers on each page the same size and font. Have used % to increase responsiveness.
 * Font Type was imported from Google Fonts, I chose Roboto and Lora with a back up sans Serif. This gave headings and their text meaning and provides a foundation font should the google fonts ever be unreadable on a browser. 
 * I used font styling across the site. This includes font spacing for (header) and line heights to make text easier to read - Headings, paragraphs and lists primarily.
@@ -172,7 +193,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * The site is accessible to Users who may have a disability that prevents them from accessing the site in certain ways.
     * The foundation of this is the site layout and semantic HTML elements.
         * The Page is layed out with a standard HTML format to improve its flow, allowing screen readers to indicate header, nav, section, heading, p, ul, form and footer elements of the site. 
-        * Using these Semantic Elements in the correct order provides additional functionality for tab keys and screen readers.
+        * Using these Semantic Elements in the correct order provides additional functionality for tab keys and screen readers to highlight the key information and content.
     * UI Controls - Nav bar is set to Float Left so that you can use the tab to navigate it accurately. All buttons are accessible using the keyboard tab and enter functions.
     * For the form, I have used labels and linked them to inputs so that a screen reader can distinguish each field.
     * To ensure I have provided enough information for any links in my site, I have added aria-label outlinining the purpose of the link, and have used brackets if it is taking the person to a new tab.
@@ -180,7 +201,9 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 # Responsiveness
 ### Structure:
-* Flexbox has been used to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sections and divs were automatically positioned correctly, and did so when scaling the screen size up and down. This saves a lot of time and looks great!
+* With todays technology and the multitude of devices that can access the Internet, programmes etc, it is exremely important to ensure the site can be used and looks great despite the size of the screen.
+* The site has been designed to adapt to any screen size. This started out by adding a viewport in the HEAD of all pages with the addition of media queries and images. 
+    * Flexbox has been used to structure my elements which is an extremely responsive way of structuring the site. With display:flex and flex:1 for example, all of my sections and divs were automatically positioned correctly, and did so when scaling the screen size up and down. This saves a lot of time and looks great!
     * Flex-Direction has been used also to restructure sections and screen sizes are reduced.
 ### Units:
 * Across the site I have used primarily % for sizing. This inclused in height, width, padding, margins and font-sizes etc. I implemented this from the beginning to ensure my design was adaptive across multiple screen sizes - This is extremely important in todays world with so many devices of different sizes. 
@@ -197,7 +220,8 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * Consistent interactive Header and Nav elements are used throughout the entire site.
     * The site has a Navigation bar accessible at all times via the header, that blends in to the web page. It includes a link to the *Home*, *Community* and *Sign Up* pages.  
         * Navigation Bar is the same size throughout, and repsonds to responsive design in the same way.  
-        * Navigation Bar is fixed with a position:fixed and a z-index: 999; ensuring it is always visible and accessible
+        * Navigation Bar is fixed with a position:fixed and a z-index: 999; ensuring it is always visible and accessible.
+        * I gave the Nav an .active attribute so users knew which page they were on, but also gave them a hover border so they could easily click the correct page
     * A simple Footer with links to *facebook*, *Email/Contact us* and *Sign Up* pages.
         * The Footer is the same size throughout, and repsonds to responsive design in the same way. 
         * It has a Z-Index of 900 to ensure it is always visible, but not sticky as this would have impacted the visbility of the content.  
@@ -568,6 +592,9 @@ Bug: Validator notifying me theres a problem with my font-awesome script locatio
 Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image files.
 * Fix: I converted files to webp and then compressed them further. This increased the performance by 9%.
 
+Bug: Was getting warnign of an incorrect aria-label one of my footer icon elements.
+* Fix: I posted the warning and my code in slack. Daisy_mentor notified me that my aria-label was in my icon element, not the anchor element. This fixed the bug, and also improved my accessibility to 100% across my site (lighthouse).
+
 ### No Unfixed Bugs to report.
 
 </details>
@@ -577,7 +604,7 @@ Bug: Lighthouse performance for mobile was 85% due to the use of JPEG image file
     To do this I:
     1. Created a Repository on [GitHub Pages](https://github.com/) using my user profile that i set up for personal use.
     2. Utilised GitPod, accessible in my repository, to create my site using html and css. The Gitpod Button is in bright green, below the setting tab and above the repository documents etc.
-    3. GitPods version control funcitonality meant I could commit and push my code as I progresses. Previouses commits were always accessible should I have needed to revisit them. I did this using the gitpod terminal: 'git add .' , 'git commit -m "message"' , 'Git push'. My Commit Messages were designed to be simple and descriptive. 
+    3. GitPods version control funcitonality meant I could commit and push my code as I progressed. Previous commits were always accessible should I have needed to revisit them. I did this using the gitpod terminal: 'git add .' , 'git commit -m "message"' , 'Git push'. My Commit Messages were designed to be simple and descriptive. 
     4. Returning to my repository in GitHub, I located the 'page section' in 'Settings'. Located above the green GitPod button. 
     5. Via the 'source' section, I selected 'Master Branch' from the drop down and published the link.
     6. My site was rthen displaying as published.
@@ -607,12 +634,14 @@ The purpose of a local deployment is for other coders to use my code to deploy m
     * Fixed my font-awesome script bug
     * Amending the h1 element in my header so that only one h1 element per page
 
+* Mentor, Daisy_mentor from slack, for rectifying my aria-label warning in w3c validator. Further details in my Bug and Fixes section. 
+
 * Flexbox positioning, learned from developer.mozilla - [link](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
     * Introduced by mentor Antonija.
 
 * Confirming the correct html and css for using buttons via developer.mozilla - [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
 
-* Added opacity to my images, text, forms and button elements - [w3schools](https://www.w3schools.com/html/html_form_elements.asp) - 
+* Added opacity to my images, text, forms and button elements - [w3schools](https://www.w3schools.com/html/html_form_elements.asp) 
 
 * Love Running project for media query refresher training 
 
@@ -626,3 +655,7 @@ The purpose of a local deployment is for other coders to use my code to deploy m
 * Image of person signing a document at a desk via pexels.com - [link](https://www.pexels.com/)
 
 * Adding Google Maps - a google search had bullet points that I easily followed - [link](https://www.google.com/search?q=how+to+add+google+maps+to+website+html&rlz=1C5CHFA_enGB972GB972&oq=how+to+add+google+maps+to&aqs=chrome.3.0i512l2j69i57j0i512l7.6790j0j7&sourceid=chrome&ie=UTF-8)
+
+* For proof of my sites responsiveness across multiple devices, it was captured perfectly by the [Am-I-Responsive](http://ami.responsivedesign.is/) website. Thanks to Shellie_5p from Slack Community for highlighting this for me. 
+
+* For my color palette identifications, I used the [coolors](https://coolors.co/) website.
