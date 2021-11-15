@@ -177,7 +177,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ###  Font size, color, type and styling:
 * Font color has been standardised to dark green, designed to be clearly visible, consistent and following the football theme color.
     * Background Color was set to: rgba(0,44,0,.1)
-    * text Color was set to: rgb(0,43,0);
+    * Text Color was set to: rgb(0,43,0);
     * For Icons, attributes, and form background, it was set to: #df1616
     * Opacity was used to enable to text and forms to be more visible. 
 * Font sizing has been duplicated where possible. This includes appropriate proportions for icons vs their text, all headers on each page the same size and font. Have used % to increase responsiveness.
