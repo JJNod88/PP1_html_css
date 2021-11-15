@@ -218,13 +218,13 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 * Benefits Section -
     * A Catchy phrase reinforcing a reason as to why the user is visiting.
-    * Benefits displayed with appropriate Icons in Red, in a List style. 
+    * Benefits displayed with appropriate Icons in Red, in a List style. Gives the user the benefits to playing footy and using the website.
     * The structure of this section changes when at a reduced screen size to ensure the UX of it. 
 
 ![image-of-landing-page-benefit-section](/assets/images/readme-images/LP-benefits.png)
 
 * Map and Key Indicator Section -
-    * There is a basic Map with Manchester circled, reminding the user of the sites taregted locations
+    * There is a basic Map with Manchester circled, reminding the user of the sites targeted locations.
     * Adjacent to the Map are some Key Indicators of how many live games, members and Goals there is. This was to give the User a personal feel to the site, one where if they are a member they can contribute too.
     * I have included multiple images of the map for improved ux as the screen size reduces
 
@@ -232,13 +232,13 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 * How Section -
     * I have created 3 large icons with key words outlining how to use the site. 
-    * The icons have a link to the corresponsing part of the site, with 'hover' styling to increase its size when a user hovers over them.
+    * The icons have a link to the corresponsing part of the site, with 'hover' styling to increase its size when a user hovers over them. Gives the user additional visual experience and navigation around the site.
 
 ![image-of-landing-page-how-section](/assets/images/readme-images/LP-how-to.png)
 
 * Quote Section -
     * To give context and personality, a quote from one of the members of the site has been added. This is adjacent to a clear header.
-    * The quote has a white background so it stands out, it in italic, and has a 'hover' styling for improved user experience.
+    * The quote has a white background so it stands out, it in italic, and has a 'hover' styling for improved user experience (desktop).
 
 ![image-of-landing-page-feedback-section](/assets/images/readme-images/LP-feedback.png)
 
@@ -248,7 +248,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * Avalable Games section -
     * This section has details of the available games. It is designed to be inclusive with an image of the games creator with details of the game.
     * Each game section has a border with a 3D effect to help it blend in. It has a white background to stand out, with three accessible buttons.
-    * Each button has a link to the corresponsing part of the site, or external site depending.
+    * Each button has a link to the corresponsing part of the site, or external site depending allowing easy navigation for the User.
         * Request to Join - Takes the user to the sign up page if they are not a member.
         * Check Location - Takes the User to the Location section and its specific pitch location.
         * Contact Us - Takes the User to Outlook External Website, where they could contact the Game Creator (in the absence of a member chat area).
@@ -258,8 +258,8 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 * Location section - 
     * Background image of the football pitches that are specific to each available game. 
         * For this example, the background is indeed of the pitch, and players, of the available games. This gives the site personality and makes it relatebale to its members and users.
-    * Embedded in the abckgroudn image are two divs containing Address Details and a Google Maps link.
-        * The Address details have a transparent red background, following the color scheme of the site, with large and readable text.
+        * Embedded in the background image are two divs containing Address Details and a Google Maps link.
+        * The Address details have a transparent red background, following the color scheme of the site, with large and readable text. This is informative with clear address details.
         * For additional site functionality, there is also a Google Maps image of the location, which can be enlarged and followed on an external tab.
         * The structure of this section changes when at a reduced screen size to ensure the UX of it. 
 
@@ -269,7 +269,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 ### 3. Sign Up Page (third)
 * Same consistent header and footer
 * Form Section - 
-    * Kept simple and to the point, there is only once section for the Sign Up page.
+    * Kept simple and to the point, there is only one section for the Sign Up page, and is clearly displayed as 'Sign Up'. 
         * It has a formal background image of a person in a suit writing down on paper on a desk. This image was chosen, as it reflects a football manager or player signing a football contract. So is relateable.
         * It is set at the same opacity as the landing page background image. This keeps theme consistency but also allows the form to be more visible.
         * The form method will be 'GET' and it will ask for **First Name**, **Last Name**, **Email Address** and**Location** with a radio buttons of **Manchester** and **Other**.
@@ -279,7 +279,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 ### 4. Submit Page (additional)
 * To ensure excellent user UX, when submitting the button 'sign up' when completin the form, users are taken to a seprate page that consists with the sites design, to let them know that their sign up has been successful. There is also a message to wish them luck.
-* They are able to return back to the home page using either the 'Home' Button on the Nav Bar.
+* They are able to return back to the home page using either the 'Home' Button on the Nav Bar or a highlighted link in yellow. 
 
 ![image-of-submit-page](/assets/images/readme-images/Submit-Page.png)
 
@@ -342,9 +342,9 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes. This gave a great in
 
 ### Warnings with Code and validator
 
-* Validator raised one Warming, and Accessibility scoring is lowered in Lioghthouse due to the following: 
-    * 'Links do not have a discernable name'. This is in relation to my footer icon used to direct users to the sign up page. 
-    * The Validator warned of a possible missuse of this aria label, however both other footer elements have the same with no problems.
+* Validator raised one Warming, and Accessibility scoring is lowered in Lighthouse due to the following: 
+    * Lighthouse - 'Links do not have a discernable name'. This is in relation to my footer icon used to direct users to the sign up page. 
+    * The Validator warned of a possible missuse of this aria label, however both other footer elements have the same with no problems, and was advised this was suitable.
 * The footer is designed to be simplistic without words, however aria-labels have been utilised for accessibility.
 
 
