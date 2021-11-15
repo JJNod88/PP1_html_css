@@ -683,6 +683,7 @@ footer {
         height: 1200px;
         margin: 0 auto;
         flex-direction: column;
+        padding-top: 10%;
     }
 
     .how-p {
@@ -736,6 +737,7 @@ footer {
 
     #how {
         height: 1000px;
+        padding-top: 10%;
     }
 
     .how-p {
